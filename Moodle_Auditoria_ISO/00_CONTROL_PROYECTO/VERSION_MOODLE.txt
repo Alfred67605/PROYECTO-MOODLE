@@ -1,0 +1,14 @@
+Producto: Moodle Learning Management System (LMS)
+Versión: 5.3 (Build: 20261005)
+Versión Interna ($version): 2026100500.00
+Branch: 503
+Maturity: MATURITY_STABLE
+Tag: v5.3.0
+Commit SHA: 42622298fe06f9626d988d60b2bf589bd8f850e8
+Tag Object SHA: d3ae3f3a367b936e38dcc06adfd6bf954302101d
+Fecha del commit: 05 de Octubre de 2026
+Repositorio Oficial: https://github.com/moodle/moodle.git
+Espejo Oficial Git: https://git.moodle.org/moodle.git
+Fecha de verificación: 12 de Octubre de 2026
+Licencia: GNU General Public License v3.0 or later (GPL-3.0-or-later)
+Estado del repositorio: Etiqueta oficial inmutable verificada

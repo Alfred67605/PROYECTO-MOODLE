@@ -1,0 +1,51 @@
+﻿"FACULTAD / UNIDAD ACADÉMICA";"CÓDIGO CARRERA";"CARRERA O PROGRAMA / SEDE";"ID CATEGORÍA MOODLE";"CURSOS MATERIAS CREADOS";"ACTIVIDADES INSTANCIADAS (8 por curso)";"PREGUNTAS BANCO NATIVO (10 por curso)";"ESTUDIANTES MATRICULADOS APROX";"DOCENTES ASIGNADOS"
+"Facultad de Ciencias Económicas, Financieras y Administrativas";FCEFA-AUD;"Auditoría - Contaduría Pública (Potosí)";8;15;120;150;53;15
+"Facultad de Ciencias Económicas, Financieras y Administrativas";FCEFA-ICO;"Ingeniería Comercial (Potosí)";9;8;64;80;53;8
+"Facultad de Ciencias Económicas, Financieras y Administrativas";FCEFA-ADM;"Administración de Empresas (Potosí)";10;12;96;120;53;12
+"Facultad de Ciencias Económicas, Financieras y Administrativas";FCEFA-ECO;"Economía (Potosí)";11;10;80;100;53;10
+"Facultad de Ciencias Económicas, Financieras y Administrativas";FCEFA-CT-TUP;"Contaduría Pública (Sede Tupiza)";12;5;40;50;53;5
+"Facultad de Ciencias Económicas, Financieras y Administrativas";FCEFA-EC-UYU;"Economía (Sede Uyuni)";13;5;40;50;53;5
+"Facultad de Ciencias Económicas, Financieras y Administrativas";FCEFA-EC-UNC;"Economía (Sede Uncía)";14;5;40;50;53;5
+"Facultad de Ciencias Puras";FCP-INF;"Ingeniería Informática (Potosí)";16;15;120;150;53;15
+"Facultad de Ciencias Puras";FCP-QMC;"Química (Potosí)";17;10;80;100;53;10
+"Facultad de Ciencias Puras";FCP-FIS;"Física (Potosí)";18;9;72;90;53;9
+"Facultad de Ciencias Puras";FCP-MAT;"Matemática (Potosí)";19;8;64;80;53;8
+"Facultad de Ciencias Puras";FCP-EST;"Estadística (Potosí)";20;8;64;80;53;8
+"Vicerrectorado - Programas Especiales";VIC-SIS;"Ingeniería de Sistemas (Potosí)";22;15;120;150;53;13
+"Vicerrectorado - Programas Especiales";VIC-SIS-TUP;"Ingeniería de Sistemas (Sede Tupiza)";23;10;80;100;53;10
+"Vicerrectorado - Programas Especiales";VIC-IDP;"Ingeniería en Diseño y Programación Digital";24;10;80;100;53;10
+"Vicerrectorado - Programas Especiales";VIC-ODO;"Odontología (Potosí)";25;10;80;100;53;10
+"Facultad de Ingeniería";FI-CIV;"Ingeniería Civil (Potosí)";27;20;160;200;53;19
+"Facultad de Ingeniería";FI-CCV;"Construcciones Civiles (Potosí)";28;10;80;100;53;10
+"Facultad de Ingeniería";FI-GYT;"Ingeniería en Geodesia y Topografía (Potosí)";29;10;80;100;53;10
+"Facultad de Ingeniería Tecnológica";FIT-ELE;"Ingeniería Eléctrica (Potosí)";31;10;80;100;53;10
+"Facultad de Ingeniería Tecnológica";FIT-MEC;"Ingeniería Mecánica (Potosí)";32;9;72;90;53;9
+"Facultad de Ingeniería Tecnológica";FIT-AUT;"Mecánica Automotriz (Potosí)";33;8;64;80;53;8
+"Facultad de Ingeniería Tecnológica";FIT-MCT;"Ingeniería Mecatrónica (Potosí)";34;9;72;90;53;9
+"Facultad de Ingeniería Tecnológica";FIT-ELT;"Ingeniería Electrónica (Potosí)";35;9;72;90;53;9
+"Facultad de Ingeniería Minera";FIM-MIN;"Ingeniería Minera (Potosí)";37;15;120;150;53;15
+"Facultad de Ingeniería Minera";FIM-PMM;"Ingeniería de Procesos de Materias Primas Minerales";38;15;120;150;53;15
+"Facultad de Ingeniería Geológica";FIG-GEO;"Ingeniería Geológica (Potosí)";40;15;120;150;53;15
+"Facultad de Ingeniería Geológica";FIG-AMB;"Ingeniería del Medio Ambiente (Potosí)";41;15;120;150;53;14
+"Facultad de Ciencias de la Salud";FCS-ENF;"Enfermería (Potosí)";43;20;160;200;53;20
+"Facultad de Ciencias de la Salud";FCS-ENF-VIL;"Enfermería (Sede Villazón)";44;15;120;150;53;15
+"Facultad de Medicina";MED-MED;"Medicina (Potosí - Régimen Anual)";46;35;280;350;53;35
+"Facultad de Derecho";DER-DER;"Derecho (Potosí - Régimen Anual)";48;20;160;200;53;19
+"Facultad de Derecho";DER-DER-UNC;"Derecho (Sede Uncía - Régimen Anual)";49;10;80;100;53;10
+"Facultad de Derecho";DER-DER-TUP;"Derecho (Sede Tupiza - Régimen Anual)";50;10;80;100;53;10
+"Facultad de Ciencias Sociales y Humanísticas";FCSH-TUR;"Turismo (Potosí)";52;10;80;100;53;10
+"Facultad de Ciencias Sociales y Humanísticas";FCSH-TUR-UYU;"Turismo (Sede Uyuni)";53;5;40;50;53;5
+"Facultad de Ciencias Sociales y Humanísticas";FCSH-LIN;"Lingüística e Idiomas (Potosí)";54;10;80;100;53;10
+"Facultad de Ciencias Sociales y Humanísticas";FCSH-LIN-UYU;"Lingüística e Idiomas (Sede Uyuni)";55;5;40;50;53;5
+"Facultad de Ciencias Sociales y Humanísticas";FCSH-TSO;"Trabajo Social (Potosí)";56;10;80;100;53;10
+"Facultad de Ciencias Sociales y Humanísticas";FCSH-TSO-UNC;"Trabajo Social (Sede Uncía)";57;0;0;0;0;0
+"Facultad de Ciencias Sociales y Humanísticas";FCSH-COM;"Ciencias de la Comunicación (Potosí)";58;5;40;50;53;5
+"Facultad de Ciencias Agrícolas y Pecuarias";FCAP-AGR;"Ingeniería Agronómica (Potosí)";60;10;80;100;53;10
+"Facultad de Ciencias Agrícolas y Pecuarias";FCAP-AGP-VIL;"Ingeniería Agropecuaria (Sede Villazón)";61;5;40;50;53;5
+"Facultad de Ciencias Agrícolas y Pecuarias";FCAP-MVZ-TUP;"Medicina Veterinaria y Zootecnia (Sede Tupiza)";62;5;40;50;53;5
+"Facultad de Ciencias Agrícolas y Pecuarias";FCAP-AGI;"Ingeniería Agroindustrial (Potosí)";63;5;40;50;53;5
+"Facultad de Ciencias Agrícolas y Pecuarias";FCAP-IDR;"Ingeniería en Desarrollo Rural (Potosí)";64;5;40;50;53;5
+"Facultad de Artes";FA-ARQ;"Arquitectura (Potosí)";66;5;40;50;53;5
+"Facultad de Artes";FA-ARM;"Artes Musicales (Potosí)";67;5;40;50;53;5
+"Facultad de Artes";FA-ARP;"Artes Plásticas (Potosí)";68;5;40;50;14;5
+"TOTAL GENERAL CONSOLIDADO";-;"49 Carreras / Sedes UATF";-;500;4000;5000;"2.500 Estudiantes Únicos (12.308 matrículas)";"150 Docentes Únicos (500 asignaciones)"

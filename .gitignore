@@ -1,0 +1,27 @@
+# Dependencias de paquetes
+node_modules/
+.npm/
+
+# Motor de Base de Datos PostgreSQL (Archivos binarios pesados en caliente)
+Moodle_Auditoria_ISO/02_ENTORNO_EJECUCION/pgsql_data/
+**/pgsql_data/
+
+# Directorio de Datos de Moodle (Cachés, sesiones locales y temporales)
+Moodle_Auditoria_ISO/02_ENTORNO_EJECUCION/moodledata/
+**/moodledata/
+
+# Código Fuente del Núcleo de Moodle (Moodle Core 5.x)
+Moodle_Auditoria_ISO/01_CODIGO_FUENTE/moodle/
+
+# Respaldos Pesados y Dumps SQL/Binarios (>100MB)
+Moodle_Auditoria_ISO/07_BACKUPS/
+*.dump
+*.dump.*
+*.zip
+*.tar.gz
+
+# Archivos de registro y temporales
+*.log
+*.tmp
+.DS_Store
+Thumbs.db

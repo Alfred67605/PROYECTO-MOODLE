@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Modelo de Control de Acceso Basado en Roles (RBAC) y Contextos</title>
+    <style>
+        @page { size: A4; margin: 20mm; }
+        body {
+            font-family: 'Segoe UI', Arial, sans-serif;
+            color: #2c3e50;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+        }
+        .header-box {
+            border: 2px solid #0056b3;
+            border-radius: 8px;
+            background: #f0f7ff;
+            padding: 18px 24px;
+            margin-bottom: 25px;
+        }
+        .header-box h1 {
+            color: #0056b3;
+            margin: 0 0 12px 0;
+            font-size: 22px;
+            border-bottom: 2px solid #b8daff;
+            padding-bottom: 8px;
+        }
+        .meta-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 8px;
+            font-size: 13px;
+        }
+        .meta-item strong { color: #1d2124; }
+        .notice-banner {
+            background: #fff3cd;
+            border-left: 4px solid #ffc107;
+            padding: 10px 14px;
+            font-size: 12px;
+            color: #856404;
+            margin-top: 12px;
+            border-radius: 4px;
+        }
+        .content-box {
+            font-size: 14px;
+        }
+        .content-box h2 {
+            color: #1a365d;
+            border-bottom: 1px solid #e2e8f0;
+            padding-bottom: 6px;
+            margin-top: 20px;
+            font-size: 17px;
+        }
+        .content-box pre {
+            background: #2d3748;
+            color: #edf2f7;
+            padding: 12px 16px;
+            border-radius: 6px;
+            overflow-x: auto;
+            font-size: 12px;
+        }
+        .content-box code { font-family: Consolas, monospace; }
+        .footer {
+            margin-top: 30px;
+            border-top: 1px solid #cbd5e0;
+            padding-top: 10px;
+            font-size: 11px;
+            color: #718096;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="header-box">
+        <h1>Modelo de Control de Acceso Basado en Roles (RBAC) y Contextos</h1>
+        <div class="meta-grid">
+            <div class="meta-item"><strong>Fuente Oficial:</strong> Moodle Docs / MoodleDev HQ</div>
+            <div class="meta-item"><strong>URL Oficial Principal:</strong> <a href="https://docs.moodle.org/503/en/Roles_and_permissions">https://docs.moodle.org/503/en/Roles_and_permissions</a></div>
+            <div class="meta-item"><strong>URL Oficial Español:</strong> <a href="https://docs.moodle.org/all/es/Roles_y_permisos">https://docs.moodle.org/all/es/Roles_y_permisos</a></div>
+            <div class="meta-item"><strong>Fecha de Consulta:</strong> 12 de Octubre de 2026</div>
+            <div class="meta-item"><strong>Versión Moodle:</strong> 5.3 (v5.3.0)</div>
+            <div class="meta-item"><strong>Categoría de Auditoría:</strong> 05_Roles_Permisos</div>
+        </div>
+        <div class="notice-banner">
+            <strong>DOCUMENTO DE AUDITORÍA:</strong> PDF generado desde MoodleDocs oficial conforme a los requerimientos de la auditoría ISO. Se conserva la versión inglesa vigente por prevalencia técnica complementada con referencias en español.
+        </div>
+    </div>
+
+    <div class="content-box">
+        <p><strong>Resumen Ejecutivo:</strong> Explicación del motor granular de permisos de Moodle, jerarquía de contextos y verificación de capacidades.</p>
+        
+<h2>1. Jerarquía de Contextos</h2>
+<p>Los permisos se evalúan en función del contexto donde opera el usuario:</p>
+<ol>
+  <li><strong>Sistema:</strong> Contexto global raíz.</li>
+  <li><strong>Categoría de cursos:</strong> Aplica a todos los cursos dentro de la categoría.</li>
+  <li><strong>Curso:</strong> Aplica al espacio académico específico.</li>
+  <li><strong>Módulo / Actividad:</strong> Aplica a una tarea, foro o cuestionario individual.</li>
+  <li><strong>Bloque:</strong> Aplica a componentes laterales.</li>
+  <li><strong>Usuario:</strong> Perfil individual y archivos privados.</li>
+</ol>
+<h2>2. Roles Estándar de Moodle</h2>
+<ul>
+  <li><strong>Administrador:</strong> Acceso irrestricto mediante bypass de capacidades (<code>is_siteadmin()</code>).</li>
+  <li><strong>Gestor (Manager):</strong> Administración delegada sin acceso al servidor.</li>
+  <li><strong>Profesor (Editing Teacher):</strong> Gestión completa del aula, actividades y calificaciones.</li>
+  <li><strong>Profesor sin permiso de edición:</strong> Calificación y tutoría sin modificación de estructura.</li>
+  <li><strong>Estudiante:</strong> Participación, entrega de tareas y visualización de notas personales.</li>
+  <li><strong>Invitado:</strong> Acceso de solo lectura sin registro en cursos abiertos.</li>
+</ul>
+    </div>
+
+    <div class="footer">
+        Expediente de Auditoría ISO - Moodle 5.3 Laboratorio de Calidad y Seguridad &bull; Consulta: 12/10/2026
+    </div>
+</body>
+</html>

@@ -1,0 +1,296 @@
+{
+    "FCEFA-AUD": {
+        "id": 8,
+        "name": "Auditoría - Contaduría Pública (Potosí)",
+        "fac_code": "FCEFA",
+        "fac_name": "Facultad de Ciencias Económicas, Financieras y Administrativas"
+    },
+    "FCEFA-ICO": {
+        "id": 9,
+        "name": "Ingeniería Comercial (Potosí)",
+        "fac_code": "FCEFA",
+        "fac_name": "Facultad de Ciencias Económicas, Financieras y Administrativas"
+    },
+    "FCEFA-ADM": {
+        "id": 10,
+        "name": "Administración de Empresas (Potosí)",
+        "fac_code": "FCEFA",
+        "fac_name": "Facultad de Ciencias Económicas, Financieras y Administrativas"
+    },
+    "FCEFA-ECO": {
+        "id": 11,
+        "name": "Economía (Potosí)",
+        "fac_code": "FCEFA",
+        "fac_name": "Facultad de Ciencias Económicas, Financieras y Administrativas"
+    },
+    "FCEFA-CT-TUP": {
+        "id": 12,
+        "name": "Contaduría Pública (Sede Tupiza)",
+        "fac_code": "FCEFA",
+        "fac_name": "Facultad de Ciencias Económicas, Financieras y Administrativas"
+    },
+    "FCEFA-EC-UYU": {
+        "id": 13,
+        "name": "Economía (Sede Uyuni)",
+        "fac_code": "FCEFA",
+        "fac_name": "Facultad de Ciencias Económicas, Financieras y Administrativas"
+    },
+    "FCEFA-EC-UNC": {
+        "id": 14,
+        "name": "Economía (Sede Uncía)",
+        "fac_code": "FCEFA",
+        "fac_name": "Facultad de Ciencias Económicas, Financieras y Administrativas"
+    },
+    "FCP-INF": {
+        "id": 16,
+        "name": "Ingeniería Informática (Potosí)",
+        "fac_code": "FCP",
+        "fac_name": "Facultad de Ciencias Puras"
+    },
+    "FCP-QMC": {
+        "id": 17,
+        "name": "Química (Potosí)",
+        "fac_code": "FCP",
+        "fac_name": "Facultad de Ciencias Puras"
+    },
+    "FCP-FIS": {
+        "id": 18,
+        "name": "Física (Potosí)",
+        "fac_code": "FCP",
+        "fac_name": "Facultad de Ciencias Puras"
+    },
+    "FCP-MAT": {
+        "id": 19,
+        "name": "Matemática (Potosí)",
+        "fac_code": "FCP",
+        "fac_name": "Facultad de Ciencias Puras"
+    },
+    "FCP-EST": {
+        "id": 20,
+        "name": "Estadística (Potosí)",
+        "fac_code": "FCP",
+        "fac_name": "Facultad de Ciencias Puras"
+    },
+    "VIC-SIS": {
+        "id": 22,
+        "name": "Ingeniería de Sistemas (Potosí)",
+        "fac_code": "VIC",
+        "fac_name": "Vicerrectorado - Programas Especiales"
+    },
+    "VIC-SIS-TUP": {
+        "id": 23,
+        "name": "Ingeniería de Sistemas (Sede Tupiza)",
+        "fac_code": "VIC",
+        "fac_name": "Vicerrectorado - Programas Especiales"
+    },
+    "VIC-IDP": {
+        "id": 24,
+        "name": "Ingeniería en Diseño y Programación Digital",
+        "fac_code": "VIC",
+        "fac_name": "Vicerrectorado - Programas Especiales"
+    },
+    "VIC-ODO": {
+        "id": 25,
+        "name": "Odontología (Potosí)",
+        "fac_code": "VIC",
+        "fac_name": "Vicerrectorado - Programas Especiales"
+    },
+    "FI-CIV": {
+        "id": 27,
+        "name": "Ingeniería Civil (Potosí)",
+        "fac_code": "FI",
+        "fac_name": "Facultad de Ingeniería"
+    },
+    "FI-CCV": {
+        "id": 28,
+        "name": "Construcciones Civiles (Potosí)",
+        "fac_code": "FI",
+        "fac_name": "Facultad de Ingeniería"
+    },
+    "FI-GYT": {
+        "id": 29,
+        "name": "Ingeniería en Geodesia y Topografía (Potosí)",
+        "fac_code": "FI",
+        "fac_name": "Facultad de Ingeniería"
+    },
+    "FIT-ELE": {
+        "id": 31,
+        "name": "Ingeniería Eléctrica (Potosí)",
+        "fac_code": "FIT",
+        "fac_name": "Facultad de Ingeniería Tecnológica"
+    },
+    "FIT-MEC": {
+        "id": 32,
+        "name": "Ingeniería Mecánica (Potosí)",
+        "fac_code": "FIT",
+        "fac_name": "Facultad de Ingeniería Tecnológica"
+    },
+    "FIT-AUT": {
+        "id": 33,
+        "name": "Mecánica Automotriz (Potosí)",
+        "fac_code": "FIT",
+        "fac_name": "Facultad de Ingeniería Tecnológica"
+    },
+    "FIT-MCT": {
+        "id": 34,
+        "name": "Ingeniería Mecatrónica (Potosí)",
+        "fac_code": "FIT",
+        "fac_name": "Facultad de Ingeniería Tecnológica"
+    },
+    "FIT-ELT": {
+        "id": 35,
+        "name": "Ingeniería Electrónica (Potosí)",
+        "fac_code": "FIT",
+        "fac_name": "Facultad de Ingeniería Tecnológica"
+    },
+    "FIM-MIN": {
+        "id": 37,
+        "name": "Ingeniería Minera (Potosí)",
+        "fac_code": "FIM",
+        "fac_name": "Facultad de Ingeniería Minera"
+    },
+    "FIM-PMM": {
+        "id": 38,
+        "name": "Ingeniería de Procesos de Materias Primas Minerales",
+        "fac_code": "FIM",
+        "fac_name": "Facultad de Ingeniería Minera"
+    },
+    "FIG-GEO": {
+        "id": 40,
+        "name": "Ingeniería Geológica (Potosí)",
+        "fac_code": "FIG",
+        "fac_name": "Facultad de Ingeniería Geológica"
+    },
+    "FIG-AMB": {
+        "id": 41,
+        "name": "Ingeniería del Medio Ambiente (Potosí)",
+        "fac_code": "FIG",
+        "fac_name": "Facultad de Ingeniería Geológica"
+    },
+    "FCS-ENF": {
+        "id": 43,
+        "name": "Enfermería (Potosí)",
+        "fac_code": "FCS",
+        "fac_name": "Facultad de Ciencias de la Salud"
+    },
+    "FCS-ENF-VIL": {
+        "id": 44,
+        "name": "Enfermería (Sede Villazón)",
+        "fac_code": "FCS",
+        "fac_name": "Facultad de Ciencias de la Salud"
+    },
+    "MED-MED": {
+        "id": 46,
+        "name": "Medicina (Potosí - Régimen Anual)",
+        "fac_code": "MED",
+        "fac_name": "Facultad de Medicina"
+    },
+    "DER-DER": {
+        "id": 48,
+        "name": "Derecho (Potosí - Régimen Anual)",
+        "fac_code": "DER",
+        "fac_name": "Facultad de Derecho"
+    },
+    "DER-DER-UNC": {
+        "id": 49,
+        "name": "Derecho (Sede Uncía - Régimen Anual)",
+        "fac_code": "DER",
+        "fac_name": "Facultad de Derecho"
+    },
+    "DER-DER-TUP": {
+        "id": 50,
+        "name": "Derecho (Sede Tupiza - Régimen Anual)",
+        "fac_code": "DER",
+        "fac_name": "Facultad de Derecho"
+    },
+    "FCSH-TUR": {
+        "id": 52,
+        "name": "Turismo (Potosí)",
+        "fac_code": "FCSH",
+        "fac_name": "Facultad de Ciencias Sociales y Humanísticas"
+    },
+    "FCSH-TUR-UYU": {
+        "id": 53,
+        "name": "Turismo (Sede Uyuni)",
+        "fac_code": "FCSH",
+        "fac_name": "Facultad de Ciencias Sociales y Humanísticas"
+    },
+    "FCSH-LIN": {
+        "id": 54,
+        "name": "Lingüística e Idiomas (Potosí)",
+        "fac_code": "FCSH",
+        "fac_name": "Facultad de Ciencias Sociales y Humanísticas"
+    },
+    "FCSH-LIN-UYU": {
+        "id": 55,
+        "name": "Lingüística e Idiomas (Sede Uyuni)",
+        "fac_code": "FCSH",
+        "fac_name": "Facultad de Ciencias Sociales y Humanísticas"
+    },
+    "FCSH-TSO": {
+        "id": 56,
+        "name": "Trabajo Social (Potosí)",
+        "fac_code": "FCSH",
+        "fac_name": "Facultad de Ciencias Sociales y Humanísticas"
+    },
+    "FCSH-TSO-UNC": {
+        "id": 57,
+        "name": "Trabajo Social (Sede Uncía)",
+        "fac_code": "FCSH",
+        "fac_name": "Facultad de Ciencias Sociales y Humanísticas"
+    },
+    "FCSH-COM": {
+        "id": 58,
+        "name": "Ciencias de la Comunicación (Potosí)",
+        "fac_code": "FCSH",
+        "fac_name": "Facultad de Ciencias Sociales y Humanísticas"
+    },
+    "FCAP-AGR": {
+        "id": 60,
+        "name": "Ingeniería Agronómica (Potosí)",
+        "fac_code": "FCAP",
+        "fac_name": "Facultad de Ciencias Agrícolas y Pecuarias"
+    },
+    "FCAP-AGP-VIL": {
+        "id": 61,
+        "name": "Ingeniería Agropecuaria (Sede Villazón)",
+        "fac_code": "FCAP",
+        "fac_name": "Facultad de Ciencias Agrícolas y Pecuarias"
+    },
+    "FCAP-MVZ-TUP": {
+        "id": 62,
+        "name": "Medicina Veterinaria y Zootecnia (Sede Tupiza)",
+        "fac_code": "FCAP",
+        "fac_name": "Facultad de Ciencias Agrícolas y Pecuarias"
+    },
+    "FCAP-AGI": {
+        "id": 63,
+        "name": "Ingeniería Agroindustrial (Potosí)",
+        "fac_code": "FCAP",
+        "fac_name": "Facultad de Ciencias Agrícolas y Pecuarias"
+    },
+    "FCAP-IDR": {
+        "id": 64,
+        "name": "Ingeniería en Desarrollo Rural (Potosí)",
+        "fac_code": "FCAP",
+        "fac_name": "Facultad de Ciencias Agrícolas y Pecuarias"
+    },
+    "FA-ARQ": {
+        "id": 66,
+        "name": "Arquitectura (Potosí)",
+        "fac_code": "FA",
+        "fac_name": "Facultad de Artes"
+    },
+    "FA-ARM": {
+        "id": 67,
+        "name": "Artes Musicales (Potosí)",
+        "fac_code": "FA",
+        "fac_name": "Facultad de Artes"
+    },
+    "FA-ARP": {
+        "id": 68,
+        "name": "Artes Plásticas (Potosí)",
+        "fac_code": "FA",
+        "fac_name": "Facultad de Artes"
+    }
+}

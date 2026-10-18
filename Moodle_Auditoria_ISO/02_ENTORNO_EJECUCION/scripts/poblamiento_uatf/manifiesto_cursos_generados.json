@@ -1,0 +1,3992 @@
+{
+    "AUD-102": {
+        "id": "15",
+        "code": "AUD-102",
+        "name": "Contabilidad Básica (AUD-102)",
+        "category": 8,
+        "career_code": "FCEFA-AUD",
+        "status": "created"
+    },
+    "AUD-103": {
+        "id": "16",
+        "code": "AUD-103",
+        "name": "Contabilidad Intermedia (AUD-103)",
+        "category": 8,
+        "career_code": "FCEFA-AUD",
+        "status": "created"
+    },
+    "AUD-201": {
+        "id": "8",
+        "code": "AUD-201",
+        "name": "Auditoría Financiera I (AUD-201)",
+        "category": "8",
+        "status": "existing"
+    },
+    "AUD-202": {
+        "id": "17",
+        "code": "AUD-202",
+        "name": "Auditoría Financiera II (AUD-202)",
+        "category": 8,
+        "career_code": "FCEFA-AUD",
+        "status": "created"
+    },
+    "AUD-301": {
+        "id": "18",
+        "code": "AUD-301",
+        "name": "Auditoría Tributaria (AUD-301)",
+        "category": 8,
+        "career_code": "FCEFA-AUD",
+        "status": "created"
+    },
+    "AUD-302": {
+        "id": "19",
+        "code": "AUD-302",
+        "name": "Contabilidad de Costos I (AUD-302)",
+        "category": 8,
+        "career_code": "FCEFA-AUD",
+        "status": "created"
+    },
+    "AUD-303": {
+        "id": "20",
+        "code": "AUD-303",
+        "name": "Contabilidad de Costos II (AUD-303)",
+        "category": 8,
+        "career_code": "FCEFA-AUD",
+        "status": "created"
+    },
+    "AUD-401": {
+        "id": "21",
+        "code": "AUD-401",
+        "name": "Auditoría Operativa y de Gestión (AUD-401)",
+        "category": 8,
+        "career_code": "FCEFA-AUD",
+        "status": "created"
+    },
+    "AUD-402": {
+        "id": "22",
+        "code": "AUD-402",
+        "name": "Auditoría Forense y Delitos Financieros (AUD-402)",
+        "category": 8,
+        "career_code": "FCEFA-AUD",
+        "status": "created"
+    },
+    "AUD-403": {
+        "id": "23",
+        "code": "AUD-403",
+        "name": "Gabinete de Auditoría (AUD-403)",
+        "category": 8,
+        "career_code": "FCEFA-AUD",
+        "status": "created"
+    },
+    "AUD-501": {
+        "id": "24",
+        "code": "AUD-501",
+        "name": "Normas Internacionales de Información Financiera (NIIF) (AUD-501)",
+        "category": 8,
+        "career_code": "FCEFA-AUD",
+        "status": "created"
+    },
+    "AUD-502": {
+        "id": "25",
+        "code": "AUD-502",
+        "name": "Auditoría Ambiental y Social (AUD-502)",
+        "category": 8,
+        "career_code": "FCEFA-AUD",
+        "status": "created"
+    },
+    "AUD-503": {
+        "id": "26",
+        "code": "AUD-503",
+        "name": "Contabilidad Gubernamental Integrada (AUD-503)",
+        "category": 8,
+        "career_code": "FCEFA-AUD",
+        "status": "created"
+    },
+    "AUD-504": {
+        "id": "27",
+        "code": "AUD-504",
+        "name": "Auditoría de Sistemas Contables (AUD-504)",
+        "category": 8,
+        "career_code": "FCEFA-AUD",
+        "status": "created"
+    },
+    "AUD-505": {
+        "id": "28",
+        "code": "AUD-505",
+        "name": "Ética Profesional y Deontología Contable (AUD-505)",
+        "category": 8,
+        "career_code": "FCEFA-AUD",
+        "status": "created"
+    },
+    "ADM-101": {
+        "id": "9",
+        "code": "ADM-101",
+        "name": "Teoría General de la Administración (ADM-101)",
+        "category": "10",
+        "status": "existing"
+    },
+    "ADM-102": {
+        "id": "29",
+        "code": "ADM-102",
+        "name": "Administración Pública (ADM-102)",
+        "category": 10,
+        "career_code": "FCEFA-ADM",
+        "status": "created"
+    },
+    "ADM-201": {
+        "id": "30",
+        "code": "ADM-201",
+        "name": "Gestión del Talento Humano I (ADM-201)",
+        "category": 10,
+        "career_code": "FCEFA-ADM",
+        "status": "created"
+    },
+    "ADM-202": {
+        "id": "31",
+        "code": "ADM-202",
+        "name": "Gestión del Talento Humano II (ADM-202)",
+        "category": 10,
+        "career_code": "FCEFA-ADM",
+        "status": "created"
+    },
+    "ADM-301": {
+        "id": "32",
+        "code": "ADM-301",
+        "name": "Organización y Métodos (ADM-301)",
+        "category": 10,
+        "career_code": "FCEFA-ADM",
+        "status": "created"
+    },
+    "ADM-302": {
+        "id": "33",
+        "code": "ADM-302",
+        "name": "Dirección Estratégica (ADM-302)",
+        "category": 10,
+        "career_code": "FCEFA-ADM",
+        "status": "created"
+    },
+    "ADM-401": {
+        "id": "34",
+        "code": "ADM-401",
+        "name": "Mercadotecnia Estratégica (ADM-401)",
+        "category": 10,
+        "career_code": "FCEFA-ADM",
+        "status": "created"
+    },
+    "ADM-402": {
+        "id": "35",
+        "code": "ADM-402",
+        "name": "Administración de Operaciones y Producción (ADM-402)",
+        "category": 10,
+        "career_code": "FCEFA-ADM",
+        "status": "created"
+    },
+    "ADM-403": {
+        "id": "36",
+        "code": "ADM-403",
+        "name": "Finanzas Corporativas (ADM-403)",
+        "category": 10,
+        "career_code": "FCEFA-ADM",
+        "status": "created"
+    },
+    "ADM-501": {
+        "id": "37",
+        "code": "ADM-501",
+        "name": "Preparación y Evaluación de Proyectos (ADM-501)",
+        "category": 10,
+        "career_code": "FCEFA-ADM",
+        "status": "created"
+    },
+    "ADM-502": {
+        "id": "38",
+        "code": "ADM-502",
+        "name": "Comportamiento Organizacional (ADM-502)",
+        "category": 10,
+        "career_code": "FCEFA-ADM",
+        "status": "created"
+    },
+    "ADM-503": {
+        "id": "39",
+        "code": "ADM-503",
+        "name": "Negociación y Resolución de Conflictos (ADM-503)",
+        "category": 10,
+        "career_code": "FCEFA-ADM",
+        "status": "created"
+    },
+    "ECO-101": {
+        "id": "40",
+        "code": "ECO-101",
+        "name": "Microeconomía I (ECO-101)",
+        "category": 11,
+        "career_code": "FCEFA-ECO",
+        "status": "created"
+    },
+    "ECO-102": {
+        "id": "41",
+        "code": "ECO-102",
+        "name": "Microeconomía II (ECO-102)",
+        "category": 11,
+        "career_code": "FCEFA-ECO",
+        "status": "created"
+    },
+    "ECO-201": {
+        "id": "42",
+        "code": "ECO-201",
+        "name": "Macroeconomía I (ECO-201)",
+        "category": 11,
+        "career_code": "FCEFA-ECO",
+        "status": "created"
+    },
+    "ECO-202": {
+        "id": "43",
+        "code": "ECO-202",
+        "name": "Macroeconomía II (ECO-202)",
+        "category": 11,
+        "career_code": "FCEFA-ECO",
+        "status": "created"
+    },
+    "ECO-301": {
+        "id": "44",
+        "code": "ECO-301",
+        "name": "Econometría I (ECO-301)",
+        "category": 11,
+        "career_code": "FCEFA-ECO",
+        "status": "created"
+    },
+    "ECO-302": {
+        "id": "45",
+        "code": "ECO-302",
+        "name": "Econometría II (ECO-302)",
+        "category": 11,
+        "career_code": "FCEFA-ECO",
+        "status": "created"
+    },
+    "ECO-401": {
+        "id": "46",
+        "code": "ECO-401",
+        "name": "Comercio Internacional (ECO-401)",
+        "category": 11,
+        "career_code": "FCEFA-ECO",
+        "status": "created"
+    },
+    "ECO-402": {
+        "id": "47",
+        "code": "ECO-402",
+        "name": "Economía del Desarrollo (ECO-402)",
+        "category": 11,
+        "career_code": "FCEFA-ECO",
+        "status": "created"
+    },
+    "ECO-501": {
+        "id": "48",
+        "code": "ECO-501",
+        "name": "Política Económica Boliviana (ECO-501)",
+        "category": 11,
+        "career_code": "FCEFA-ECO",
+        "status": "created"
+    },
+    "ECO-502": {
+        "id": "49",
+        "code": "ECO-502",
+        "name": "Historia Económica de Bolivia (ECO-502)",
+        "category": 11,
+        "career_code": "FCEFA-ECO",
+        "status": "created"
+    },
+    "ICO-101": {
+        "id": "50",
+        "code": "ICO-101",
+        "name": "Fundamentos de Comercio Exterior (ICO-101)",
+        "category": 9,
+        "career_code": "FCEFA-ICO",
+        "status": "created"
+    },
+    "ICO-201": {
+        "id": "51",
+        "code": "ICO-201",
+        "name": "Investigación de Mercados Cuantitativa (ICO-201)",
+        "category": 9,
+        "career_code": "FCEFA-ICO",
+        "status": "created"
+    },
+    "ICO-301": {
+        "id": "52",
+        "code": "ICO-301",
+        "name": "Gestión de Ventas y Canales de Distribución (ICO-301)",
+        "category": 9,
+        "career_code": "FCEFA-ICO",
+        "status": "created"
+    },
+    "ICO-302": {
+        "id": "53",
+        "code": "ICO-302",
+        "name": "Publicidad y Promoción Comercial (ICO-302)",
+        "category": 9,
+        "career_code": "FCEFA-ICO",
+        "status": "created"
+    },
+    "ICO-401": {
+        "id": "54",
+        "code": "ICO-401",
+        "name": "Comercio Electrónico y Plataformas Digitales (ICO-401)",
+        "category": 9,
+        "career_code": "FCEFA-ICO",
+        "status": "created"
+    },
+    "ICO-402": {
+        "id": "55",
+        "code": "ICO-402",
+        "name": "Inteligencia de Negocios y Big Data Comercial (ICO-402)",
+        "category": 9,
+        "career_code": "FCEFA-ICO",
+        "status": "created"
+    },
+    "ICO-501": {
+        "id": "56",
+        "code": "ICO-501",
+        "name": "Simulación de Negocios Internacionales (ICO-501)",
+        "category": 9,
+        "career_code": "FCEFA-ICO",
+        "status": "created"
+    },
+    "ICO-502": {
+        "id": "57",
+        "code": "ICO-502",
+        "name": "Marketing Internacional y Exportaciones (ICO-502)",
+        "category": 9,
+        "career_code": "FCEFA-ICO",
+        "status": "created"
+    },
+    "CTT-101": {
+        "id": "58",
+        "code": "CTT-101",
+        "name": "Contabilidad General Aplicada (Tupiza) (CTT-101)",
+        "category": 12,
+        "career_code": "FCEFA-CT-TUP",
+        "status": "created"
+    },
+    "CTT-201": {
+        "id": "59",
+        "code": "CTT-201",
+        "name": "Costos Agropecuarios (Tupiza) (CTT-201)",
+        "category": 12,
+        "career_code": "FCEFA-CT-TUP",
+        "status": "created"
+    },
+    "CTT-301": {
+        "id": "60",
+        "code": "CTT-301",
+        "name": "Auditoría de Cooperativas (Tupiza) (CTT-301)",
+        "category": 12,
+        "career_code": "FCEFA-CT-TUP",
+        "status": "created"
+    },
+    "CTT-401": {
+        "id": "61",
+        "code": "CTT-401",
+        "name": "Contabilidad Minera Regional (Tupiza) (CTT-401)",
+        "category": 12,
+        "career_code": "FCEFA-CT-TUP",
+        "status": "created"
+    },
+    "CTT-501": {
+        "id": "62",
+        "code": "CTT-501",
+        "name": "Taller de Práctica Contable (Tupiza) (CTT-501)",
+        "category": 12,
+        "career_code": "FCEFA-CT-TUP",
+        "status": "created"
+    },
+    "ECU-101": {
+        "id": "63",
+        "code": "ECU-101",
+        "name": "Introducción a la Economía Regional (Uyuni) (ECU-101)",
+        "category": 13,
+        "career_code": "FCEFA-EC-UYU",
+        "status": "created"
+    },
+    "ECU-201": {
+        "id": "64",
+        "code": "ECU-201",
+        "name": "Economía de los Recursos Evaporíticos (Uyuni) (ECU-201)",
+        "category": 13,
+        "career_code": "FCEFA-EC-UYU",
+        "status": "created"
+    },
+    "ECU-301": {
+        "id": "65",
+        "code": "ECU-301",
+        "name": "Microeconomía Turística (Uyuni) (ECU-301)",
+        "category": 13,
+        "career_code": "FCEFA-EC-UYU",
+        "status": "created"
+    },
+    "ECU-401": {
+        "id": "66",
+        "code": "ECU-401",
+        "name": "Formulación de Proyectos Turísticos (Uyuni) (ECU-401)",
+        "category": 13,
+        "career_code": "FCEFA-EC-UYU",
+        "status": "created"
+    },
+    "ECU-501": {
+        "id": "67",
+        "code": "ECU-501",
+        "name": "Planificación del Desarrollo Local (Uyuni) (ECU-501)",
+        "category": 13,
+        "career_code": "FCEFA-EC-UYU",
+        "status": "created"
+    },
+    "ECN-101": {
+        "id": "68",
+        "code": "ECN-101",
+        "name": "Fundamentos de Economía Minera (Uncía) (ECN-101)",
+        "category": 14,
+        "career_code": "FCEFA-EC-UNC",
+        "status": "created"
+    },
+    "ECN-201": {
+        "id": "69",
+        "code": "ECN-201",
+        "name": "Economía Laboral y Sindical (Uncía) (ECN-201)",
+        "category": 14,
+        "career_code": "FCEFA-EC-UNC",
+        "status": "created"
+    },
+    "ECN-301": {
+        "id": "70",
+        "code": "ECN-301",
+        "name": "Finanzas Públicas Municipales (Uncía) (ECN-301)",
+        "category": 14,
+        "career_code": "FCEFA-EC-UNC",
+        "status": "created"
+    },
+    "ECN-401": {
+        "id": "71",
+        "code": "ECN-401",
+        "name": "Economía Solidaria y Comunitaria (Uncía) (ECN-401)",
+        "category": 14,
+        "career_code": "FCEFA-EC-UNC",
+        "status": "created"
+    },
+    "ECN-501": {
+        "id": "72",
+        "code": "ECN-501",
+        "name": "Seminario de Grado en Economía Regional (Uncía) (ECN-501)",
+        "category": 14,
+        "career_code": "FCEFA-EC-UNC",
+        "status": "created"
+    },
+    "INF-111": {
+        "id": "7",
+        "code": "INF-111",
+        "name": "Arquitectura de Computadoras (INF-111)",
+        "category": "16",
+        "status": "existing"
+    },
+    "INF-112": {
+        "id": "73",
+        "code": "INF-112",
+        "name": "Programación Básica (INF-112)",
+        "category": 16,
+        "career_code": "FCP-INF",
+        "status": "created"
+    },
+    "INF-121": {
+        "id": "74",
+        "code": "INF-121",
+        "name": "Estructuras de Datos Discretas (INF-121)",
+        "category": 16,
+        "career_code": "FCP-INF",
+        "status": "created"
+    },
+    "INF-122": {
+        "id": "75",
+        "code": "INF-122",
+        "name": "Programación Orientada a Objetos (INF-122)",
+        "category": 16,
+        "career_code": "FCP-INF",
+        "status": "created"
+    },
+    "INF-231": {
+        "id": "76",
+        "code": "INF-231",
+        "name": "Sistemas Operativos (INF-231)",
+        "category": 16,
+        "career_code": "FCP-INF",
+        "status": "created"
+    },
+    "INF-232": {
+        "id": "77",
+        "code": "INF-232",
+        "name": "Base de Datos I (INF-232)",
+        "category": 16,
+        "career_code": "FCP-INF",
+        "status": "created"
+    },
+    "INF-241": {
+        "id": "78",
+        "code": "INF-241",
+        "name": "Base de Datos II (INF-241)",
+        "category": 16,
+        "career_code": "FCP-INF",
+        "status": "created"
+    },
+    "INF-242": {
+        "id": "79",
+        "code": "INF-242",
+        "name": "Redes de Computadoras I (INF-242)",
+        "category": 16,
+        "career_code": "FCP-INF",
+        "status": "created"
+    },
+    "INF-351": {
+        "id": "80",
+        "code": "INF-351",
+        "name": "Redes de Computadoras II (INF-351)",
+        "category": 16,
+        "career_code": "FCP-INF",
+        "status": "created"
+    },
+    "INF-352": {
+        "id": "81",
+        "code": "INF-352",
+        "name": "Ingeniería de Software I (INF-352)",
+        "category": 16,
+        "career_code": "FCP-INF",
+        "status": "created"
+    },
+    "INF-361": {
+        "id": "82",
+        "code": "INF-361",
+        "name": "Ingeniería de Software II (INF-361)",
+        "category": 16,
+        "career_code": "FCP-INF",
+        "status": "created"
+    },
+    "INF-362": {
+        "id": "83",
+        "code": "INF-362",
+        "name": "Inteligencia Artificial (INF-362)",
+        "category": 16,
+        "career_code": "FCP-INF",
+        "status": "created"
+    },
+    "INF-471": {
+        "id": "84",
+        "code": "INF-471",
+        "name": "Aprendizaje Automático (Machine Learning) (INF-471)",
+        "category": 16,
+        "career_code": "FCP-INF",
+        "status": "created"
+    },
+    "INF-472": {
+        "id": "85",
+        "code": "INF-472",
+        "name": "Seguridad en Sistemas Informáticos (INF-472)",
+        "category": 16,
+        "career_code": "FCP-INF",
+        "status": "created"
+    },
+    "INF-581": {
+        "id": "86",
+        "code": "INF-581",
+        "name": "Taller de Grado en Informática (INF-581)",
+        "category": 16,
+        "career_code": "FCP-INF",
+        "status": "created"
+    },
+    "QMC-101": {
+        "id": "87",
+        "code": "QMC-101",
+        "name": "Química General I (QMC-101)",
+        "category": 17,
+        "career_code": "FCP-QMC",
+        "status": "created"
+    },
+    "QMC-102": {
+        "id": "88",
+        "code": "QMC-102",
+        "name": "Química Inorgánica (QMC-102)",
+        "category": 17,
+        "career_code": "FCP-QMC",
+        "status": "created"
+    },
+    "QMC-201": {
+        "id": "89",
+        "code": "QMC-201",
+        "name": "Química Orgánica I (QMC-201)",
+        "category": 17,
+        "career_code": "FCP-QMC",
+        "status": "created"
+    },
+    "QMC-202": {
+        "id": "90",
+        "code": "QMC-202",
+        "name": "Química Orgánica II (QMC-202)",
+        "category": 17,
+        "career_code": "FCP-QMC",
+        "status": "created"
+    },
+    "QMC-301": {
+        "id": "91",
+        "code": "QMC-301",
+        "name": "Fisicoquímica I (QMC-301)",
+        "category": 17,
+        "career_code": "FCP-QMC",
+        "status": "created"
+    },
+    "QMC-302": {
+        "id": "92",
+        "code": "QMC-302",
+        "name": "Fisicoquímica II (QMC-302)",
+        "category": 17,
+        "career_code": "FCP-QMC",
+        "status": "created"
+    },
+    "QMC-401": {
+        "id": "93",
+        "code": "QMC-401",
+        "name": "Química Analítica Cualitativa (QMC-401)",
+        "category": 17,
+        "career_code": "FCP-QMC",
+        "status": "created"
+    },
+    "QMC-402": {
+        "id": "94",
+        "code": "QMC-402",
+        "name": "Química Analítica Cuantitativa (QMC-402)",
+        "category": 17,
+        "career_code": "FCP-QMC",
+        "status": "created"
+    },
+    "QMC-501": {
+        "id": "95",
+        "code": "QMC-501",
+        "name": "Análisis Instrumental (QMC-501)",
+        "category": 17,
+        "career_code": "FCP-QMC",
+        "status": "created"
+    },
+    "QMC-502": {
+        "id": "96",
+        "code": "QMC-502",
+        "name": "Química Ambiental (QMC-502)",
+        "category": 17,
+        "career_code": "FCP-QMC",
+        "status": "created"
+    },
+    "FIS-101": {
+        "id": "97",
+        "code": "FIS-101",
+        "name": "Física General I (Mecánica) (FIS-101)",
+        "category": 18,
+        "career_code": "FCP-FIS",
+        "status": "created"
+    },
+    "FIS-102": {
+        "id": "98",
+        "code": "FIS-102",
+        "name": "Física General II (Termodinámica y Fluidos) (FIS-102)",
+        "category": 18,
+        "career_code": "FCP-FIS",
+        "status": "created"
+    },
+    "FIS-201": {
+        "id": "99",
+        "code": "FIS-201",
+        "name": "Física General III (Electromagnetismo) (FIS-201)",
+        "category": 18,
+        "career_code": "FCP-FIS",
+        "status": "created"
+    },
+    "FIS-202": {
+        "id": "100",
+        "code": "FIS-202",
+        "name": "Física General IV (Ondas y Óptica) (FIS-202)",
+        "category": 18,
+        "career_code": "FCP-FIS",
+        "status": "created"
+    },
+    "FIS-301": {
+        "id": "101",
+        "code": "FIS-301",
+        "name": "Mecánica Clásica (FIS-301)",
+        "category": 18,
+        "career_code": "FCP-FIS",
+        "status": "created"
+    },
+    "FIS-302": {
+        "id": "102",
+        "code": "FIS-302",
+        "name": "Electrodinámica Clásica (FIS-302)",
+        "category": 18,
+        "career_code": "FCP-FIS",
+        "status": "created"
+    },
+    "FIS-401": {
+        "id": "103",
+        "code": "FIS-401",
+        "name": "Mecánica Cuántica I (FIS-401)",
+        "category": 18,
+        "career_code": "FCP-FIS",
+        "status": "created"
+    },
+    "FIS-402": {
+        "id": "104",
+        "code": "FIS-402",
+        "name": "Física Estadística (FIS-402)",
+        "category": 18,
+        "career_code": "FCP-FIS",
+        "status": "created"
+    },
+    "FIS-501": {
+        "id": "105",
+        "code": "FIS-501",
+        "name": "Física del Estado Sólido (FIS-501)",
+        "category": 18,
+        "career_code": "FCP-FIS",
+        "status": "created"
+    },
+    "MAT-101": {
+        "id": "106",
+        "code": "MAT-101",
+        "name": "Álgebra Superior (MAT-101)",
+        "category": 19,
+        "career_code": "FCP-MAT",
+        "status": "created"
+    },
+    "MAT-102": {
+        "id": "107",
+        "code": "MAT-102",
+        "name": "Cálculo Diferencial e Integral I (MAT-102)",
+        "category": 19,
+        "career_code": "FCP-MAT",
+        "status": "created"
+    },
+    "MAT-201": {
+        "id": "108",
+        "code": "MAT-201",
+        "name": "Cálculo Multivariable (MAT-201)",
+        "category": 19,
+        "career_code": "FCP-MAT",
+        "status": "created"
+    },
+    "MAT-202": {
+        "id": "109",
+        "code": "MAT-202",
+        "name": "Álgebra Lineal (MAT-202)",
+        "category": 19,
+        "career_code": "FCP-MAT",
+        "status": "created"
+    },
+    "MAT-301": {
+        "id": "110",
+        "code": "MAT-301",
+        "name": "Ecuaciones Diferenciales Ordinarias (MAT-301)",
+        "category": 19,
+        "career_code": "FCP-MAT",
+        "status": "created"
+    },
+    "MAT-302": {
+        "id": "111",
+        "code": "MAT-302",
+        "name": "Análisis Real (MAT-302)",
+        "category": 19,
+        "career_code": "FCP-MAT",
+        "status": "created"
+    },
+    "MAT-401": {
+        "id": "112",
+        "code": "MAT-401",
+        "name": "Variable Compleja (MAT-401)",
+        "category": 19,
+        "career_code": "FCP-MAT",
+        "status": "created"
+    },
+    "MAT-501": {
+        "id": "113",
+        "code": "MAT-501",
+        "name": "Análisis Numérico (MAT-501)",
+        "category": 19,
+        "career_code": "FCP-MAT",
+        "status": "created"
+    },
+    "EST-101": {
+        "id": "114",
+        "code": "EST-101",
+        "name": "Estadística Descriptiva (EST-101)",
+        "category": 20,
+        "career_code": "FCP-EST",
+        "status": "created"
+    },
+    "EST-102": {
+        "id": "115",
+        "code": "EST-102",
+        "name": "Probabilidades (EST-102)",
+        "category": 20,
+        "career_code": "FCP-EST",
+        "status": "created"
+    },
+    "EST-201": {
+        "id": "116",
+        "code": "EST-201",
+        "name": "Inferencia Estadística I (EST-201)",
+        "category": 20,
+        "career_code": "FCP-EST",
+        "status": "created"
+    },
+    "EST-202": {
+        "id": "117",
+        "code": "EST-202",
+        "name": "Inferencia Estadística II (EST-202)",
+        "category": 20,
+        "career_code": "FCP-EST",
+        "status": "created"
+    },
+    "EST-301": {
+        "id": "118",
+        "code": "EST-301",
+        "name": "Modelos Lineales y Regresión (EST-301)",
+        "category": 20,
+        "career_code": "FCP-EST",
+        "status": "created"
+    },
+    "EST-302": {
+        "id": "119",
+        "code": "EST-302",
+        "name": "Diseño de Experimentos (EST-302)",
+        "category": 20,
+        "career_code": "FCP-EST",
+        "status": "created"
+    },
+    "EST-401": {
+        "id": "120",
+        "code": "EST-401",
+        "name": "Muestreo Estadístico (EST-401)",
+        "category": 20,
+        "career_code": "FCP-EST",
+        "status": "created"
+    },
+    "EST-501": {
+        "id": "121",
+        "code": "EST-501",
+        "name": "Minería de Datos Estadísticos (EST-501)",
+        "category": 20,
+        "career_code": "FCP-EST",
+        "status": "created"
+    },
+    "SIS-111": {
+        "id": "5",
+        "code": "SIS-111",
+        "name": "Introducción a la Programación (SIS-111)",
+        "category": "22",
+        "status": "existing"
+    },
+    "SIS-211": {
+        "id": "6",
+        "code": "SIS-211",
+        "name": "Estructura de Datos (SIS-211)",
+        "category": "22",
+        "status": "existing"
+    },
+    "SIS-221": {
+        "id": "122",
+        "code": "SIS-221",
+        "name": "Base de Datos Transaccionales (SIS-221)",
+        "category": 22,
+        "career_code": "VIC-SIS",
+        "status": "created"
+    },
+    "SIS-222": {
+        "id": "123",
+        "code": "SIS-222",
+        "name": "Análisis y Diseño de Sistemas (SIS-222)",
+        "category": 22,
+        "career_code": "VIC-SIS",
+        "status": "created"
+    },
+    "SIS-311": {
+        "id": "124",
+        "code": "SIS-311",
+        "name": "Redes de Datos y Comunicaciones (SIS-311)",
+        "category": 22,
+        "career_code": "VIC-SIS",
+        "status": "created"
+    },
+    "SIS-312": {
+        "id": "125",
+        "code": "SIS-312",
+        "name": "Programación Web y Móvil (SIS-312)",
+        "category": 22,
+        "career_code": "VIC-SIS",
+        "status": "created"
+    },
+    "SIS-321": {
+        "id": "126",
+        "code": "SIS-321",
+        "name": "Sistemas de Información Empresarial (ERP\/CRM) (SIS-321)",
+        "category": 22,
+        "career_code": "VIC-SIS",
+        "status": "created"
+    },
+    "SIS-322": {
+        "id": "127",
+        "code": "SIS-322",
+        "name": "Ingeniería de Requisitos y Calidad (SIS-322)",
+        "category": 22,
+        "career_code": "VIC-SIS",
+        "status": "created"
+    },
+    "SIS-411": {
+        "id": "128",
+        "code": "SIS-411",
+        "name": "Gestión de Proyectos de Software (PMI\/Scrum) (SIS-411)",
+        "category": 22,
+        "career_code": "VIC-SIS",
+        "status": "created"
+    },
+    "SIS-412": {
+        "id": "129",
+        "code": "SIS-412",
+        "name": "Auditoría y Seguridad de Sistemas (SIS-412)",
+        "category": 22,
+        "career_code": "VIC-SIS",
+        "status": "created"
+    },
+    "SIS-421": {
+        "id": "130",
+        "code": "SIS-421",
+        "name": "Inteligencia de Negocios y Analítica (SIS-421)",
+        "category": 22,
+        "career_code": "VIC-SIS",
+        "status": "created"
+    },
+    "SIS-422": {
+        "id": "131",
+        "code": "SIS-422",
+        "name": "Computación en la Nube y DevOps (SIS-422)",
+        "category": 22,
+        "career_code": "VIC-SIS",
+        "status": "created"
+    },
+    "SIS-511": {
+        "id": "132",
+        "code": "SIS-511",
+        "name": "Gobernanza de TI (COBIT\/ITIL) (SIS-511)",
+        "category": 22,
+        "career_code": "VIC-SIS",
+        "status": "created"
+    },
+    "SIS-512": {
+        "id": "133",
+        "code": "SIS-512",
+        "name": "Ciberseguridad y Hacking Ético (SIS-512)",
+        "category": 22,
+        "career_code": "VIC-SIS",
+        "status": "created"
+    },
+    "SIS-521": {
+        "id": "134",
+        "code": "SIS-521",
+        "name": "Taller de Graduación en Sistemas (SIS-521)",
+        "category": 22,
+        "career_code": "VIC-SIS",
+        "status": "created"
+    },
+    "SST-101": {
+        "id": "135",
+        "code": "SST-101",
+        "name": "Algoritmos y Programación (Tupiza) (SST-101)",
+        "category": 23,
+        "career_code": "VIC-SIS-TUP",
+        "status": "created"
+    },
+    "SST-102": {
+        "id": "136",
+        "code": "SST-102",
+        "name": "Bases de Datos para Aplicaciones (Tupiza) (SST-102)",
+        "category": 23,
+        "career_code": "VIC-SIS-TUP",
+        "status": "created"
+    },
+    "SST-201": {
+        "id": "137",
+        "code": "SST-201",
+        "name": "Programación Orientada a Objetos (Tupiza) (SST-201)",
+        "category": 23,
+        "career_code": "VIC-SIS-TUP",
+        "status": "created"
+    },
+    "SST-202": {
+        "id": "138",
+        "code": "SST-202",
+        "name": "Redes de Área Local (Tupiza) (SST-202)",
+        "category": 23,
+        "career_code": "VIC-SIS-TUP",
+        "status": "created"
+    },
+    "SST-301": {
+        "id": "139",
+        "code": "SST-301",
+        "name": "Desarrollo Web Fullstack (Tupiza) (SST-301)",
+        "category": 23,
+        "career_code": "VIC-SIS-TUP",
+        "status": "created"
+    },
+    "SST-302": {
+        "id": "140",
+        "code": "SST-302",
+        "name": "Sistemas de Información Geográfica (Tupiza) (SST-302)",
+        "category": 23,
+        "career_code": "VIC-SIS-TUP",
+        "status": "created"
+    },
+    "SST-401": {
+        "id": "141",
+        "code": "SST-401",
+        "name": "Sistemas Agroinformáticos (Tupiza) (SST-401)",
+        "category": 23,
+        "career_code": "VIC-SIS-TUP",
+        "status": "created"
+    },
+    "SST-402": {
+        "id": "142",
+        "code": "SST-402",
+        "name": "Gestión y Mantenimiento de TI (Tupiza) (SST-402)",
+        "category": 23,
+        "career_code": "VIC-SIS-TUP",
+        "status": "created"
+    },
+    "SST-501": {
+        "id": "143",
+        "code": "SST-501",
+        "name": "Comercio Electrónico Regional (Tupiza) (SST-501)",
+        "category": 23,
+        "career_code": "VIC-SIS-TUP",
+        "status": "created"
+    },
+    "SST-502": {
+        "id": "144",
+        "code": "SST-502",
+        "name": "Proyecto Integrador de Sistemas (Tupiza) (SST-502)",
+        "category": 23,
+        "career_code": "VIC-SIS-TUP",
+        "status": "created"
+    },
+    "IDP-101": {
+        "id": "145",
+        "code": "IDP-101",
+        "name": "Fundamentos del Diseño Digital (IDP-101)",
+        "category": 24,
+        "career_code": "VIC-IDP",
+        "status": "created"
+    },
+    "IDP-102": {
+        "id": "146",
+        "code": "IDP-102",
+        "name": "Programación Creativa y Frontend (IDP-102)",
+        "category": 24,
+        "career_code": "VIC-IDP",
+        "status": "created"
+    },
+    "IDP-201": {
+        "id": "147",
+        "code": "IDP-201",
+        "name": "Diseño de Experiencia de Usuario (UX) (IDP-201)",
+        "category": 24,
+        "career_code": "VIC-IDP",
+        "status": "created"
+    },
+    "IDP-202": {
+        "id": "148",
+        "code": "IDP-202",
+        "name": "Diseño de Interfaces de Usuario (UI) (IDP-202)",
+        "category": 24,
+        "career_code": "VIC-IDP",
+        "status": "created"
+    },
+    "IDP-301": {
+        "id": "149",
+        "code": "IDP-301",
+        "name": "Animación Digital 2D y Motion Graphics (IDP-301)",
+        "category": 24,
+        "career_code": "VIC-IDP",
+        "status": "created"
+    },
+    "IDP-302": {
+        "id": "150",
+        "code": "IDP-302",
+        "name": "Modelado y Animación 3D (IDP-302)",
+        "category": 24,
+        "career_code": "VIC-IDP",
+        "status": "created"
+    },
+    "IDP-401": {
+        "id": "151",
+        "code": "IDP-401",
+        "name": "Desarrollo de Videojuegos I (IDP-401)",
+        "category": 24,
+        "career_code": "VIC-IDP",
+        "status": "created"
+    },
+    "IDP-402": {
+        "id": "152",
+        "code": "IDP-402",
+        "name": "Realidad Aumentada y Virtual (AR\/VR) (IDP-402)",
+        "category": 24,
+        "career_code": "VIC-IDP",
+        "status": "created"
+    },
+    "IDP-501": {
+        "id": "153",
+        "code": "IDP-501",
+        "name": "Producción Multimedia Interactiva (IDP-501)",
+        "category": 24,
+        "career_code": "VIC-IDP",
+        "status": "created"
+    },
+    "IDP-502": {
+        "id": "154",
+        "code": "IDP-502",
+        "name": "Portafolio Profesional y Emprendimiento Digital (IDP-502)",
+        "category": 24,
+        "career_code": "VIC-IDP",
+        "status": "created"
+    },
+    "ODO-101": {
+        "id": "155",
+        "code": "ODO-101",
+        "name": "Anatomía Dental y Oclusión (ODO-101)",
+        "category": 25,
+        "career_code": "VIC-ODO",
+        "status": "created"
+    },
+    "ODO-102": {
+        "id": "156",
+        "code": "ODO-102",
+        "name": "Histología y Embriología Bucomaxilofacial (ODO-102)",
+        "category": 25,
+        "career_code": "VIC-ODO",
+        "status": "created"
+    },
+    "ODO-201": {
+        "id": "157",
+        "code": "ODO-201",
+        "name": "Materiales Dentales y Biomateriales (ODO-201)",
+        "category": 25,
+        "career_code": "VIC-ODO",
+        "status": "created"
+    },
+    "ODO-202": {
+        "id": "158",
+        "code": "ODO-202",
+        "name": "Microbiología e Inmunología Oral (ODO-202)",
+        "category": 25,
+        "career_code": "VIC-ODO",
+        "status": "created"
+    },
+    "ODO-301": {
+        "id": "159",
+        "code": "ODO-301",
+        "name": "Operatoria Dental I (ODO-301)",
+        "category": 25,
+        "career_code": "VIC-ODO",
+        "status": "created"
+    },
+    "ODO-302": {
+        "id": "160",
+        "code": "ODO-302",
+        "name": "Periodoncia I (ODO-302)",
+        "category": 25,
+        "career_code": "VIC-ODO",
+        "status": "created"
+    },
+    "ODO-401": {
+        "id": "161",
+        "code": "ODO-401",
+        "name": "Endodoncia I (ODO-401)",
+        "category": 25,
+        "career_code": "VIC-ODO",
+        "status": "created"
+    },
+    "ODO-402": {
+        "id": "162",
+        "code": "ODO-402",
+        "name": "Cirugía Bucal I (ODO-402)",
+        "category": 25,
+        "career_code": "VIC-ODO",
+        "status": "created"
+    },
+    "ODO-501": {
+        "id": "163",
+        "code": "ODO-501",
+        "name": "Prótesis Dental Fija y Removible (ODO-501)",
+        "category": 25,
+        "career_code": "VIC-ODO",
+        "status": "created"
+    },
+    "ODO-502": {
+        "id": "164",
+        "code": "ODO-502",
+        "name": "Odontopediatría y Ortodoncia Preventiva (ODO-502)",
+        "category": 25,
+        "career_code": "VIC-ODO",
+        "status": "created"
+    },
+    "CIV-101": {
+        "id": "165",
+        "code": "CIV-101",
+        "name": "Topografía General (CIV-101)",
+        "category": 27,
+        "career_code": "FI-CIV",
+        "status": "created"
+    },
+    "CIV-102": {
+        "id": "166",
+        "code": "CIV-102",
+        "name": "Geología Aplicada a la Ingeniería Civil (CIV-102)",
+        "category": 27,
+        "career_code": "FI-CIV",
+        "status": "created"
+    },
+    "CIV-211": {
+        "id": "12",
+        "code": "CIV-211",
+        "name": "Resistencia de Materiales I (CIV-211)",
+        "category": "27",
+        "status": "existing"
+    },
+    "CIV-212": {
+        "id": "167",
+        "code": "CIV-212",
+        "name": "Resistencia de Materiales II (CIV-212)",
+        "category": 27,
+        "career_code": "FI-CIV",
+        "status": "created"
+    },
+    "CIV-221": {
+        "id": "168",
+        "code": "CIV-221",
+        "name": "Mecánica de Fluidos (CIV-221)",
+        "category": 27,
+        "career_code": "FI-CIV",
+        "status": "created"
+    },
+    "CIV-222": {
+        "id": "169",
+        "code": "CIV-222",
+        "name": "Hidráulica General (CIV-222)",
+        "category": 27,
+        "career_code": "FI-CIV",
+        "status": "created"
+    },
+    "CIV-311": {
+        "id": "170",
+        "code": "CIV-311",
+        "name": "Mecánica de Suelos I (CIV-311)",
+        "category": 27,
+        "career_code": "FI-CIV",
+        "status": "created"
+    },
+    "CIV-312": {
+        "id": "171",
+        "code": "CIV-312",
+        "name": "Mecánica de Suelos II (CIV-312)",
+        "category": 27,
+        "career_code": "FI-CIV",
+        "status": "created"
+    },
+    "CIV-321": {
+        "id": "172",
+        "code": "CIV-321",
+        "name": "Análisis Estructural I (CIV-321)",
+        "category": 27,
+        "career_code": "FI-CIV",
+        "status": "created"
+    },
+    "CIV-322": {
+        "id": "173",
+        "code": "CIV-322",
+        "name": "Análisis Estructural II (CIV-322)",
+        "category": 27,
+        "career_code": "FI-CIV",
+        "status": "created"
+    },
+    "CIV-411": {
+        "id": "174",
+        "code": "CIV-411",
+        "name": "Hormigón Armado I (CIV-411)",
+        "category": 27,
+        "career_code": "FI-CIV",
+        "status": "created"
+    },
+    "CIV-412": {
+        "id": "175",
+        "code": "CIV-412",
+        "name": "Hormigón Armado II (CIV-412)",
+        "category": 27,
+        "career_code": "FI-CIV",
+        "status": "created"
+    },
+    "CIV-421": {
+        "id": "176",
+        "code": "CIV-421",
+        "name": "Ingeniería Sanitaria I (Agua Potable) (CIV-421)",
+        "category": 27,
+        "career_code": "FI-CIV",
+        "status": "created"
+    },
+    "CIV-422": {
+        "id": "177",
+        "code": "CIV-422",
+        "name": "Ingeniería Sanitaria II (Alcantarillado) (CIV-422)",
+        "category": 27,
+        "career_code": "FI-CIV",
+        "status": "created"
+    },
+    "CIV-511": {
+        "id": "178",
+        "code": "CIV-511",
+        "name": "Carreteras y Pavimentos I (CIV-511)",
+        "category": 27,
+        "career_code": "FI-CIV",
+        "status": "created"
+    },
+    "CIV-512": {
+        "id": "179",
+        "code": "CIV-512",
+        "name": "Carreteras y Pavimentos II (CIV-512)",
+        "category": 27,
+        "career_code": "FI-CIV",
+        "status": "created"
+    },
+    "CIV-521": {
+        "id": "180",
+        "code": "CIV-521",
+        "name": "Estructuras Metálicas y de Madera (CIV-521)",
+        "category": 27,
+        "career_code": "FI-CIV",
+        "status": "created"
+    },
+    "CIV-522": {
+        "id": "181",
+        "code": "CIV-522",
+        "name": "Puentes y Estructuras Especiales (CIV-522)",
+        "category": 27,
+        "career_code": "FI-CIV",
+        "status": "created"
+    },
+    "CIV-523": {
+        "id": "182",
+        "code": "CIV-523",
+        "name": "Presas y Obras Hidráulicas (CIV-523)",
+        "category": 27,
+        "career_code": "FI-CIV",
+        "status": "created"
+    },
+    "CIV-524": {
+        "id": "183",
+        "code": "CIV-524",
+        "name": "Dirección y Supervisión de Obras (CIV-524)",
+        "category": 27,
+        "career_code": "FI-CIV",
+        "status": "created"
+    },
+    "CCV-101": {
+        "id": "184",
+        "code": "CCV-101",
+        "name": "Materiales de Construcción (CCV-101)",
+        "category": 28,
+        "career_code": "FI-CCV",
+        "status": "created"
+    },
+    "CCV-102": {
+        "id": "185",
+        "code": "CCV-102",
+        "name": "Dibujo Técnico y Planos de Construcción (CCV-102)",
+        "category": 28,
+        "career_code": "FI-CCV",
+        "status": "created"
+    },
+    "CCV-201": {
+        "id": "186",
+        "code": "CCV-201",
+        "name": "Tecnología del Hormigón (CCV-201)",
+        "category": 28,
+        "career_code": "FI-CCV",
+        "status": "created"
+    },
+    "CCV-202": {
+        "id": "187",
+        "code": "CCV-202",
+        "name": "Instalaciones Hidrosanitarias en Edificaciones (CCV-202)",
+        "category": 28,
+        "career_code": "FI-CCV",
+        "status": "created"
+    },
+    "CCV-301": {
+        "id": "188",
+        "code": "CCV-301",
+        "name": "Instalaciones Eléctricas en Edificaciones (CCV-301)",
+        "category": 28,
+        "career_code": "FI-CCV",
+        "status": "created"
+    },
+    "CCV-302": {
+        "id": "189",
+        "code": "CCV-302",
+        "name": "Cómputos Métricos y Presupuestos (CCV-302)",
+        "category": 28,
+        "career_code": "FI-CCV",
+        "status": "created"
+    },
+    "CCV-401": {
+        "id": "190",
+        "code": "CCV-401",
+        "name": "Técnicas de Construcción en Obra Gruesa (CCV-401)",
+        "category": 28,
+        "career_code": "FI-CCV",
+        "status": "created"
+    },
+    "CCV-402": {
+        "id": "191",
+        "code": "CCV-402",
+        "name": "Técnicas de Construcción en Obra Fina (CCV-402)",
+        "category": 28,
+        "career_code": "FI-CCV",
+        "status": "created"
+    },
+    "CCV-501": {
+        "id": "192",
+        "code": "CCV-501",
+        "name": "Seguridad Industrial y Salud en la Construcción (CCV-501)",
+        "category": 28,
+        "career_code": "FI-CCV",
+        "status": "created"
+    },
+    "CCV-502": {
+        "id": "193",
+        "code": "CCV-502",
+        "name": "Fiscalización y Control de Obras (CCV-502)",
+        "category": 28,
+        "career_code": "FI-CCV",
+        "status": "created"
+    },
+    "GYT-101": {
+        "id": "194",
+        "code": "GYT-101",
+        "name": "Topografía Aplicada a Obras (GYT-101)",
+        "category": 29,
+        "career_code": "FI-GYT",
+        "status": "created"
+    },
+    "GYT-102": {
+        "id": "195",
+        "code": "GYT-102",
+        "name": "Trigonometría Esférica y Geometría (GYT-102)",
+        "category": 29,
+        "career_code": "FI-GYT",
+        "status": "created"
+    },
+    "GYT-201": {
+        "id": "196",
+        "code": "GYT-201",
+        "name": "Geodesia Satelital y GNSS\/GPS (GYT-201)",
+        "category": 29,
+        "career_code": "FI-GYT",
+        "status": "created"
+    },
+    "GYT-202": {
+        "id": "197",
+        "code": "GYT-202",
+        "name": "Fotogrametría y Drones (GYT-202)",
+        "category": 29,
+        "career_code": "FI-GYT",
+        "status": "created"
+    },
+    "GYT-301": {
+        "id": "198",
+        "code": "GYT-301",
+        "name": "Cartografía y Sistemas de Proyección (GYT-301)",
+        "category": 29,
+        "career_code": "FI-GYT",
+        "status": "created"
+    },
+    "GYT-302": {
+        "id": "199",
+        "code": "GYT-302",
+        "name": "Geodesia Física y Gravimetría (GYT-302)",
+        "category": 29,
+        "career_code": "FI-GYT",
+        "status": "created"
+    },
+    "GYT-401": {
+        "id": "200",
+        "code": "GYT-401",
+        "name": "Topografía Subterránea y Minera (GYT-401)",
+        "category": 29,
+        "career_code": "FI-GYT",
+        "status": "created"
+    },
+    "GYT-402": {
+        "id": "201",
+        "code": "GYT-402",
+        "name": "Catastro Urbano y Rural (GYT-402)",
+        "category": 29,
+        "career_code": "FI-GYT",
+        "status": "created"
+    },
+    "GYT-501": {
+        "id": "202",
+        "code": "GYT-501",
+        "name": "Teledetección Espacial e Imágenes Satelitales (GYT-501)",
+        "category": 29,
+        "career_code": "FI-GYT",
+        "status": "created"
+    },
+    "GYT-502": {
+        "id": "203",
+        "code": "GYT-502",
+        "name": "Geodesia Aplicada a Grandes Obras (GYT-502)",
+        "category": 29,
+        "career_code": "FI-GYT",
+        "status": "created"
+    },
+    "ELE-101": {
+        "id": "13",
+        "code": "ELE-101",
+        "name": "Circuitos Eléctricos I (ELE-101)",
+        "category": "31",
+        "status": "existing"
+    },
+    "ELE-102": {
+        "id": "204",
+        "code": "ELE-102",
+        "name": "Circuitos Eléctricos II (ELE-102)",
+        "category": 31,
+        "career_code": "FIT-ELE",
+        "status": "created"
+    },
+    "ELE-201": {
+        "id": "205",
+        "code": "ELE-201",
+        "name": "Electromagnetismo y Máquinas Eléctricas I (ELE-201)",
+        "category": 31,
+        "career_code": "FIT-ELE",
+        "status": "created"
+    },
+    "ELE-202": {
+        "id": "206",
+        "code": "ELE-202",
+        "name": "Máquinas Eléctricas II (ELE-202)",
+        "category": 31,
+        "career_code": "FIT-ELE",
+        "status": "created"
+    },
+    "ELE-301": {
+        "id": "207",
+        "code": "ELE-301",
+        "name": "Sistemas Eléctricos de Potencia I (ELE-301)",
+        "category": 31,
+        "career_code": "FIT-ELE",
+        "status": "created"
+    },
+    "ELE-302": {
+        "id": "208",
+        "code": "ELE-302",
+        "name": "Protección de Sistemas Eléctricos (ELE-302)",
+        "category": 31,
+        "career_code": "FIT-ELE",
+        "status": "created"
+    },
+    "ELE-401": {
+        "id": "209",
+        "code": "ELE-401",
+        "name": "Subestaciones Eléctricas (ELE-401)",
+        "category": 31,
+        "career_code": "FIT-ELE",
+        "status": "created"
+    },
+    "ELE-402": {
+        "id": "210",
+        "code": "ELE-402",
+        "name": "Instalaciones Eléctricas Industriales (ELE-402)",
+        "category": 31,
+        "career_code": "FIT-ELE",
+        "status": "created"
+    },
+    "ELE-501": {
+        "id": "211",
+        "code": "ELE-501",
+        "name": "Energías Renovables y Generación Distribuida (ELE-501)",
+        "category": 31,
+        "career_code": "FIT-ELE",
+        "status": "created"
+    },
+    "ELE-502": {
+        "id": "212",
+        "code": "ELE-502",
+        "name": "Mercados Eléctricos y Regulación (ELE-502)",
+        "category": 31,
+        "career_code": "FIT-ELE",
+        "status": "created"
+    },
+    "MEC-101": {
+        "id": "213",
+        "code": "MEC-101",
+        "name": "Termodinámica Técnica (MEC-101)",
+        "category": 32,
+        "career_code": "FIT-MEC",
+        "status": "created"
+    },
+    "MEC-102": {
+        "id": "214",
+        "code": "MEC-102",
+        "name": "Mecanismos y Máquinas (MEC-102)",
+        "category": 32,
+        "career_code": "FIT-MEC",
+        "status": "created"
+    },
+    "MEC-201": {
+        "id": "215",
+        "code": "MEC-201",
+        "name": "Diseño de Elementos de Máquinas I (MEC-201)",
+        "category": 32,
+        "career_code": "FIT-MEC",
+        "status": "created"
+    },
+    "MEC-202": {
+        "id": "216",
+        "code": "MEC-202",
+        "name": "Diseño de Elementos de Máquinas II (MEC-202)",
+        "category": 32,
+        "career_code": "FIT-MEC",
+        "status": "created"
+    },
+    "MEC-301": {
+        "id": "217",
+        "code": "MEC-301",
+        "name": "Transferencia de Calor (MEC-301)",
+        "category": 32,
+        "career_code": "FIT-MEC",
+        "status": "created"
+    },
+    "MEC-302": {
+        "id": "218",
+        "code": "MEC-302",
+        "name": "Turbomáquinas y Máquinas Hidráulicas (MEC-302)",
+        "category": 32,
+        "career_code": "FIT-MEC",
+        "status": "created"
+    },
+    "MEC-401": {
+        "id": "219",
+        "code": "MEC-401",
+        "name": "Tecnología de Materiales Mecánicos (MEC-401)",
+        "category": 32,
+        "career_code": "FIT-MEC",
+        "status": "created"
+    },
+    "MEC-402": {
+        "id": "220",
+        "code": "MEC-402",
+        "name": "Procesos de Manufactura Mecánica (MEC-402)",
+        "category": 32,
+        "career_code": "FIT-MEC",
+        "status": "created"
+    },
+    "MEC-501": {
+        "id": "221",
+        "code": "MEC-501",
+        "name": "Mantenimiento Mecánico Industrial (MEC-501)",
+        "category": 32,
+        "career_code": "FIT-MEC",
+        "status": "created"
+    },
+    "AUT-101": {
+        "id": "222",
+        "code": "AUT-101",
+        "name": "Motores de Combustión Interna I (AUT-101)",
+        "category": 33,
+        "career_code": "FIT-AUT",
+        "status": "created"
+    },
+    "AUT-102": {
+        "id": "223",
+        "code": "AUT-102",
+        "name": "Sistemas de Transmisión Automotriz (AUT-102)",
+        "category": 33,
+        "career_code": "FIT-AUT",
+        "status": "created"
+    },
+    "AUT-201": {
+        "id": "224",
+        "code": "AUT-201",
+        "name": "Sistemas de Frenos, Dirección y Suspensión (AUT-201)",
+        "category": 33,
+        "career_code": "FIT-AUT",
+        "status": "created"
+    },
+    "AUT-202": {
+        "id": "225",
+        "code": "AUT-202",
+        "name": "Electricidad y Electrónica del Automóvil (AUT-202)",
+        "category": 33,
+        "career_code": "FIT-AUT",
+        "status": "created"
+    },
+    "AUT-301": {
+        "id": "226",
+        "code": "AUT-301",
+        "name": "Sistemas de Inyección Electrónica Gasolina (AUT-301)",
+        "category": 33,
+        "career_code": "FIT-AUT",
+        "status": "created"
+    },
+    "AUT-302": {
+        "id": "227",
+        "code": "AUT-302",
+        "name": "Sistemas de Inyección Electrónica Diesel (AUT-302)",
+        "category": 33,
+        "career_code": "FIT-AUT",
+        "status": "created"
+    },
+    "AUT-401": {
+        "id": "228",
+        "code": "AUT-401",
+        "name": "Vehículos Híbridos y Eléctricos (AUT-401)",
+        "category": 33,
+        "career_code": "FIT-AUT",
+        "status": "created"
+    },
+    "AUT-501": {
+        "id": "229",
+        "code": "AUT-501",
+        "name": "Laboratorio de Diagnóstico Automotriz (AUT-501)",
+        "category": 33,
+        "career_code": "FIT-AUT",
+        "status": "created"
+    },
+    "MCT-101": {
+        "id": "230",
+        "code": "MCT-101",
+        "name": "Sensores y Acondicionamiento de Señales (MCT-101)",
+        "category": 34,
+        "career_code": "FIT-MCT",
+        "status": "created"
+    },
+    "MCT-102": {
+        "id": "231",
+        "code": "MCT-102",
+        "name": "Actuadores y Accionamientos Eléctricos (MCT-102)",
+        "category": 34,
+        "career_code": "FIT-MCT",
+        "status": "created"
+    },
+    "MCT-201": {
+        "id": "232",
+        "code": "MCT-201",
+        "name": "Microcontroladores y Sistemas Embebidos (MCT-201)",
+        "category": 34,
+        "career_code": "FIT-MCT",
+        "status": "created"
+    },
+    "MCT-202": {
+        "id": "233",
+        "code": "MCT-202",
+        "name": "Teoría de Control Automático (MCT-202)",
+        "category": 34,
+        "career_code": "FIT-MCT",
+        "status": "created"
+    },
+    "MCT-301": {
+        "id": "234",
+        "code": "MCT-301",
+        "name": "Automatización Industrial con PLCs (MCT-301)",
+        "category": 34,
+        "career_code": "FIT-MCT",
+        "status": "created"
+    },
+    "MCT-302": {
+        "id": "235",
+        "code": "MCT-302",
+        "name": "Sistemas SCADA e Interfaces HMI (MCT-302)",
+        "category": 34,
+        "career_code": "FIT-MCT",
+        "status": "created"
+    },
+    "MCT-401": {
+        "id": "236",
+        "code": "MCT-401",
+        "name": "Robótica Industrial (MCT-401)",
+        "category": 34,
+        "career_code": "FIT-MCT",
+        "status": "created"
+    },
+    "MCT-402": {
+        "id": "237",
+        "code": "MCT-402",
+        "name": "Visión Artificial para Robótica (MCT-402)",
+        "category": 34,
+        "career_code": "FIT-MCT",
+        "status": "created"
+    },
+    "MCT-501": {
+        "id": "238",
+        "code": "MCT-501",
+        "name": "Diseño de Sistemas Mecatrónicos Integrados (MCT-501)",
+        "category": 34,
+        "career_code": "FIT-MCT",
+        "status": "created"
+    },
+    "ELT-101": {
+        "id": "239",
+        "code": "ELT-101",
+        "name": "Dispositivos y Circuitos Electrónicos I (ELT-101)",
+        "category": 35,
+        "career_code": "FIT-ELT",
+        "status": "created"
+    },
+    "ELT-102": {
+        "id": "240",
+        "code": "ELT-102",
+        "name": "Electrónica Analógica II (ELT-102)",
+        "category": 35,
+        "career_code": "FIT-ELT",
+        "status": "created"
+    },
+    "ELT-201": {
+        "id": "241",
+        "code": "ELT-201",
+        "name": "Electrónica Digital I (ELT-201)",
+        "category": 35,
+        "career_code": "FIT-ELT",
+        "status": "created"
+    },
+    "ELT-202": {
+        "id": "242",
+        "code": "ELT-202",
+        "name": "Electrónica Digital II y FPGAs (ELT-202)",
+        "category": 35,
+        "career_code": "FIT-ELT",
+        "status": "created"
+    },
+    "ELT-301": {
+        "id": "243",
+        "code": "ELT-301",
+        "name": "Electrónica de Potencia (ELT-301)",
+        "category": 35,
+        "career_code": "FIT-ELT",
+        "status": "created"
+    },
+    "ELT-302": {
+        "id": "244",
+        "code": "ELT-302",
+        "name": "Sistemas de Telecomunicaciones (ELT-302)",
+        "category": 35,
+        "career_code": "FIT-ELT",
+        "status": "created"
+    },
+    "ELT-401": {
+        "id": "245",
+        "code": "ELT-401",
+        "name": "Procesamiento Digital de Señales (DSP) (ELT-401)",
+        "category": 35,
+        "career_code": "FIT-ELT",
+        "status": "created"
+    },
+    "ELT-402": {
+        "id": "246",
+        "code": "ELT-402",
+        "name": "Instrumentación Electrónica (ELT-402)",
+        "category": 35,
+        "career_code": "FIT-ELT",
+        "status": "created"
+    },
+    "ELT-501": {
+        "id": "247",
+        "code": "ELT-501",
+        "name": "Internet de las Cosas (IoT) y Redes Inalámbricas (ELT-501)",
+        "category": 35,
+        "career_code": "FIT-ELT",
+        "status": "created"
+    },
+    "MIN-101": {
+        "id": "248",
+        "code": "MIN-101",
+        "name": "Introducción a la Minería y Geología Minera (MIN-101)",
+        "category": 37,
+        "career_code": "FIM-MIN",
+        "status": "created"
+    },
+    "MIN-102": {
+        "id": "249",
+        "code": "MIN-102",
+        "name": "Topografía Minera Subterránea (MIN-102)",
+        "category": 37,
+        "career_code": "FIM-MIN",
+        "status": "created"
+    },
+    "MIN-201": {
+        "id": "250",
+        "code": "MIN-201",
+        "name": "Mecánica de Rocas I (MIN-201)",
+        "category": 37,
+        "career_code": "FIM-MIN",
+        "status": "created"
+    },
+    "MIN-202": {
+        "id": "251",
+        "code": "MIN-202",
+        "name": "Mecánica de Rocas II (MIN-202)",
+        "category": 37,
+        "career_code": "FIM-MIN",
+        "status": "created"
+    },
+    "MIN-301": {
+        "id": "252",
+        "code": "MIN-301",
+        "name": "Perforación y Voladura de Rocas I (MIN-301)",
+        "category": 37,
+        "career_code": "FIM-MIN",
+        "status": "created"
+    },
+    "MIN-302": {
+        "id": "253",
+        "code": "MIN-302",
+        "name": "Perforación y Voladura de Rocas II (MIN-302)",
+        "category": 37,
+        "career_code": "FIM-MIN",
+        "status": "created"
+    },
+    "MIN-303": {
+        "id": "254",
+        "code": "MIN-303",
+        "name": "Explotación de Minas Subterráneas I (MIN-303)",
+        "category": 37,
+        "career_code": "FIM-MIN",
+        "status": "created"
+    },
+    "MIN-304": {
+        "id": "255",
+        "code": "MIN-304",
+        "name": "Explotación de Minas Subterráneas II (MIN-304)",
+        "category": 37,
+        "career_code": "FIM-MIN",
+        "status": "created"
+    },
+    "MIN-401": {
+        "id": "256",
+        "code": "MIN-401",
+        "name": "Ventilación de Minas (MIN-401)",
+        "category": 37,
+        "career_code": "FIM-MIN",
+        "status": "created"
+    },
+    "MIN-402": {
+        "id": "257",
+        "code": "MIN-402",
+        "name": "Carguío y Transporte Minero (MIN-402)",
+        "category": 37,
+        "career_code": "FIM-MIN",
+        "status": "created"
+    },
+    "MIN-403": {
+        "id": "258",
+        "code": "MIN-403",
+        "name": "Explotación de Minas a Cielo Abierto (Open Pit) (MIN-403)",
+        "category": 37,
+        "career_code": "FIM-MIN",
+        "status": "created"
+    },
+    "MIN-404": {
+        "id": "259",
+        "code": "MIN-404",
+        "name": "Drenaje y Bombeo en Minas (MIN-404)",
+        "category": 37,
+        "career_code": "FIM-MIN",
+        "status": "created"
+    },
+    "MIN-501": {
+        "id": "260",
+        "code": "MIN-501",
+        "name": "Seguridad y Salud Ocupacional en Minería (MIN-501)",
+        "category": 37,
+        "career_code": "FIM-MIN",
+        "status": "created"
+    },
+    "MIN-502": {
+        "id": "261",
+        "code": "MIN-502",
+        "name": "Evaluación de Yacimientos y Geoestadística (MIN-502)",
+        "category": 37,
+        "career_code": "FIM-MIN",
+        "status": "created"
+    },
+    "MIN-503": {
+        "id": "262",
+        "code": "MIN-503",
+        "name": "Economía Minera y Legislación (MIN-503)",
+        "category": 37,
+        "career_code": "FIM-MIN",
+        "status": "created"
+    },
+    "PMM-101": {
+        "id": "263",
+        "code": "PMM-101",
+        "name": "Química Metalúrgica (PMM-101)",
+        "category": 38,
+        "career_code": "FIM-PMM",
+        "status": "created"
+    },
+    "PMM-102": {
+        "id": "264",
+        "code": "PMM-102",
+        "name": "Conminución y Molienda de Minerales (PMM-102)",
+        "category": 38,
+        "career_code": "FIM-PMM",
+        "status": "created"
+    },
+    "PMM-201": {
+        "id": "265",
+        "code": "PMM-201",
+        "name": "Flotación de Minerales I (PMM-201)",
+        "category": 38,
+        "career_code": "FIM-PMM",
+        "status": "created"
+    },
+    "PMM-202": {
+        "id": "266",
+        "code": "PMM-202",
+        "name": "Flotación de Minerales II (Sulfuros Complejos) (PMM-202)",
+        "category": 38,
+        "career_code": "FIM-PMM",
+        "status": "created"
+    },
+    "PMM-301": {
+        "id": "267",
+        "code": "PMM-301",
+        "name": "Concentración Gravimétrica y Magnética (PMM-301)",
+        "category": 38,
+        "career_code": "FIM-PMM",
+        "status": "created"
+    },
+    "PMM-302": {
+        "id": "268",
+        "code": "PMM-302",
+        "name": "Hidrometalurgia I (Lixiviación) (PMM-302)",
+        "category": 38,
+        "career_code": "FIM-PMM",
+        "status": "created"
+    },
+    "PMM-303": {
+        "id": "269",
+        "code": "PMM-303",
+        "name": "Hidrometalurgia II (Extracción por Solventes y EW) (PMM-303)",
+        "category": 38,
+        "career_code": "FIM-PMM",
+        "status": "created"
+    },
+    "PMM-401": {
+        "id": "270",
+        "code": "PMM-401",
+        "name": "Pirometalurgia I (Tostación y Fusión) (PMM-401)",
+        "category": 38,
+        "career_code": "FIM-PMM",
+        "status": "created"
+    },
+    "PMM-402": {
+        "id": "271",
+        "code": "PMM-402",
+        "name": "Pirometalurgia II (Conversión y Refinación Fuego) (PMM-402)",
+        "category": 38,
+        "career_code": "FIM-PMM",
+        "status": "created"
+    },
+    "PMM-403": {
+        "id": "272",
+        "code": "PMM-403",
+        "name": "Metalurgia del Oro y la Plata (PMM-403)",
+        "category": 38,
+        "career_code": "FIM-PMM",
+        "status": "created"
+    },
+    "PMM-404": {
+        "id": "273",
+        "code": "PMM-404",
+        "name": "Separación Sólido-Líquido (PMM-404)",
+        "category": 38,
+        "career_code": "FIM-PMM",
+        "status": "created"
+    },
+    "PMM-501": {
+        "id": "274",
+        "code": "PMM-501",
+        "name": "Tratamiento y Disposición de Colas y Relaves (PMM-501)",
+        "category": 38,
+        "career_code": "FIM-PMM",
+        "status": "created"
+    },
+    "PMM-502": {
+        "id": "275",
+        "code": "PMM-502",
+        "name": "Control y Automatización de Plantas Metalúrgicas (PMM-502)",
+        "category": 38,
+        "career_code": "FIM-PMM",
+        "status": "created"
+    },
+    "PMM-503": {
+        "id": "276",
+        "code": "PMM-503",
+        "name": "Metalurgia de Minerales No Metálicos y Evaporíticos (PMM-503)",
+        "category": 38,
+        "career_code": "FIM-PMM",
+        "status": "created"
+    },
+    "PMM-504": {
+        "id": "277",
+        "code": "PMM-504",
+        "name": "Diseño de Plantas Concentradoras (PMM-504)",
+        "category": 38,
+        "career_code": "FIM-PMM",
+        "status": "created"
+    },
+    "GEO-101": {
+        "id": "278",
+        "code": "GEO-101",
+        "name": "Geología General (GEO-101)",
+        "category": 40,
+        "career_code": "FIG-GEO",
+        "status": "created"
+    },
+    "GEO-102": {
+        "id": "279",
+        "code": "GEO-102",
+        "name": "Mineralogía General y Descriptiva (GEO-102)",
+        "category": 40,
+        "career_code": "FIG-GEO",
+        "status": "created"
+    },
+    "GEO-201": {
+        "id": "280",
+        "code": "GEO-201",
+        "name": "Petrología Ígnea y Metamórfica (GEO-201)",
+        "category": 40,
+        "career_code": "FIG-GEO",
+        "status": "created"
+    },
+    "GEO-202": {
+        "id": "281",
+        "code": "GEO-202",
+        "name": "Estratigrafía y Sedimentología (GEO-202)",
+        "category": 40,
+        "career_code": "FIG-GEO",
+        "status": "created"
+    },
+    "GEO-301": {
+        "id": "282",
+        "code": "GEO-301",
+        "name": "Geología Estructural (GEO-301)",
+        "category": 40,
+        "career_code": "FIG-GEO",
+        "status": "created"
+    },
+    "GEO-302": {
+        "id": "283",
+        "code": "GEO-302",
+        "name": "Paleontología General (GEO-302)",
+        "category": 40,
+        "career_code": "FIG-GEO",
+        "status": "created"
+    },
+    "GEO-303": {
+        "id": "284",
+        "code": "GEO-303",
+        "name": "Geomorfología y Fotointerpretación (GEO-303)",
+        "category": 40,
+        "career_code": "FIG-GEO",
+        "status": "created"
+    },
+    "GEO-401": {
+        "id": "285",
+        "code": "GEO-401",
+        "name": "Geología de Yacimientos Minerales I (Metálicos) (GEO-401)",
+        "category": 40,
+        "career_code": "FIG-GEO",
+        "status": "created"
+    },
+    "GEO-402": {
+        "id": "286",
+        "code": "GEO-402",
+        "name": "Geología de Yacimientos Minerales II (No Metálicos) (GEO-402)",
+        "category": 40,
+        "career_code": "FIG-GEO",
+        "status": "created"
+    },
+    "GEO-403": {
+        "id": "287",
+        "code": "GEO-403",
+        "name": "Prospección Geoquímica (GEO-403)",
+        "category": 40,
+        "career_code": "FIG-GEO",
+        "status": "created"
+    },
+    "GEO-404": {
+        "id": "288",
+        "code": "GEO-404",
+        "name": "Prospección Geofísica (GEO-404)",
+        "category": 40,
+        "career_code": "FIG-GEO",
+        "status": "created"
+    },
+    "GEO-501": {
+        "id": "289",
+        "code": "GEO-501",
+        "name": "Hidrogeología (GEO-501)",
+        "category": 40,
+        "career_code": "FIG-GEO",
+        "status": "created"
+    },
+    "GEO-502": {
+        "id": "290",
+        "code": "GEO-502",
+        "name": "Geología de Bolivia (GEO-502)",
+        "category": 40,
+        "career_code": "FIG-GEO",
+        "status": "created"
+    },
+    "GEO-503": {
+        "id": "291",
+        "code": "GEO-503",
+        "name": "Geotecnia y Geología de Obras (GEO-503)",
+        "category": 40,
+        "career_code": "FIG-GEO",
+        "status": "created"
+    },
+    "GEO-504": {
+        "id": "292",
+        "code": "GEO-504",
+        "name": "Sondeos y Perforación Geológica (GEO-504)",
+        "category": 40,
+        "career_code": "FIG-GEO",
+        "status": "created"
+    },
+    "AMB-101": {
+        "id": "293",
+        "code": "AMB-101",
+        "name": "Ecología General y Ecosistemas (AMB-101)",
+        "category": 41,
+        "career_code": "FIG-AMB",
+        "status": "created"
+    },
+    "AMB-102": {
+        "id": "294",
+        "code": "AMB-102",
+        "name": "Química y Microbiología Ambiental (AMB-102)",
+        "category": 41,
+        "career_code": "FIG-AMB",
+        "status": "created"
+    },
+    "AMB-201": {
+        "id": "295",
+        "code": "AMB-201",
+        "name": "Contaminación y Calidad del Aire (AMB-201)",
+        "category": 41,
+        "career_code": "FIG-AMB",
+        "status": "created"
+    },
+    "AMB-202": {
+        "id": "296",
+        "code": "AMB-202",
+        "name": "Contaminación y Tratamiento de Aguas (AMB-202)",
+        "category": 41,
+        "career_code": "FIG-AMB",
+        "status": "created"
+    },
+    "AMB-301": {
+        "id": "297",
+        "code": "AMB-301",
+        "name": "Gestión Integral de Residuos Sólidos (AMB-301)",
+        "category": 41,
+        "career_code": "FIG-AMB",
+        "status": "created"
+    },
+    "AMB-302": {
+        "id": "298",
+        "code": "AMB-302",
+        "name": "Evaluación de Impacto Ambiental (EIA) (AMB-302)",
+        "category": 41,
+        "career_code": "FIG-AMB",
+        "status": "created"
+    },
+    "AMB-303": {
+        "id": "299",
+        "code": "AMB-303",
+        "name": "Sistemas de Información Geográfica Ambiental (AMB-303)",
+        "category": 41,
+        "career_code": "FIG-AMB",
+        "status": "created"
+    },
+    "AMB-401": {
+        "id": "300",
+        "code": "AMB-401",
+        "name": "Remediación de Suelos Contaminados (AMB-401)",
+        "category": 41,
+        "career_code": "FIG-AMB",
+        "status": "created"
+    },
+    "AMB-402": {
+        "id": "301",
+        "code": "AMB-402",
+        "name": "Auditoría Ambiental y Normas ISO 14001 (AMB-402)",
+        "category": 41,
+        "career_code": "FIG-AMB",
+        "status": "created"
+    },
+    "AMB-403": {
+        "id": "302",
+        "code": "AMB-403",
+        "name": "Manejo Integral de Cuencas Hidrográficas (AMB-403)",
+        "category": 41,
+        "career_code": "FIG-AMB",
+        "status": "created"
+    },
+    "AMB-404": {
+        "id": "303",
+        "code": "AMB-404",
+        "name": "Toxicología Ambiental y Salud Pública (AMB-404)",
+        "category": 41,
+        "career_code": "FIG-AMB",
+        "status": "created"
+    },
+    "AMB-501": {
+        "id": "304",
+        "code": "AMB-501",
+        "name": "Energías Limpias y Mitigación del Cambio Climático (AMB-501)",
+        "category": 41,
+        "career_code": "FIG-AMB",
+        "status": "created"
+    },
+    "AMB-502": {
+        "id": "305",
+        "code": "AMB-502",
+        "name": "Legislación y Derecho Ambiental Boliviano (AMB-502)",
+        "category": 41,
+        "career_code": "FIG-AMB",
+        "status": "created"
+    },
+    "AMB-503": {
+        "id": "306",
+        "code": "AMB-503",
+        "name": "Economía Ambiental y Valoración de Servicios Ecosistémicos (AMB-503)",
+        "category": 41,
+        "career_code": "FIG-AMB",
+        "status": "created"
+    },
+    "AMB-504": {
+        "id": "307",
+        "code": "AMB-504",
+        "name": "Planificación y Ordenamiento Territorial Ambiental (AMB-504)",
+        "category": 41,
+        "career_code": "FIG-AMB",
+        "status": "created"
+    },
+    "ENF-101": {
+        "id": "308",
+        "code": "ENF-101",
+        "name": "Bases Conceptuales de Enfermería (ENF-101)",
+        "category": 43,
+        "career_code": "FCS-ENF",
+        "status": "created"
+    },
+    "ENF-102": {
+        "id": "309",
+        "code": "ENF-102",
+        "name": "Anatomía y Fisiología Humana para Enfermería (ENF-102)",
+        "category": 43,
+        "career_code": "FCS-ENF",
+        "status": "created"
+    },
+    "ENF-201": {
+        "id": "310",
+        "code": "ENF-201",
+        "name": "Farmacología Clínica para Enfermería (ENF-201)",
+        "category": 43,
+        "career_code": "FCS-ENF",
+        "status": "created"
+    },
+    "ENF-202": {
+        "id": "311",
+        "code": "ENF-202",
+        "name": "Microbiología y Parasitología Clínica (ENF-202)",
+        "category": 43,
+        "career_code": "FCS-ENF",
+        "status": "created"
+    },
+    "ENF-203": {
+        "id": "312",
+        "code": "ENF-203",
+        "name": "Enfermería en Salud Comunitaria I (ENF-203)",
+        "category": 43,
+        "career_code": "FCS-ENF",
+        "status": "created"
+    },
+    "ENF-301": {
+        "id": "313",
+        "code": "ENF-301",
+        "name": "Enfermería Médico-Quirúrgica I (ENF-301)",
+        "category": 43,
+        "career_code": "FCS-ENF",
+        "status": "created"
+    },
+    "ENF-302": {
+        "id": "314",
+        "code": "ENF-302",
+        "name": "Enfermería Médico-Quirúrgica II (ENF-302)",
+        "category": 43,
+        "career_code": "FCS-ENF",
+        "status": "created"
+    },
+    "ENF-303": {
+        "id": "315",
+        "code": "ENF-303",
+        "name": "Enfermería Gineco-Obstétrica (ENF-303)",
+        "category": 43,
+        "career_code": "FCS-ENF",
+        "status": "created"
+    },
+    "ENF-401": {
+        "id": "316",
+        "code": "ENF-401",
+        "name": "Enfermería Pediátrica y del Adolescente (ENF-401)",
+        "category": 43,
+        "career_code": "FCS-ENF",
+        "status": "created"
+    },
+    "ENF-402": {
+        "id": "317",
+        "code": "ENF-402",
+        "name": "Enfermería en Salud Mental y Psiquiatría (ENF-402)",
+        "category": 43,
+        "career_code": "FCS-ENF",
+        "status": "created"
+    },
+    "ENF-403": {
+        "id": "318",
+        "code": "ENF-403",
+        "name": "Enfermería en Urgencias y Cuidados Críticos (ENF-403)",
+        "category": 43,
+        "career_code": "FCS-ENF",
+        "status": "created"
+    },
+    "ENF-404": {
+        "id": "319",
+        "code": "ENF-404",
+        "name": "Enfermería en Salud Comunitaria II (ENF-404)",
+        "category": 43,
+        "career_code": "FCS-ENF",
+        "status": "created"
+    },
+    "ENF-501": {
+        "id": "320",
+        "code": "ENF-501",
+        "name": "Administración y Gestión de Servicios de Enfermería (ENF-501)",
+        "category": 43,
+        "career_code": "FCS-ENF",
+        "status": "created"
+    },
+    "ENF-502": {
+        "id": "321",
+        "code": "ENF-502",
+        "name": "Bioética y Legislación en Salud (ENF-502)",
+        "category": 43,
+        "career_code": "FCS-ENF",
+        "status": "created"
+    },
+    "ENF-503": {
+        "id": "322",
+        "code": "ENF-503",
+        "name": "Investigación en Enfermería (ENF-503)",
+        "category": 43,
+        "career_code": "FCS-ENF",
+        "status": "created"
+    },
+    "ENF-504": {
+        "id": "323",
+        "code": "ENF-504",
+        "name": "Nutrición y Dietoterapia (ENF-504)",
+        "category": 43,
+        "career_code": "FCS-ENF",
+        "status": "created"
+    },
+    "ENF-505": {
+        "id": "324",
+        "code": "ENF-505",
+        "name": "Enfermería Geriátrica y Gerontológica (ENF-505)",
+        "category": 43,
+        "career_code": "FCS-ENF",
+        "status": "created"
+    },
+    "ENF-506": {
+        "id": "325",
+        "code": "ENF-506",
+        "name": "Salud Intercultural y Medicina Tradicional (ENF-506)",
+        "category": 43,
+        "career_code": "FCS-ENF",
+        "status": "created"
+    },
+    "ENF-507": {
+        "id": "326",
+        "code": "ENF-507",
+        "name": "Taller de Práctica Hospitalaria Integrada (ENF-507)",
+        "category": 43,
+        "career_code": "FCS-ENF",
+        "status": "created"
+    },
+    "ENF-508": {
+        "id": "327",
+        "code": "ENF-508",
+        "name": "Internado Rotatorio de Enfermería (ENF-508)",
+        "category": 43,
+        "career_code": "FCS-ENF",
+        "status": "created"
+    },
+    "EVL-101": {
+        "id": "328",
+        "code": "EVL-101",
+        "name": "Introducción a la Enfermería Fronteriza (Villazón) (EVL-101)",
+        "category": 44,
+        "career_code": "FCS-ENF-VIL",
+        "status": "created"
+    },
+    "EVL-102": {
+        "id": "329",
+        "code": "EVL-102",
+        "name": "Morfofisiología Humana (Villazón) (EVL-102)",
+        "category": 44,
+        "career_code": "FCS-ENF-VIL",
+        "status": "created"
+    },
+    "EVL-201": {
+        "id": "330",
+        "code": "EVL-201",
+        "name": "Farmacología Básica y Aplicada (Villazón) (EVL-201)",
+        "category": 44,
+        "career_code": "FCS-ENF-VIL",
+        "status": "created"
+    },
+    "EVL-202": {
+        "id": "331",
+        "code": "EVL-202",
+        "name": "Enfermería en Atención Primaria (Villazón) (EVL-202)",
+        "category": 44,
+        "career_code": "FCS-ENF-VIL",
+        "status": "created"
+    },
+    "EVL-203": {
+        "id": "332",
+        "code": "EVL-203",
+        "name": "Bioseguridad y Control de Infecciones (Villazón) (EVL-203)",
+        "category": 44,
+        "career_code": "FCS-ENF-VIL",
+        "status": "created"
+    },
+    "EVL-301": {
+        "id": "333",
+        "code": "EVL-301",
+        "name": "Cuidados Médico-Quirúrgicos del Adulto (Villazón) (EVL-301)",
+        "category": 44,
+        "career_code": "FCS-ENF-VIL",
+        "status": "created"
+    },
+    "EVL-302": {
+        "id": "334",
+        "code": "EVL-302",
+        "name": "Salud Materno-Infantil en Zonas Fronterizas (Villazón) (EVL-302)",
+        "category": 44,
+        "career_code": "FCS-ENF-VIL",
+        "status": "created"
+    },
+    "EVL-303": {
+        "id": "335",
+        "code": "EVL-303",
+        "name": "Enfermería Pediátrica Comunitaria (Villazón) (EVL-303)",
+        "category": 44,
+        "career_code": "FCS-ENF-VIL",
+        "status": "created"
+    },
+    "EVL-401": {
+        "id": "336",
+        "code": "EVL-401",
+        "name": "Enfermería en Urgencias y Desastres (Villazón) (EVL-401)",
+        "category": 44,
+        "career_code": "FCS-ENF-VIL",
+        "status": "created"
+    },
+    "EVL-402": {
+        "id": "337",
+        "code": "EVL-402",
+        "name": "Epidemiología de Enfermedades Transfronterizas (Villazón) (EVL-402)",
+        "category": 44,
+        "career_code": "FCS-ENF-VIL",
+        "status": "created"
+    },
+    "EVL-403": {
+        "id": "338",
+        "code": "EVL-403",
+        "name": "Salud Ocupacional y del Trabajador (Villazón) (EVL-403)",
+        "category": 44,
+        "career_code": "FCS-ENF-VIL",
+        "status": "created"
+    },
+    "EVL-501": {
+        "id": "339",
+        "code": "EVL-501",
+        "name": "Gestión de Centros de Salud de Primer Nivel (Villazón) (EVL-501)",
+        "category": 44,
+        "career_code": "FCS-ENF-VIL",
+        "status": "created"
+    },
+    "EVL-502": {
+        "id": "340",
+        "code": "EVL-502",
+        "name": "Ética y Deontología en Salud (Villazón) (EVL-502)",
+        "category": 44,
+        "career_code": "FCS-ENF-VIL",
+        "status": "created"
+    },
+    "EVL-503": {
+        "id": "341",
+        "code": "EVL-503",
+        "name": "Investigación en Salud Comunitaria (Villazón) (EVL-503)",
+        "category": 44,
+        "career_code": "FCS-ENF-VIL",
+        "status": "created"
+    },
+    "EVL-504": {
+        "id": "342",
+        "code": "EVL-504",
+        "name": "Internado Rotatorio en Red Rural (Villazón) (EVL-504)",
+        "category": 44,
+        "career_code": "FCS-ENF-VIL",
+        "status": "created"
+    },
+    "MED-101": {
+        "id": "11",
+        "code": "MED-101",
+        "name": "Anatomía Humana Descriptiva (MED-101)",
+        "category": "46",
+        "status": "existing"
+    },
+    "MED-102": {
+        "id": "343",
+        "code": "MED-102",
+        "name": "Histología, Embriología y Genética Médica (MED-102)",
+        "category": 46,
+        "career_code": "MED-MED",
+        "status": "created"
+    },
+    "MED-103": {
+        "id": "344",
+        "code": "MED-103",
+        "name": "Fisiología Médica General y de Sistemas (MED-103)",
+        "category": 46,
+        "career_code": "MED-MED",
+        "status": "created"
+    },
+    "MED-104": {
+        "id": "345",
+        "code": "MED-104",
+        "name": "Bioquímica y Biología Molecular Médica (MED-104)",
+        "category": 46,
+        "career_code": "MED-MED",
+        "status": "created"
+    },
+    "MED-105": {
+        "id": "346",
+        "code": "MED-105",
+        "name": "Bioética, Humanismo Médico y Deontología (MED-105)",
+        "category": 46,
+        "career_code": "MED-MED",
+        "status": "created"
+    },
+    "MED-201": {
+        "id": "347",
+        "code": "MED-201",
+        "name": "Microbiología y Parasitología Médica (MED-201)",
+        "category": 46,
+        "career_code": "MED-MED",
+        "status": "created"
+    },
+    "MED-202": {
+        "id": "348",
+        "code": "MED-202",
+        "name": "Farmacología Médica General y Terapéutica (MED-202)",
+        "category": 46,
+        "career_code": "MED-MED",
+        "status": "created"
+    },
+    "MED-203": {
+        "id": "349",
+        "code": "MED-203",
+        "name": "Anatomía Patológica General y Especial (MED-203)",
+        "category": 46,
+        "career_code": "MED-MED",
+        "status": "created"
+    },
+    "MED-204": {
+        "id": "350",
+        "code": "MED-204",
+        "name": "Inmunología Médica (MED-204)",
+        "category": 46,
+        "career_code": "MED-MED",
+        "status": "created"
+    },
+    "MED-205": {
+        "id": "351",
+        "code": "MED-205",
+        "name": "Semiología Médica y Propedéutica Clínica (MED-205)",
+        "category": 46,
+        "career_code": "MED-MED",
+        "status": "created"
+    },
+    "MED-301": {
+        "id": "352",
+        "code": "MED-301",
+        "name": "Medicina Interna I (Cardiología y Neumología) (MED-301)",
+        "category": 46,
+        "career_code": "MED-MED",
+        "status": "created"
+    },
+    "MED-302": {
+        "id": "353",
+        "code": "MED-302",
+        "name": "Medicina Interna II (Gastroenterología y Nefrología) (MED-302)",
+        "category": 46,
+        "career_code": "MED-MED",
+        "status": "created"
+    },
+    "MED-303": {
+        "id": "354",
+        "code": "MED-303",
+        "name": "Cirugía General I y Patología Quirúrgica (MED-303)",
+        "category": 46,
+        "career_code": "MED-MED",
+        "status": "created"
+    },
+    "MED-304": {
+        "id": "355",
+        "code": "MED-304",
+        "name": "Ginecología y Reproducción Humana (MED-304)",
+        "category": 46,
+        "career_code": "MED-MED",
+        "status": "created"
+    },
+    "MED-305": {
+        "id": "356",
+        "code": "MED-305",
+        "name": "Obstetricia Fisiológica y Patológica (MED-305)",
+        "category": 46,
+        "career_code": "MED-MED",
+        "status": "created"
+    },
+    "MED-401": {
+        "id": "357",
+        "code": "MED-401",
+        "name": "Pediatría y Puericultura (MED-401)",
+        "category": 46,
+        "career_code": "MED-MED",
+        "status": "created"
+    },
+    "MED-402": {
+        "id": "358",
+        "code": "MED-402",
+        "name": "Cirugía General II y Especialidades Quirúrgicas (MED-402)",
+        "category": 46,
+        "career_code": "MED-MED",
+        "status": "created"
+    },
+    "MED-403": {
+        "id": "359",
+        "code": "MED-403",
+        "name": "Neurología y Neurocirugía (MED-403)",
+        "category": 46,
+        "career_code": "MED-MED",
+        "status": "created"
+    },
+    "MED-404": {
+        "id": "360",
+        "code": "MED-404",
+        "name": "Traumatología y Ortopedia (MED-404)",
+        "category": 46,
+        "career_code": "MED-MED",
+        "status": "created"
+    },
+    "MED-405": {
+        "id": "361",
+        "code": "MED-405",
+        "name": "Psiquiatría y Salud Mental (MED-405)",
+        "category": 46,
+        "career_code": "MED-MED",
+        "status": "created"
+    },
+    "MED-406": {
+        "id": "362",
+        "code": "MED-406",
+        "name": "Dermatología Clínica (MED-406)",
+        "category": 46,
+        "career_code": "MED-MED",
+        "status": "created"
+    },
+    "MED-407": {
+        "id": "363",
+        "code": "MED-407",
+        "name": "Oftalmología (MED-407)",
+        "category": 46,
+        "career_code": "MED-MED",
+        "status": "created"
+    },
+    "MED-408": {
+        "id": "364",
+        "code": "MED-408",
+        "name": "Otorrinolaringología (MED-408)",
+        "category": 46,
+        "career_code": "MED-MED",
+        "status": "created"
+    },
+    "MED-409": {
+        "id": "365",
+        "code": "MED-409",
+        "name": "Urología (MED-409)",
+        "category": 46,
+        "career_code": "MED-MED",
+        "status": "created"
+    },
+    "MED-410": {
+        "id": "366",
+        "code": "MED-410",
+        "name": "Epidemiología y Salud Pública (MED-410)",
+        "category": 46,
+        "career_code": "MED-MED",
+        "status": "created"
+    },
+    "MED-501": {
+        "id": "367",
+        "code": "MED-501",
+        "name": "Medicina Legal y Toxicología Forense (MED-501)",
+        "category": 46,
+        "career_code": "MED-MED",
+        "status": "created"
+    },
+    "MED-502": {
+        "id": "368",
+        "code": "MED-502",
+        "name": "Infectología Clínica y Enfermedades Tropicales (MED-502)",
+        "category": 46,
+        "career_code": "MED-MED",
+        "status": "created"
+    },
+    "MED-503": {
+        "id": "369",
+        "code": "MED-503",
+        "name": "Endocrinología y Enfermedades Metabólicas (MED-503)",
+        "category": 46,
+        "career_code": "MED-MED",
+        "status": "created"
+    },
+    "MED-504": {
+        "id": "370",
+        "code": "MED-504",
+        "name": "Hematología y Oncología Médica (MED-504)",
+        "category": 46,
+        "career_code": "MED-MED",
+        "status": "created"
+    },
+    "MED-505": {
+        "id": "371",
+        "code": "MED-505",
+        "name": "Reumatología y Enfermedades Autoinmunes (MED-505)",
+        "category": 46,
+        "career_code": "MED-MED",
+        "status": "created"
+    },
+    "MED-506": {
+        "id": "372",
+        "code": "MED-506",
+        "name": "Medicina de Urgencias y Terapia Intensiva (MED-506)",
+        "category": 46,
+        "career_code": "MED-MED",
+        "status": "created"
+    },
+    "MED-507": {
+        "id": "373",
+        "code": "MED-507",
+        "name": "Diagnóstico por Imágenes (Radiología) (MED-507)",
+        "category": 46,
+        "career_code": "MED-MED",
+        "status": "created"
+    },
+    "MED-508": {
+        "id": "374",
+        "code": "MED-508",
+        "name": "Medicina Familiar y Comunitaria (MED-508)",
+        "category": 46,
+        "career_code": "MED-MED",
+        "status": "created"
+    },
+    "MED-509": {
+        "id": "375",
+        "code": "MED-509",
+        "name": "Geriatría Clínica (MED-509)",
+        "category": 46,
+        "career_code": "MED-MED",
+        "status": "created"
+    },
+    "MED-510": {
+        "id": "376",
+        "code": "MED-510",
+        "name": "Taller de Razonamiento Clínico e Integración (MED-510)",
+        "category": 46,
+        "career_code": "MED-MED",
+        "status": "created"
+    },
+    "DER-101": {
+        "id": "10",
+        "code": "DER-101",
+        "name": "Derecho Constitucional Boliviano (DER-101)",
+        "category": "48",
+        "status": "existing"
+    },
+    "DER-102": {
+        "id": "377",
+        "code": "DER-102",
+        "name": "Introducción al Derecho y Teoría General (DER-102)",
+        "category": 48,
+        "career_code": "DER-DER",
+        "status": "created"
+    },
+    "DER-103": {
+        "id": "378",
+        "code": "DER-103",
+        "name": "Derecho Romano e Historia del Derecho (DER-103)",
+        "category": 48,
+        "career_code": "DER-DER",
+        "status": "created"
+    },
+    "DER-104": {
+        "id": "379",
+        "code": "DER-104",
+        "name": "Sociología Jurídica y Pluralismo Jurídico (DER-104)",
+        "category": 48,
+        "career_code": "DER-DER",
+        "status": "created"
+    },
+    "DER-201": {
+        "id": "380",
+        "code": "DER-201",
+        "name": "Derecho Civil I (Personas y Derechos Reales) (DER-201)",
+        "category": 48,
+        "career_code": "DER-DER",
+        "status": "created"
+    },
+    "DER-202": {
+        "id": "381",
+        "code": "DER-202",
+        "name": "Derecho Penal I (Parte General) (DER-202)",
+        "category": 48,
+        "career_code": "DER-DER",
+        "status": "created"
+    },
+    "DER-203": {
+        "id": "382",
+        "code": "DER-203",
+        "name": "Derecho Administrativo y Procedimiento Administrativo (DER-203)",
+        "category": 48,
+        "career_code": "DER-DER",
+        "status": "created"
+    },
+    "DER-204": {
+        "id": "383",
+        "code": "DER-204",
+        "name": "Derecho Internacional Público (DER-204)",
+        "category": 48,
+        "career_code": "DER-DER",
+        "status": "created"
+    },
+    "DER-301": {
+        "id": "384",
+        "code": "DER-301",
+        "name": "Derecho Civil II (Obligaciones y Contratos) (DER-301)",
+        "category": 48,
+        "career_code": "DER-DER",
+        "status": "created"
+    },
+    "DER-302": {
+        "id": "385",
+        "code": "DER-302",
+        "name": "Derecho Penal II (Parte Especial) (DER-302)",
+        "category": 48,
+        "career_code": "DER-DER",
+        "status": "created"
+    },
+    "DER-303": {
+        "id": "386",
+        "code": "DER-303",
+        "name": "Derecho Procesal Orgánico y Teoría del Proceso (DER-303)",
+        "category": 48,
+        "career_code": "DER-DER",
+        "status": "created"
+    },
+    "DER-304": {
+        "id": "387",
+        "code": "DER-304",
+        "name": "Derecho Comercial y Societario (DER-304)",
+        "category": 48,
+        "career_code": "DER-DER",
+        "status": "created"
+    },
+    "DER-401": {
+        "id": "388",
+        "code": "DER-401",
+        "name": "Derecho Procesal Civil (DER-401)",
+        "category": 48,
+        "career_code": "DER-DER",
+        "status": "created"
+    },
+    "DER-402": {
+        "id": "389",
+        "code": "DER-402",
+        "name": "Derecho Procesal Penal (DER-402)",
+        "category": 48,
+        "career_code": "DER-DER",
+        "status": "created"
+    },
+    "DER-403": {
+        "id": "390",
+        "code": "DER-403",
+        "name": "Derecho Laboral y Seguridad Social (DER-403)",
+        "category": 48,
+        "career_code": "DER-DER",
+        "status": "created"
+    },
+    "DER-404": {
+        "id": "391",
+        "code": "DER-404",
+        "name": "Derecho Minero e Hidrocarburífero (DER-404)",
+        "category": 48,
+        "career_code": "DER-DER",
+        "status": "created"
+    },
+    "DER-501": {
+        "id": "392",
+        "code": "DER-501",
+        "name": "Derecho de Familia y Procedimiento Familiar (DER-501)",
+        "category": 48,
+        "career_code": "DER-DER",
+        "status": "created"
+    },
+    "DER-502": {
+        "id": "393",
+        "code": "DER-502",
+        "name": "Derecho Agrario y Ambiental (DER-502)",
+        "category": 48,
+        "career_code": "DER-DER",
+        "status": "created"
+    },
+    "DER-503": {
+        "id": "394",
+        "code": "DER-503",
+        "name": "Derecho Tributario y Aduanero (DER-503)",
+        "category": 48,
+        "career_code": "DER-DER",
+        "status": "created"
+    },
+    "DER-504": {
+        "id": "395",
+        "code": "DER-504",
+        "name": "Práctica Forense y Clínica Jurídica (DER-504)",
+        "category": 48,
+        "career_code": "DER-DER",
+        "status": "created"
+    },
+    "DNC-101": {
+        "id": "396",
+        "code": "DNC-101",
+        "name": "Derecho Indígena Originario Campesino (Uncía) (DNC-101)",
+        "category": 49,
+        "career_code": "DER-DER-UNC",
+        "status": "created"
+    },
+    "DNC-102": {
+        "id": "397",
+        "code": "DNC-102",
+        "name": "Derecho Civil: Bienes y Derechos Reales (Uncía) (DNC-102)",
+        "category": 49,
+        "career_code": "DER-DER-UNC",
+        "status": "created"
+    },
+    "DNC-201": {
+        "id": "398",
+        "code": "DNC-201",
+        "name": "Derecho Penal Aplicado a la Región Minera (Uncía) (DNC-201)",
+        "category": 49,
+        "career_code": "DER-DER-UNC",
+        "status": "created"
+    },
+    "DNC-202": {
+        "id": "399",
+        "code": "DNC-202",
+        "name": "Derecho Laboral Minero y Cooperativo (Uncía) (DNC-202)",
+        "category": 49,
+        "career_code": "DER-DER-UNC",
+        "status": "created"
+    },
+    "DNC-301": {
+        "id": "400",
+        "code": "DNC-301",
+        "name": "Derecho Administrativo Municipal (Uncía) (DNC-301)",
+        "category": 49,
+        "career_code": "DER-DER-UNC",
+        "status": "created"
+    },
+    "DNC-302": {
+        "id": "401",
+        "code": "DNC-302",
+        "name": "Derecho Procesal Civil y Oralidad (Uncía) (DNC-302)",
+        "category": 49,
+        "career_code": "DER-DER-UNC",
+        "status": "created"
+    },
+    "DNC-401": {
+        "id": "402",
+        "code": "DNC-401",
+        "name": "Derecho de Familias y Protección Integral (Uncía) (DNC-401)",
+        "category": 49,
+        "career_code": "DER-DER-UNC",
+        "status": "created"
+    },
+    "DNC-402": {
+        "id": "403",
+        "code": "DNC-402",
+        "name": "Derecho de la Seguridad Social Minera (Uncía) (DNC-402)",
+        "category": 49,
+        "career_code": "DER-DER-UNC",
+        "status": "created"
+    },
+    "DNC-501": {
+        "id": "404",
+        "code": "DNC-501",
+        "name": "MASC: Conciliación y Arbitraje (Uncía) (DNC-501)",
+        "category": 49,
+        "career_code": "DER-DER-UNC",
+        "status": "created"
+    },
+    "DNC-502": {
+        "id": "405",
+        "code": "DNC-502",
+        "name": "Clínica Forense y Práctica Judicial (Uncía) (DNC-502)",
+        "category": 49,
+        "career_code": "DER-DER-UNC",
+        "status": "created"
+    },
+    "DTP-101": {
+        "id": "406",
+        "code": "DTP-101",
+        "name": "Derecho Fronterizo e Integración Regional (Tupiza) (DTP-101)",
+        "category": 50,
+        "career_code": "DER-DER-TUP",
+        "status": "created"
+    },
+    "DTP-102": {
+        "id": "407",
+        "code": "DTP-102",
+        "name": "Derecho Civil: Contratos Comerciales (Tupiza) (DTP-102)",
+        "category": 50,
+        "career_code": "DER-DER-TUP",
+        "status": "created"
+    },
+    "DTP-201": {
+        "id": "408",
+        "code": "DTP-201",
+        "name": "Derecho Aduanero y Régimen de Exportación (Tupiza) (DTP-201)",
+        "category": 50,
+        "career_code": "DER-DER-TUP",
+        "status": "created"
+    },
+    "DTP-202": {
+        "id": "409",
+        "code": "DTP-202",
+        "name": "Derecho Penal y Tráfico Ilícito Transfronterizo (Tupiza) (DTP-202)",
+        "category": 50,
+        "career_code": "DER-DER-TUP",
+        "status": "created"
+    },
+    "DTP-301": {
+        "id": "410",
+        "code": "DTP-301",
+        "name": "Derecho Ambiental y Recursos Hídricos (Tupiza) (DTP-301)",
+        "category": 50,
+        "career_code": "DER-DER-TUP",
+        "status": "created"
+    },
+    "DTP-302": {
+        "id": "411",
+        "code": "DTP-302",
+        "name": "Derecho Procesal Penal y Litigación Oral (Tupiza) (DTP-302)",
+        "category": 50,
+        "career_code": "DER-DER-TUP",
+        "status": "created"
+    },
+    "DTP-401": {
+        "id": "412",
+        "code": "DTP-401",
+        "name": "Derecho Notarial y Registral (Tupiza) (DTP-401)",
+        "category": 50,
+        "career_code": "DER-DER-TUP",
+        "status": "created"
+    },
+    "DTP-402": {
+        "id": "413",
+        "code": "DTP-402",
+        "name": "Derecho Tributario Municipal y Regional (Tupiza) (DTP-402)",
+        "category": 50,
+        "career_code": "DER-DER-TUP",
+        "status": "created"
+    },
+    "DTP-501": {
+        "id": "414",
+        "code": "DTP-501",
+        "name": "Derechos Humanos y Protección Internacional (Tupiza) (DTP-501)",
+        "category": 50,
+        "career_code": "DER-DER-TUP",
+        "status": "created"
+    },
+    "DTP-502": {
+        "id": "415",
+        "code": "DTP-502",
+        "name": "Taller de Práctica Jurídica Forense (Tupiza) (DTP-502)",
+        "category": 50,
+        "career_code": "DER-DER-TUP",
+        "status": "created"
+    },
+    "TUR-101": {
+        "id": "14",
+        "code": "TUR-101",
+        "name": "Introducción al Turismo y Patrimonio (TUR-101)",
+        "category": "52",
+        "status": "existing"
+    },
+    "TUR-102": {
+        "id": "416",
+        "code": "TUR-102",
+        "name": "Geografía Turística de Bolivia (TUR-102)",
+        "category": 52,
+        "career_code": "FCSH-TUR",
+        "status": "created"
+    },
+    "TUR-201": {
+        "id": "417",
+        "code": "TUR-201",
+        "name": "Gestión Hotelera y Hospitalidad (TUR-201)",
+        "category": 52,
+        "career_code": "FCSH-TUR",
+        "status": "created"
+    },
+    "TUR-202": {
+        "id": "418",
+        "code": "TUR-202",
+        "name": "Agencias de Viajes y Operación Turística (TUR-202)",
+        "category": 52,
+        "career_code": "FCSH-TUR",
+        "status": "created"
+    },
+    "TUR-301": {
+        "id": "419",
+        "code": "TUR-301",
+        "name": "Turismo Cultural y Patrimonio de la Humanidad (TUR-301)",
+        "category": 52,
+        "career_code": "FCSH-TUR",
+        "status": "created"
+    },
+    "TUR-302": {
+        "id": "420",
+        "code": "TUR-302",
+        "name": "Ecoturismo y Áreas Protegidas (TUR-302)",
+        "category": 52,
+        "career_code": "FCSH-TUR",
+        "status": "created"
+    },
+    "TUR-401": {
+        "id": "421",
+        "code": "TUR-401",
+        "name": "Marketing Turístico y Promoción Digital (TUR-401)",
+        "category": 52,
+        "career_code": "FCSH-TUR",
+        "status": "created"
+    },
+    "TUR-402": {
+        "id": "422",
+        "code": "TUR-402",
+        "name": "Planificación y Políticas del Turismo (TUR-402)",
+        "category": 52,
+        "career_code": "FCSH-TUR",
+        "status": "created"
+    },
+    "TUR-501": {
+        "id": "423",
+        "code": "TUR-501",
+        "name": "Turismo de Aventura y Deportes Extremos (TUR-501)",
+        "category": 52,
+        "career_code": "FCSH-TUR",
+        "status": "created"
+    },
+    "TUR-502": {
+        "id": "424",
+        "code": "TUR-502",
+        "name": "Proyecto de Grado en Turismo (TUR-502)",
+        "category": 52,
+        "career_code": "FCSH-TUR",
+        "status": "created"
+    },
+    "TUY-101": {
+        "id": "425",
+        "code": "TUY-101",
+        "name": "Turismo en Ecosistemas Extremos (Uyuni) (TUY-101)",
+        "category": 53,
+        "career_code": "FCSH-TUR-UYU",
+        "status": "created"
+    },
+    "TUY-201": {
+        "id": "426",
+        "code": "TUY-201",
+        "name": "Operaciones Turísticas en el Salar de Uyuni (TUY-201)",
+        "category": 53,
+        "career_code": "FCSH-TUR-UYU",
+        "status": "created"
+    },
+    "TUY-301": {
+        "id": "427",
+        "code": "TUY-301",
+        "name": "Inglés Técnico para Guías de Uyuni (TUY-301)",
+        "category": 53,
+        "career_code": "FCSH-TUR-UYU",
+        "status": "created"
+    },
+    "TUY-401": {
+        "id": "428",
+        "code": "TUY-401",
+        "name": "Sostenibilidad y Conservación del Salar (TUY-401)",
+        "category": 53,
+        "career_code": "FCSH-TUR-UYU",
+        "status": "created"
+    },
+    "TUY-501": {
+        "id": "429",
+        "code": "TUY-501",
+        "name": "Gestión de Empresas de Turismo Altiplánico (TUY-501)",
+        "category": 53,
+        "career_code": "FCSH-TUR-UYU",
+        "status": "created"
+    },
+    "LIN-101": {
+        "id": "430",
+        "code": "LIN-101",
+        "name": "Lingüística General y Teoría del Lenguaje (LIN-101)",
+        "category": 54,
+        "career_code": "FCSH-LIN",
+        "status": "created"
+    },
+    "LIN-102": {
+        "id": "431",
+        "code": "LIN-102",
+        "name": "Fonética y Fonología del Español (LIN-102)",
+        "category": 54,
+        "career_code": "FCSH-LIN",
+        "status": "created"
+    },
+    "LIN-201": {
+        "id": "432",
+        "code": "LIN-201",
+        "name": "Morfosintaxis del Español (LIN-201)",
+        "category": 54,
+        "career_code": "FCSH-LIN",
+        "status": "created"
+    },
+    "LIN-202": {
+        "id": "433",
+        "code": "LIN-202",
+        "name": "Lengua Quechua I (Fonología y Gramática) (LIN-202)",
+        "category": 54,
+        "career_code": "FCSH-LIN",
+        "status": "created"
+    },
+    "LIN-301": {
+        "id": "434",
+        "code": "LIN-301",
+        "name": "Lengua Quechua II (Conversación y Redacción) (LIN-301)",
+        "category": 54,
+        "career_code": "FCSH-LIN",
+        "status": "created"
+    },
+    "LIN-302": {
+        "id": "435",
+        "code": "LIN-302",
+        "name": "Lengua Inglesa Avanzada I (LIN-302)",
+        "category": 54,
+        "career_code": "FCSH-LIN",
+        "status": "created"
+    },
+    "LIN-401": {
+        "id": "436",
+        "code": "LIN-401",
+        "name": "Lengua Inglesa Avanzada II (LIN-401)",
+        "category": 54,
+        "career_code": "FCSH-LIN",
+        "status": "created"
+    },
+    "LIN-402": {
+        "id": "437",
+        "code": "LIN-402",
+        "name": "Teoría y Práctica de la Traducción (LIN-402)",
+        "category": 54,
+        "career_code": "FCSH-LIN",
+        "status": "created"
+    },
+    "LIN-501": {
+        "id": "438",
+        "code": "LIN-501",
+        "name": "Sociolingüística y Contacto de Lenguas (LIN-501)",
+        "category": 54,
+        "career_code": "FCSH-LIN",
+        "status": "created"
+    },
+    "LIN-502": {
+        "id": "439",
+        "code": "LIN-502",
+        "name": "Metodología de la Enseñanza de Lenguas (LIN-502)",
+        "category": 54,
+        "career_code": "FCSH-LIN",
+        "status": "created"
+    },
+    "LUY-101": {
+        "id": "440",
+        "code": "LUY-101",
+        "name": "Inglés Aplicado al Sector Servicios (Uyuni) (LUY-101)",
+        "category": 55,
+        "career_code": "FCSH-LIN-UYU",
+        "status": "created"
+    },
+    "LUY-201": {
+        "id": "441",
+        "code": "LUY-201",
+        "name": "Francés para Fines Turísticos (Uyuni) (LUY-201)",
+        "category": 55,
+        "career_code": "FCSH-LIN-UYU",
+        "status": "created"
+    },
+    "LUY-301": {
+        "id": "442",
+        "code": "LUY-301",
+        "name": "Quechua Altiplánico y Toponimia (Uyuni) (LUY-301)",
+        "category": 55,
+        "career_code": "FCSH-LIN-UYU",
+        "status": "created"
+    },
+    "LUY-401": {
+        "id": "443",
+        "code": "LUY-401",
+        "name": "Traducción de Guías e Información Turística (LUY-401)",
+        "category": 55,
+        "career_code": "FCSH-LIN-UYU",
+        "status": "created"
+    },
+    "LUY-501": {
+        "id": "444",
+        "code": "LUY-501",
+        "name": "Interculturalidad y Comunicación en Turismo (LUY-501)",
+        "category": 55,
+        "career_code": "FCSH-LIN-UYU",
+        "status": "created"
+    },
+    "TSO-101": {
+        "id": "445",
+        "code": "TSO-101",
+        "name": "Fundamentos del Trabajo Social (TSO-101)",
+        "category": 56,
+        "career_code": "FCSH-TSO",
+        "status": "created"
+    },
+    "TSO-102": {
+        "id": "446",
+        "code": "TSO-102",
+        "name": "Teoría Social y Enfoques de Desarrollo (TSO-102)",
+        "category": 56,
+        "career_code": "FCSH-TSO",
+        "status": "created"
+    },
+    "TSO-201": {
+        "id": "447",
+        "code": "TSO-201",
+        "name": "Trabajo Social con Familias (TSO-201)",
+        "category": 56,
+        "career_code": "FCSH-TSO",
+        "status": "created"
+    },
+    "TSO-202": {
+        "id": "448",
+        "code": "TSO-202",
+        "name": "Trabajo Social de Grupo (TSO-202)",
+        "category": 56,
+        "career_code": "FCSH-TSO",
+        "status": "created"
+    },
+    "TSO-301": {
+        "id": "449",
+        "code": "TSO-301",
+        "name": "Trabajo Social Comunitario (TSO-301)",
+        "category": 56,
+        "career_code": "FCSH-TSO",
+        "status": "created"
+    },
+    "TSO-302": {
+        "id": "450",
+        "code": "TSO-302",
+        "name": "Planificación y Gestión de Proyectos Sociales (TSO-302)",
+        "category": 56,
+        "career_code": "FCSH-TSO",
+        "status": "created"
+    },
+    "TSO-401": {
+        "id": "451",
+        "code": "TSO-401",
+        "name": "Trabajo Social en el Ámbito Judicial y Peritaje (TSO-401)",
+        "category": 56,
+        "career_code": "FCSH-TSO",
+        "status": "created"
+    },
+    "TSO-402": {
+        "id": "452",
+        "code": "TSO-402",
+        "name": "Políticas Públicas y Bienestar Social (TSO-402)",
+        "category": 56,
+        "career_code": "FCSH-TSO",
+        "status": "created"
+    },
+    "TSO-501": {
+        "id": "453",
+        "code": "TSO-501",
+        "name": "Trabajo Social en Salud y Hospitales (TSO-501)",
+        "category": 56,
+        "career_code": "FCSH-TSO",
+        "status": "created"
+    },
+    "TSO-502": {
+        "id": "454",
+        "code": "TSO-502",
+        "name": "Práctica Preprofesional y Sistematización (TSO-502)",
+        "category": 56,
+        "career_code": "FCSH-TSO",
+        "status": "created"
+    },
+    "COM-101": {
+        "id": "455",
+        "code": "COM-101",
+        "name": "Teorías de la Comunicación y la Información (COM-101)",
+        "category": 58,
+        "career_code": "FCSH-COM",
+        "status": "created"
+    },
+    "COM-201": {
+        "id": "456",
+        "code": "COM-201",
+        "name": "Periodismo Informativo y Redacción (COM-201)",
+        "category": 58,
+        "career_code": "FCSH-COM",
+        "status": "created"
+    },
+    "COM-301": {
+        "id": "457",
+        "code": "COM-301",
+        "name": "Producción Radiofónica y Podcast (COM-301)",
+        "category": 58,
+        "career_code": "FCSH-COM",
+        "status": "created"
+    },
+    "COM-401": {
+        "id": "458",
+        "code": "COM-401",
+        "name": "Producción Audiovisual y Televisiva (COM-401)",
+        "category": 58,
+        "career_code": "FCSH-COM",
+        "status": "created"
+    },
+    "COM-501": {
+        "id": "459",
+        "code": "COM-501",
+        "name": "Comunicación Estratégica y Organizacional (COM-501)",
+        "category": 58,
+        "career_code": "FCSH-COM",
+        "status": "created"
+    },
+    "AGR-101": {
+        "id": "460",
+        "code": "AGR-101",
+        "name": "Botánica General y Sistemática (AGR-101)",
+        "category": 60,
+        "career_code": "FCAP-AGR",
+        "status": "created"
+    },
+    "AGR-102": {
+        "id": "461",
+        "code": "AGR-102",
+        "name": "Edafología y Fertilidad de Suelos (AGR-102)",
+        "category": 60,
+        "career_code": "FCAP-AGR",
+        "status": "created"
+    },
+    "AGR-201": {
+        "id": "462",
+        "code": "AGR-201",
+        "name": "Fisiología Vegetal (AGR-201)",
+        "category": 60,
+        "career_code": "FCAP-AGR",
+        "status": "created"
+    },
+    "AGR-202": {
+        "id": "463",
+        "code": "AGR-202",
+        "name": "Agrometeorología y Climatología (AGR-202)",
+        "category": 60,
+        "career_code": "FCAP-AGR",
+        "status": "created"
+    },
+    "AGR-301": {
+        "id": "464",
+        "code": "AGR-301",
+        "name": "Sistemas de Riego y Drenaje Agrícola (AGR-301)",
+        "category": 60,
+        "career_code": "FCAP-AGR",
+        "status": "created"
+    },
+    "AGR-302": {
+        "id": "465",
+        "code": "AGR-302",
+        "name": "Entomología Agrícola y Manejo de Plagas (AGR-302)",
+        "category": 60,
+        "career_code": "FCAP-AGR",
+        "status": "created"
+    },
+    "AGR-401": {
+        "id": "466",
+        "code": "AGR-401",
+        "name": "Fitopatología Agrícola (AGR-401)",
+        "category": 60,
+        "career_code": "FCAP-AGR",
+        "status": "created"
+    },
+    "AGR-402": {
+        "id": "467",
+        "code": "AGR-402",
+        "name": "Producción de Cultivos Andinos (Papa y Granos) (AGR-402)",
+        "category": 60,
+        "career_code": "FCAP-AGR",
+        "status": "created"
+    },
+    "AGR-501": {
+        "id": "468",
+        "code": "AGR-501",
+        "name": "Genética Vegetal y Mejoramiento Genético (AGR-501)",
+        "category": 60,
+        "career_code": "FCAP-AGR",
+        "status": "created"
+    },
+    "AGR-502": {
+        "id": "469",
+        "code": "AGR-502",
+        "name": "Agroecología y Producción Orgánica (AGR-502)",
+        "category": 60,
+        "career_code": "FCAP-AGR",
+        "status": "created"
+    },
+    "AGV-101": {
+        "id": "470",
+        "code": "AGV-101",
+        "name": "Sistemas de Producción en Valles Templados (Villazón) (AGV-101)",
+        "category": 61,
+        "career_code": "FCAP-AGP-VIL",
+        "status": "created"
+    },
+    "AGV-201": {
+        "id": "471",
+        "code": "AGV-201",
+        "name": "Producción y Sanidad Pecuaria (Villazón) (AGV-201)",
+        "category": 61,
+        "career_code": "FCAP-AGP-VIL",
+        "status": "created"
+    },
+    "AGV-301": {
+        "id": "472",
+        "code": "AGV-301",
+        "name": "Producción Forrajera y Pasturas (Villazón) (AGV-301)",
+        "category": 61,
+        "career_code": "FCAP-AGP-VIL",
+        "status": "created"
+    },
+    "AGV-401": {
+        "id": "473",
+        "code": "AGV-401",
+        "name": "Horticultura Intensiva y Bajo Carpa (Villazón) (AGV-401)",
+        "category": 61,
+        "career_code": "FCAP-AGP-VIL",
+        "status": "created"
+    },
+    "AGV-501": {
+        "id": "474",
+        "code": "AGV-501",
+        "name": "Gestión de Agronegocios en Zonas Fronterizas (Villazón) (AGV-501)",
+        "category": 61,
+        "career_code": "FCAP-AGP-VIL",
+        "status": "created"
+    },
+    "MVZ-101": {
+        "id": "475",
+        "code": "MVZ-101",
+        "name": "Anatomía Veterinaria Comparada (Tupiza) (MVZ-101)",
+        "category": 62,
+        "career_code": "FCAP-MVZ-TUP",
+        "status": "created"
+    },
+    "MVZ-201": {
+        "id": "476",
+        "code": "MVZ-201",
+        "name": "Fisiología de la Reproducción Animal (Tupiza) (MVZ-201)",
+        "category": 62,
+        "career_code": "FCAP-MVZ-TUP",
+        "status": "created"
+    },
+    "MVZ-301": {
+        "id": "477",
+        "code": "MVZ-301",
+        "name": "Farmacología y Terapéutica Veterinaria (Tupiza) (MVZ-301)",
+        "category": 62,
+        "career_code": "FCAP-MVZ-TUP",
+        "status": "created"
+    },
+    "MVZ-401": {
+        "id": "478",
+        "code": "MVZ-401",
+        "name": "Clínica y Cirugía de Grandes Animales (Tupiza) (MVZ-401)",
+        "category": 62,
+        "career_code": "FCAP-MVZ-TUP",
+        "status": "created"
+    },
+    "MVZ-501": {
+        "id": "479",
+        "code": "MVZ-501",
+        "name": "Salud Pública Veterinaria y Zoonosis (Tupiza) (MVZ-501)",
+        "category": 62,
+        "career_code": "FCAP-MVZ-TUP",
+        "status": "created"
+    },
+    "AGI-101": {
+        "id": "480",
+        "code": "AGI-101",
+        "name": "Química y Bioquímica de Alimentos (AGI-101)",
+        "category": 63,
+        "career_code": "FCAP-AGI",
+        "status": "created"
+    },
+    "AGI-201": {
+        "id": "481",
+        "code": "AGI-201",
+        "name": "Microbiología Industrial de Alimentos (AGI-201)",
+        "category": 63,
+        "career_code": "FCAP-AGI",
+        "status": "created"
+    },
+    "AGI-301": {
+        "id": "482",
+        "code": "AGI-301",
+        "name": "Operaciones Unitarias Agroindustriales I (AGI-301)",
+        "category": 63,
+        "career_code": "FCAP-AGI",
+        "status": "created"
+    },
+    "AGI-401": {
+        "id": "483",
+        "code": "AGI-401",
+        "name": "Tecnología de Granos y Tubérculos Andinos (AGI-401)",
+        "category": 63,
+        "career_code": "FCAP-AGI",
+        "status": "created"
+    },
+    "AGI-501": {
+        "id": "484",
+        "code": "AGI-501",
+        "name": "Control de Calidad e Inocuidad (HACCP\/BPM) (AGI-501)",
+        "category": 63,
+        "career_code": "FCAP-AGI",
+        "status": "created"
+    },
+    "IDR-101": {
+        "id": "485",
+        "code": "IDR-101",
+        "name": "Sistemas Agrarios y Campesinados Andinos (IDR-101)",
+        "category": 64,
+        "career_code": "FCAP-IDR",
+        "status": "created"
+    },
+    "IDR-201": {
+        "id": "486",
+        "code": "IDR-201",
+        "name": "Extensión y Comunicación para el Desarrollo (IDR-201)",
+        "category": 64,
+        "career_code": "FCAP-IDR",
+        "status": "created"
+    },
+    "IDR-301": {
+        "id": "487",
+        "code": "IDR-301",
+        "name": "Seguridad y Soberanía Alimentaria Rural (IDR-301)",
+        "category": 64,
+        "career_code": "FCAP-IDR",
+        "status": "created"
+    },
+    "IDR-401": {
+        "id": "488",
+        "code": "IDR-401",
+        "name": "Políticas Agrarias y Legislación Rural (IDR-401)",
+        "category": 64,
+        "career_code": "FCAP-IDR",
+        "status": "created"
+    },
+    "IDR-501": {
+        "id": "489",
+        "code": "IDR-501",
+        "name": "Diseño y Evaluación de Proyectos de Desarrollo Rural (IDR-501)",
+        "category": 64,
+        "career_code": "FCAP-IDR",
+        "status": "created"
+    },
+    "ARQ-101": {
+        "id": "490",
+        "code": "ARQ-101",
+        "name": "Taller de Diseño Arquitectónico I (ARQ-101)",
+        "category": 66,
+        "career_code": "FA-ARQ",
+        "status": "created"
+    },
+    "ARQ-201": {
+        "id": "491",
+        "code": "ARQ-201",
+        "name": "Historia de la Arquitectura y Urbanismo I (ARQ-201)",
+        "category": 66,
+        "career_code": "FA-ARQ",
+        "status": "created"
+    },
+    "ARQ-301": {
+        "id": "492",
+        "code": "ARQ-301",
+        "name": "Construcciones y Tecnologías Arquitectónicas (ARQ-301)",
+        "category": 66,
+        "career_code": "FA-ARQ",
+        "status": "created"
+    },
+    "ARQ-401": {
+        "id": "493",
+        "code": "ARQ-401",
+        "name": "Restauración y Conservación de Monumentos (ARQ-401)",
+        "category": 66,
+        "career_code": "FA-ARQ",
+        "status": "created"
+    },
+    "ARQ-501": {
+        "id": "494",
+        "code": "ARQ-501",
+        "name": "Urbanismo y Planificación Territorial (ARQ-501)",
+        "category": 66,
+        "career_code": "FA-ARQ",
+        "status": "created"
+    },
+    "ARM-101": {
+        "id": "495",
+        "code": "ARM-101",
+        "name": "Teoría de la Música y Solfeo I (ARM-101)",
+        "category": 67,
+        "career_code": "FA-ARM",
+        "status": "created"
+    },
+    "ARM-201": {
+        "id": "496",
+        "code": "ARM-201",
+        "name": "Armonía Tradicional y Funcional (ARM-201)",
+        "category": 67,
+        "career_code": "FA-ARM",
+        "status": "created"
+    },
+    "ARM-301": {
+        "id": "497",
+        "code": "ARM-301",
+        "name": "Historia de la Música Universal y Boliviana (ARM-301)",
+        "category": 67,
+        "career_code": "FA-ARM",
+        "status": "created"
+    },
+    "ARM-401": {
+        "id": "498",
+        "code": "ARM-401",
+        "name": "Contrapunto y Fuga (ARM-401)",
+        "category": 67,
+        "career_code": "FA-ARM",
+        "status": "created"
+    },
+    "ARM-501": {
+        "id": "499",
+        "code": "ARM-501",
+        "name": "Dirección Coral y Ensamble Instrumental (ARM-501)",
+        "category": 67,
+        "career_code": "FA-ARM",
+        "status": "created"
+    },
+    "ARP-101": {
+        "id": "500",
+        "code": "ARP-101",
+        "name": "Dibujo Artístico y Expresión Gráfica (ARP-101)",
+        "category": 68,
+        "career_code": "FA-ARP",
+        "status": "created"
+    },
+    "ARP-201": {
+        "id": "501",
+        "code": "ARP-201",
+        "name": "Pintura y Teoría del Color (ARP-201)",
+        "category": 68,
+        "career_code": "FA-ARP",
+        "status": "created"
+    },
+    "ARP-301": {
+        "id": "502",
+        "code": "ARP-301",
+        "name": "Escultura y Modelado Tridimensional (ARP-301)",
+        "category": 68,
+        "career_code": "FA-ARP",
+        "status": "created"
+    },
+    "ARP-401": {
+        "id": "503",
+        "code": "ARP-401",
+        "name": "Grabado y Artes Gráficas (ARP-401)",
+        "category": 68,
+        "career_code": "FA-ARP",
+        "status": "created"
+    },
+    "ARP-501": {
+        "id": "504",
+        "code": "ARP-501",
+        "name": "Historia y Crítica del Arte Contemporáneo (ARP-501)",
+        "category": 68,
+        "career_code": "FA-ARP",
+        "status": "created"
+    }
+}

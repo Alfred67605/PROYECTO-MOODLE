@@ -1,0 +1,5661 @@
+{
+    "metadata": {
+        "sistema": "Moodle LMS 5.3 (Build 20260408)",
+        "entorno": "Laboratorio de Auditoría Informática ISO\/IEC 27005:2022",
+        "institucion_referencia": "Universidad Autónoma Tomás Frías (UATF)",
+        "fecha_generacion": "2026-10-19T00:17:31+01:00",
+        "total_categorias": 63,
+        "total_cursos": 500,
+        "total_docentes": 150,
+        "total_estudiantes": 2505,
+        "total_cohortes": 48,
+        "total_matriculas": 12815,
+        "seguridad_contrasenas": "Contraseñas generadas bajo estándar nativo bcrypt y almacenadas exclusivamente en la bóveda cifrada local (%APPDATA%\\UATF_Credenciales_Sinteticas_Boveda.json)."
+    },
+    "cohortes_uatf": [
+        {
+            "id": 1,
+            "nombre": "Cohorte UATF - Auditoría - Contaduría Pública (Potosí)",
+            "codigo": "COH-FCEFA-AUD-2026",
+            "miembros": 53
+        },
+        {
+            "id": 2,
+            "nombre": "Cohorte UATF - Administración de Empresas (Potosí)",
+            "codigo": "COH-FCEFA-ADM-2026",
+            "miembros": 53
+        },
+        {
+            "id": 3,
+            "nombre": "Cohorte UATF - Economía (Potosí)",
+            "codigo": "COH-FCEFA-ECO-2026",
+            "miembros": 53
+        },
+        {
+            "id": 4,
+            "nombre": "Cohorte UATF - Ingeniería Comercial (Potosí)",
+            "codigo": "COH-FCEFA-ICO-2026",
+            "miembros": 53
+        },
+        {
+            "id": 5,
+            "nombre": "Cohorte UATF - Contaduría Pública (Sede Tupiza)",
+            "codigo": "COH-FCEFA-CT-TUP-2026",
+            "miembros": 53
+        },
+        {
+            "id": 6,
+            "nombre": "Cohorte UATF - Economía (Sede Uyuni)",
+            "codigo": "COH-FCEFA-EC-UYU-2026",
+            "miembros": 53
+        },
+        {
+            "id": 7,
+            "nombre": "Cohorte UATF - Economía (Sede Uncía)",
+            "codigo": "COH-FCEFA-EC-UNC-2026",
+            "miembros": 53
+        },
+        {
+            "id": 8,
+            "nombre": "Cohorte UATF - Ingeniería Informática (Potosí)",
+            "codigo": "COH-FCP-INF-2026",
+            "miembros": 53
+        },
+        {
+            "id": 9,
+            "nombre": "Cohorte UATF - Química (Potosí)",
+            "codigo": "COH-FCP-QMC-2026",
+            "miembros": 53
+        },
+        {
+            "id": 10,
+            "nombre": "Cohorte UATF - Física (Potosí)",
+            "codigo": "COH-FCP-FIS-2026",
+            "miembros": 53
+        },
+        {
+            "id": 11,
+            "nombre": "Cohorte UATF - Matemática (Potosí)",
+            "codigo": "COH-FCP-MAT-2026",
+            "miembros": 53
+        },
+        {
+            "id": 12,
+            "nombre": "Cohorte UATF - Estadística (Potosí)",
+            "codigo": "COH-FCP-EST-2026",
+            "miembros": 53
+        },
+        {
+            "id": 13,
+            "nombre": "Cohorte UATF - Ingeniería de Sistemas (Potosí)",
+            "codigo": "COH-VIC-SIS-2026",
+            "miembros": 53
+        },
+        {
+            "id": 14,
+            "nombre": "Cohorte UATF - Ingeniería de Sistemas (Sede Tupiza)",
+            "codigo": "COH-VIC-SIS-TUP-2026",
+            "miembros": 53
+        },
+        {
+            "id": 15,
+            "nombre": "Cohorte UATF - Ingeniería en Diseño y Programación Digital",
+            "codigo": "COH-VIC-IDP-2026",
+            "miembros": 53
+        },
+        {
+            "id": 16,
+            "nombre": "Cohorte UATF - Odontología (Potosí)",
+            "codigo": "COH-VIC-ODO-2026",
+            "miembros": 53
+        },
+        {
+            "id": 17,
+            "nombre": "Cohorte UATF - Ingeniería Civil (Potosí)",
+            "codigo": "COH-FI-CIV-2026",
+            "miembros": 53
+        },
+        {
+            "id": 18,
+            "nombre": "Cohorte UATF - Construcciones Civiles (Potosí)",
+            "codigo": "COH-FI-CCV-2026",
+            "miembros": 53
+        },
+        {
+            "id": 19,
+            "nombre": "Cohorte UATF - Ingeniería en Geodesia y Topografía (Potosí)",
+            "codigo": "COH-FI-GYT-2026",
+            "miembros": 53
+        },
+        {
+            "id": 20,
+            "nombre": "Cohorte UATF - Ingeniería Eléctrica (Potosí)",
+            "codigo": "COH-FIT-ELE-2026",
+            "miembros": 53
+        },
+        {
+            "id": 21,
+            "nombre": "Cohorte UATF - Ingeniería Mecánica (Potosí)",
+            "codigo": "COH-FIT-MEC-2026",
+            "miembros": 53
+        },
+        {
+            "id": 22,
+            "nombre": "Cohorte UATF - Mecánica Automotriz (Potosí)",
+            "codigo": "COH-FIT-AUT-2026",
+            "miembros": 53
+        },
+        {
+            "id": 23,
+            "nombre": "Cohorte UATF - Ingeniería Mecatrónica (Potosí)",
+            "codigo": "COH-FIT-MCT-2026",
+            "miembros": 53
+        },
+        {
+            "id": 24,
+            "nombre": "Cohorte UATF - Ingeniería Electrónica (Potosí)",
+            "codigo": "COH-FIT-ELT-2026",
+            "miembros": 53
+        },
+        {
+            "id": 25,
+            "nombre": "Cohorte UATF - Ingeniería Minera (Potosí)",
+            "codigo": "COH-FIM-MIN-2026",
+            "miembros": 53
+        },
+        {
+            "id": 26,
+            "nombre": "Cohorte UATF - Ingeniería de Procesos de Materias Primas Minerales",
+            "codigo": "COH-FIM-PMM-2026",
+            "miembros": 53
+        },
+        {
+            "id": 27,
+            "nombre": "Cohorte UATF - Ingeniería Geológica (Potosí)",
+            "codigo": "COH-FIG-GEO-2026",
+            "miembros": 53
+        },
+        {
+            "id": 28,
+            "nombre": "Cohorte UATF - Ingeniería del Medio Ambiente (Potosí)",
+            "codigo": "COH-FIG-AMB-2026",
+            "miembros": 53
+        },
+        {
+            "id": 29,
+            "nombre": "Cohorte UATF - Enfermería (Potosí)",
+            "codigo": "COH-FCS-ENF-2026",
+            "miembros": 53
+        },
+        {
+            "id": 30,
+            "nombre": "Cohorte UATF - Enfermería (Sede Villazón)",
+            "codigo": "COH-FCS-ENF-VIL-2026",
+            "miembros": 53
+        },
+        {
+            "id": 31,
+            "nombre": "Cohorte UATF - Medicina (Potosí - Régimen Anual)",
+            "codigo": "COH-MED-MED-2026",
+            "miembros": 53
+        },
+        {
+            "id": 32,
+            "nombre": "Cohorte UATF - Derecho (Potosí - Régimen Anual)",
+            "codigo": "COH-DER-DER-2026",
+            "miembros": 53
+        },
+        {
+            "id": 33,
+            "nombre": "Cohorte UATF - Derecho (Sede Uncía - Régimen Anual)",
+            "codigo": "COH-DER-DER-UNC-2026",
+            "miembros": 53
+        },
+        {
+            "id": 34,
+            "nombre": "Cohorte UATF - Derecho (Sede Tupiza - Régimen Anual)",
+            "codigo": "COH-DER-DER-TUP-2026",
+            "miembros": 53
+        },
+        {
+            "id": 35,
+            "nombre": "Cohorte UATF - Turismo (Potosí)",
+            "codigo": "COH-FCSH-TUR-2026",
+            "miembros": 53
+        },
+        {
+            "id": 36,
+            "nombre": "Cohorte UATF - Turismo (Sede Uyuni)",
+            "codigo": "COH-FCSH-TUR-UYU-2026",
+            "miembros": 53
+        },
+        {
+            "id": 37,
+            "nombre": "Cohorte UATF - Lingüística e Idiomas (Potosí)",
+            "codigo": "COH-FCSH-LIN-2026",
+            "miembros": 53
+        },
+        {
+            "id": 38,
+            "nombre": "Cohorte UATF - Lingüística e Idiomas (Sede Uyuni)",
+            "codigo": "COH-FCSH-LIN-UYU-2026",
+            "miembros": 53
+        },
+        {
+            "id": 39,
+            "nombre": "Cohorte UATF - Trabajo Social (Potosí)",
+            "codigo": "COH-FCSH-TSO-2026",
+            "miembros": 53
+        },
+        {
+            "id": 40,
+            "nombre": "Cohorte UATF - Ciencias de la Comunicación (Potosí)",
+            "codigo": "COH-FCSH-COM-2026",
+            "miembros": 53
+        },
+        {
+            "id": 41,
+            "nombre": "Cohorte UATF - Ingeniería Agronómica (Potosí)",
+            "codigo": "COH-FCAP-AGR-2026",
+            "miembros": 53
+        },
+        {
+            "id": 42,
+            "nombre": "Cohorte UATF - Ingeniería Agropecuaria (Sede Villazón)",
+            "codigo": "COH-FCAP-AGP-VIL-2026",
+            "miembros": 53
+        },
+        {
+            "id": 43,
+            "nombre": "Cohorte UATF - Medicina Veterinaria y Zootecnia (Sede Tupiza)",
+            "codigo": "COH-FCAP-MVZ-TUP-2026",
+            "miembros": 53
+        },
+        {
+            "id": 44,
+            "nombre": "Cohorte UATF - Ingeniería Agroindustrial (Potosí)",
+            "codigo": "COH-FCAP-AGI-2026",
+            "miembros": 53
+        },
+        {
+            "id": 45,
+            "nombre": "Cohorte UATF - Ingeniería en Desarrollo Rural (Potosí)",
+            "codigo": "COH-FCAP-IDR-2026",
+            "miembros": 53
+        },
+        {
+            "id": 46,
+            "nombre": "Cohorte UATF - Arquitectura (Potosí)",
+            "codigo": "COH-FA-ARQ-2026",
+            "miembros": 53
+        },
+        {
+            "id": 47,
+            "nombre": "Cohorte UATF - Artes Musicales (Potosí)",
+            "codigo": "COH-FA-ARM-2026",
+            "miembros": 53
+        },
+        {
+            "id": 48,
+            "nombre": "Cohorte UATF - Artes Plásticas (Potosí)",
+            "codigo": "COH-FA-ARP-2026",
+            "miembros": 14
+        }
+    ],
+    "resumen_docentes": [
+        {
+            "id": 10,
+            "username": "docente001",
+            "nombre_completo": "Álvaro Vargas Torres",
+            "codigo_docente": "DOC-UATF-1001",
+            "email": "docente001@example.invalid",
+            "departamento": "Ingeniería Informática",
+            "cursos_asignados": [
+                "AMB-202"
+            ]
+        },
+        {
+            "id": 11,
+            "username": "docente002",
+            "nombre_completo": "Natalia Delgado Pinto",
+            "codigo_docente": "DOC-UATF-1002",
+            "email": "docente002@example.invalid",
+            "departamento": "Auditoría - Contaduría Pública",
+            "cursos_asignados": [
+                "GEO-504"
+            ]
+        },
+        {
+            "id": 12,
+            "username": "docente003",
+            "nombre_completo": "Boris Paredes Flores",
+            "codigo_docente": "DOC-UATF-1003",
+            "email": "docente003@example.invalid",
+            "departamento": "Administración de Empresas",
+            "cursos_asignados": [
+                "ARM-201"
+            ]
+        },
+        {
+            "id": 13,
+            "username": "docente004",
+            "nombre_completo": "Mariana Quispe Cruz",
+            "codigo_docente": "DOC-UATF-1004",
+            "email": "docente004@example.invalid",
+            "departamento": "Economía",
+            "cursos_asignados": [
+                "ARM-101"
+            ]
+        },
+        {
+            "id": 14,
+            "username": "docente005",
+            "nombre_completo": "Gabriel Rojas Villca",
+            "codigo_docente": "DOC-UATF-1005",
+            "email": "docente005@example.invalid",
+            "departamento": "Ingeniería Comercial",
+            "cursos_asignados": [
+                "ARM-301"
+            ]
+        },
+        {
+            "id": 15,
+            "username": "docente006",
+            "nombre_completo": "Laura Aguilar Quispe",
+            "codigo_docente": "DOC-UATF-1006",
+            "email": "docente006@example.invalid",
+            "departamento": "Derecho",
+            "cursos_asignados": [
+                "ARM-401"
+            ]
+        },
+        {
+            "id": 16,
+            "username": "docente007",
+            "nombre_completo": "Edgar Aruquipa Castro",
+            "codigo_docente": "DOC-UATF-1007",
+            "email": "docente007@example.invalid",
+            "departamento": "Medicina",
+            "cursos_asignados": [
+                "MED-507"
+            ]
+        },
+        {
+            "id": 17,
+            "username": "docente008",
+            "nombre_completo": "Rosa Rodríguez Callisaya",
+            "codigo_docente": "DOC-UATF-1008",
+            "email": "docente008@example.invalid",
+            "departamento": "Enfermería",
+            "cursos_asignados": [
+                "MED-505"
+            ]
+        },
+        {
+            "id": 18,
+            "username": "docente009",
+            "nombre_completo": "Víctor Torres Condori",
+            "codigo_docente": "DOC-UATF-1009",
+            "email": "docente009@example.invalid",
+            "departamento": "Ingeniería Civil",
+            "cursos_asignados": [
+                "MED-506"
+            ]
+        },
+        {
+            "id": 19,
+            "username": "docente010",
+            "nombre_completo": "Vanessa Medina Romero",
+            "codigo_docente": "DOC-UATF-1010",
+            "email": "docente010@example.invalid",
+            "departamento": "Ingeniería Minera",
+            "cursos_asignados": [
+                "MED-508"
+            ]
+        },
+        {
+            "id": 20,
+            "username": "docente011",
+            "nombre_completo": "Carlos Apaza Choque",
+            "codigo_docente": "DOC-UATF-1011",
+            "email": "docente011@example.invalid",
+            "departamento": "Ingeniería Geológica",
+            "cursos_asignados": [
+                "MED-509"
+            ]
+        },
+        {
+            "id": 21,
+            "username": "docente012",
+            "nombre_completo": "Sofía García Rodríguez",
+            "codigo_docente": "DOC-UATF-1012",
+            "email": "docente012@example.invalid",
+            "departamento": "Ingeniería Electrónica",
+            "cursos_asignados": [
+                "ARM-501"
+            ]
+        },
+        {
+            "id": 22,
+            "username": "docente013",
+            "nombre_completo": "Christian Castro Álvarez",
+            "codigo_docente": "DOC-UATF-1013",
+            "email": "docente013@example.invalid",
+            "departamento": "Ingeniería Mecánica",
+            "cursos_asignados": [
+                "ARP-101"
+            ]
+        },
+        {
+            "id": 23,
+            "username": "docente014",
+            "nombre_completo": "Silvia Cabrera Colque",
+            "codigo_docente": "DOC-UATF-1014",
+            "email": "docente014@example.invalid",
+            "departamento": "Turismo",
+            "cursos_asignados": [
+                "ARP-201"
+            ]
+        },
+        {
+            "id": 24,
+            "username": "docente015",
+            "nombre_completo": "Jorge Villegas López",
+            "codigo_docente": "DOC-UATF-1015",
+            "email": "docente015@example.invalid",
+            "departamento": "Lingüística e Idiomas",
+            "cursos_asignados": [
+                "AMB-101"
+            ]
+        },
+        {
+            "id": 25,
+            "username": "docente016",
+            "nombre_completo": "Cecilia Fernández Ruiz",
+            "codigo_docente": "DOC-UATF-1016",
+            "email": "docente016@example.invalid",
+            "departamento": "Ingeniería de Sistemas",
+            "cursos_asignados": [
+                "AMB-102"
+            ]
+        },
+        {
+            "id": 26,
+            "username": "docente017",
+            "nombre_completo": "Andrés Álvarez Paredes",
+            "codigo_docente": "DOC-UATF-1017",
+            "email": "docente017@example.invalid",
+            "departamento": "Ingeniería Informática",
+            "cursos_asignados": [
+                "AMB-201"
+            ]
+        },
+        {
+            "id": 27,
+            "username": "docente018",
+            "nombre_completo": "Camila Pinto García",
+            "codigo_docente": "DOC-UATF-1018",
+            "email": "docente018@example.invalid",
+            "departamento": "Auditoría - Contaduría Pública",
+            "cursos_asignados": [
+                "AMB-302"
+            ]
+        },
+        {
+            "id": 28,
+            "username": "docente019",
+            "nombre_completo": "David Miranda Suárez",
+            "codigo_docente": "DOC-UATF-1019",
+            "email": "docente019@example.invalid",
+            "departamento": "Administración de Empresas",
+            "cursos_asignados": [
+                "MED-510"
+            ]
+        },
+        {
+            "id": 29,
+            "username": "docente020",
+            "nombre_completo": "Monica Gutiérrez Ticona",
+            "codigo_docente": "DOC-UATF-1020",
+            "email": "docente020@example.invalid",
+            "departamento": "Economía",
+            "cursos_asignados": [
+                "DER-201"
+            ]
+        },
+        {
+            "id": 30,
+            "username": "docente021",
+            "nombre_completo": "Erick Suárez Pérez",
+            "codigo_docente": "DOC-UATF-1021",
+            "email": "docente021@example.invalid",
+            "departamento": "Ingeniería Comercial",
+            "cursos_asignados": [
+                "DER-104"
+            ]
+        },
+        {
+            "id": 31,
+            "username": "docente022",
+            "nombre_completo": "Gladys Callisaya Salazar",
+            "codigo_docente": "DOC-UATF-1022",
+            "email": "docente022@example.invalid",
+            "departamento": "Derecho",
+            "cursos_asignados": [
+                "ARP-301"
+            ]
+        },
+        {
+            "id": 32,
+            "username": "docente023",
+            "nombre_completo": "Lucas Valenzuela Aruquipa",
+            "codigo_docente": "DOC-UATF-1023",
+            "email": "docente023@example.invalid",
+            "departamento": "Medicina",
+            "cursos_asignados": [
+                "ARP-401"
+            ]
+        },
+        {
+            "id": 33,
+            "username": "docente024",
+            "nombre_completo": "Paola Ramos Fernández",
+            "codigo_docente": "DOC-UATF-1024",
+            "email": "docente024@example.invalid",
+            "departamento": "Enfermería",
+            "cursos_asignados": [
+                "DER-401"
+            ]
+        },
+        {
+            "id": 34,
+            "username": "docente025",
+            "nombre_completo": "René Ortega Ortega",
+            "codigo_docente": "DOC-UATF-1025",
+            "email": "docente025@example.invalid",
+            "departamento": "Ingeniería Civil",
+            "cursos_asignados": [
+                "DER-303"
+            ]
+        },
+        {
+            "id": 35,
+            "username": "docente026",
+            "nombre_completo": "Jessica Colque Huanca",
+            "codigo_docente": "DOC-UATF-1026",
+            "email": "docente026@example.invalid",
+            "departamento": "Ingeniería Minera",
+            "cursos_asignados": [
+                "ARP-501"
+            ]
+        },
+        {
+            "id": 36,
+            "username": "docente027",
+            "nombre_completo": "Gonzalo Flores Gonzales",
+            "codigo_docente": "DOC-UATF-1027",
+            "email": "docente027@example.invalid",
+            "departamento": "Ingeniería Geológica",
+            "cursos_asignados": [
+                "DER-304"
+            ]
+        },
+        {
+            "id": 37,
+            "username": "docente028",
+            "nombre_completo": "Erika Morales Delgado",
+            "codigo_docente": "DOC-UATF-1028",
+            "email": "docente028@example.invalid",
+            "departamento": "Ingeniería Electrónica",
+            "cursos_asignados": [
+                "DER-402"
+            ]
+        },
+        {
+            "id": 38,
+            "username": "docente029",
+            "nombre_completo": "Félix Ortiz Apaza",
+            "codigo_docente": "DOC-UATF-1029",
+            "email": "docente029@example.invalid",
+            "departamento": "Ingeniería Mecánica",
+            "cursos_asignados": [
+                "DER-403"
+            ]
+        },
+        {
+            "id": 39,
+            "username": "docente030",
+            "nombre_completo": "Patricia Ticona Gutiérrez",
+            "codigo_docente": "DOC-UATF-1030",
+            "email": "docente030@example.invalid",
+            "departamento": "Turismo",
+            "cursos_asignados": [
+                "DER-503"
+            ]
+        },
+        {
+            "id": 40,
+            "username": "docente031",
+            "nombre_completo": "Hugo Condori Ortiz",
+            "codigo_docente": "DOC-UATF-1031",
+            "email": "docente031@example.invalid",
+            "departamento": "Lingüística e Idiomas",
+            "cursos_asignados": [
+                "DER-502"
+            ]
+        },
+        {
+            "id": 41,
+            "username": "docente032",
+            "nombre_completo": "Ximena Mendoza Tarqui",
+            "codigo_docente": "DOC-UATF-1032",
+            "email": "docente032@example.invalid",
+            "departamento": "Ingeniería de Sistemas",
+            "cursos_asignados": [
+                "DER-404"
+            ]
+        },
+        {
+            "id": 42,
+            "username": "docente033",
+            "nombre_completo": "Pedro Guzmán Chávez",
+            "codigo_docente": "DOC-UATF-1033",
+            "email": "docente033@example.invalid",
+            "departamento": "Ingeniería Informática",
+            "cursos_asignados": [
+                "DER-501"
+            ]
+        },
+        {
+            "id": 43,
+            "username": "docente034",
+            "nombre_completo": "Noemí Huanca Aguilar",
+            "codigo_docente": "DOC-UATF-1034",
+            "email": "docente034@example.invalid",
+            "departamento": "Auditoría - Contaduría Pública",
+            "cursos_asignados": [
+                "DER-504"
+            ]
+        },
+        {
+            "id": 44,
+            "username": "docente035",
+            "nombre_completo": "Marcos López Villegas",
+            "codigo_docente": "DOC-UATF-1035",
+            "email": "docente035@example.invalid",
+            "departamento": "Administración de Empresas",
+            "cursos_asignados": [
+                "DNC-101"
+            ]
+        },
+        {
+            "id": 45,
+            "username": "docente036",
+            "nombre_completo": "Andrea Cruz Ramos",
+            "codigo_docente": "DOC-UATF-1036",
+            "email": "docente036@example.invalid",
+            "departamento": "Economía",
+            "cursos_asignados": [
+                "DNC-102"
+            ]
+        },
+        {
+            "id": 46,
+            "username": "docente037",
+            "nombre_completo": "Alejandro Silva Guzmán",
+            "codigo_docente": "DOC-UATF-1037",
+            "email": "docente037@example.invalid",
+            "departamento": "Ingeniería Comercial",
+            "cursos_asignados": [
+                "DNC-201"
+            ]
+        },
+        {
+            "id": 47,
+            "username": "docente038",
+            "nombre_completo": "Lorena Tarqui Peña",
+            "codigo_docente": "DOC-UATF-1038",
+            "email": "docente038@example.invalid",
+            "departamento": "Derecho",
+            "cursos_asignados": [
+                "DNC-301"
+            ]
+        },
+        {
+            "id": 48,
+            "username": "docente039",
+            "nombre_completo": "Gustavo Pérez Vargas",
+            "codigo_docente": "DOC-UATF-1039",
+            "email": "docente039@example.invalid",
+            "departamento": "Medicina",
+            "cursos_asignados": [
+                "DNC-302"
+            ]
+        },
+        {
+            "id": 49,
+            "username": "docente040",
+            "nombre_completo": "María Romero Medina",
+            "codigo_docente": "DOC-UATF-1040",
+            "email": "docente040@example.invalid",
+            "departamento": "Enfermería",
+            "cursos_asignados": [
+                "DNC-401"
+            ]
+        },
+        {
+            "id": 50,
+            "username": "docente041",
+            "nombre_completo": "Álvaro Navarro Miranda",
+            "codigo_docente": "DOC-UATF-1041",
+            "email": "docente041@example.invalid",
+            "departamento": "Ingeniería Civil",
+            "cursos_asignados": [
+                "DNC-402"
+            ]
+        },
+        {
+            "id": 51,
+            "username": "docente042",
+            "nombre_completo": "Natalia Peña Morales",
+            "codigo_docente": "DOC-UATF-1042",
+            "email": "docente042@example.invalid",
+            "departamento": "Ingeniería Minera",
+            "cursos_asignados": [
+                "DNC-501"
+            ]
+        },
+        {
+            "id": 52,
+            "username": "docente043",
+            "nombre_completo": "Boris Gonzales Silva",
+            "codigo_docente": "DOC-UATF-1043",
+            "email": "docente043@example.invalid",
+            "departamento": "Ingeniería Geológica",
+            "cursos_asignados": [
+                "DNC-202"
+            ]
+        },
+        {
+            "id": 53,
+            "username": "docente044",
+            "nombre_completo": "Mariana Ruiz Benítez",
+            "codigo_docente": "DOC-UATF-1044",
+            "email": "docente044@example.invalid",
+            "departamento": "Ingeniería Electrónica",
+            "cursos_asignados": [
+                "DNC-502"
+            ]
+        },
+        {
+            "id": 54,
+            "username": "docente045",
+            "nombre_completo": "Gabriel Villca Rojas",
+            "codigo_docente": "DOC-UATF-1045",
+            "email": "docente045@example.invalid",
+            "departamento": "Ingeniería Mecánica",
+            "cursos_asignados": [
+                "DTP-101"
+            ]
+        },
+        {
+            "id": 55,
+            "username": "docente046",
+            "nombre_completo": "Laura Benítez Cabrera",
+            "codigo_docente": "DOC-UATF-1046",
+            "email": "docente046@example.invalid",
+            "departamento": "Turismo",
+            "cursos_asignados": [
+                "DTP-102"
+            ]
+        },
+        {
+            "id": 56,
+            "username": "docente047",
+            "nombre_completo": "Edgar Chávez Valenzuela",
+            "codigo_docente": "DOC-UATF-1047",
+            "email": "docente047@example.invalid",
+            "departamento": "Lingüística e Idiomas",
+            "cursos_asignados": [
+                "DTP-201"
+            ]
+        },
+        {
+            "id": 57,
+            "username": "docente048",
+            "nombre_completo": "Rosa Salazar Mendoza",
+            "codigo_docente": "DOC-UATF-1048",
+            "email": "docente048@example.invalid",
+            "departamento": "Ingeniería de Sistemas",
+            "cursos_asignados": [
+                "DTP-202"
+            ]
+        },
+        {
+            "id": 58,
+            "username": "docente049",
+            "nombre_completo": "Víctor Choque Navarro",
+            "codigo_docente": "DOC-UATF-1049",
+            "email": "docente049@example.invalid",
+            "departamento": "Ingeniería Informática",
+            "cursos_asignados": [
+                "DTP-301"
+            ]
+        },
+        {
+            "id": 59,
+            "username": "docente050",
+            "nombre_completo": "Vanessa Mamani Mamani",
+            "codigo_docente": "DOC-UATF-1050",
+            "email": "docente050@example.invalid",
+            "departamento": "Auditoría - Contaduría Pública",
+            "cursos_asignados": [
+                "DTP-302"
+            ]
+        },
+        {
+            "id": 60,
+            "username": "docente051",
+            "nombre_completo": "Carlos Vargas Torres",
+            "codigo_docente": "DOC-UATF-1051",
+            "email": "docente051@example.invalid",
+            "departamento": "Administración de Empresas",
+            "cursos_asignados": [
+                "MED-105"
+            ]
+        },
+        {
+            "id": 61,
+            "username": "docente052",
+            "nombre_completo": "Sofía Delgado Pinto",
+            "codigo_docente": "DOC-UATF-1052",
+            "email": "docente052@example.invalid",
+            "departamento": "Economía",
+            "cursos_asignados": [
+                "MED-201"
+            ]
+        },
+        {
+            "id": 62,
+            "username": "docente053",
+            "nombre_completo": "Christian Paredes Flores",
+            "codigo_docente": "DOC-UATF-1053",
+            "email": "docente053@example.invalid",
+            "departamento": "Ingeniería Comercial",
+            "cursos_asignados": [
+                "AGR-202"
+            ]
+        },
+        {
+            "id": 63,
+            "username": "docente054",
+            "nombre_completo": "Silvia Quispe Cruz",
+            "codigo_docente": "DOC-UATF-1054",
+            "email": "docente054@example.invalid",
+            "departamento": "Derecho",
+            "cursos_asignados": [
+                "AGR-301"
+            ]
+        },
+        {
+            "id": 64,
+            "username": "docente055",
+            "nombre_completo": "Jorge Rojas Villca",
+            "codigo_docente": "DOC-UATF-1055",
+            "email": "docente055@example.invalid",
+            "departamento": "Medicina",
+            "cursos_asignados": [
+                "PMM-101"
+            ]
+        },
+        {
+            "id": 65,
+            "username": "docente056",
+            "nombre_completo": "Cecilia Aguilar Quispe",
+            "codigo_docente": "DOC-UATF-1056",
+            "email": "docente056@example.invalid",
+            "departamento": "Enfermería",
+            "cursos_asignados": [
+                "PMM-301"
+            ]
+        },
+        {
+            "id": 66,
+            "username": "docente057",
+            "nombre_completo": "Andrés Aruquipa Castro",
+            "codigo_docente": "DOC-UATF-1057",
+            "email": "docente057@example.invalid",
+            "departamento": "Ingeniería Civil",
+            "cursos_asignados": [
+                "CIV-512"
+            ]
+        },
+        {
+            "id": 67,
+            "username": "docente058",
+            "nombre_completo": "Camila Rodríguez Callisaya",
+            "codigo_docente": "DOC-UATF-1058",
+            "email": "docente058@example.invalid",
+            "departamento": "Ingeniería Minera",
+            "cursos_asignados": [
+                "CIV-521"
+            ]
+        },
+        {
+            "id": 68,
+            "username": "docente059",
+            "nombre_completo": "David Torres Condori",
+            "codigo_docente": "DOC-UATF-1059",
+            "email": "docente059@example.invalid",
+            "departamento": "Ingeniería Geológica",
+            "cursos_asignados": [
+                "CIV-522"
+            ]
+        },
+        {
+            "id": 69,
+            "username": "docente060",
+            "nombre_completo": "Monica Medina Romero",
+            "codigo_docente": "DOC-UATF-1060",
+            "email": "docente060@example.invalid",
+            "departamento": "Ingeniería Electrónica",
+            "cursos_asignados": [
+                "MED-205"
+            ]
+        },
+        {
+            "id": 70,
+            "username": "docente061",
+            "nombre_completo": "Erick Apaza Choque",
+            "codigo_docente": "DOC-UATF-1061",
+            "email": "docente061@example.invalid",
+            "departamento": "Ingeniería Mecánica",
+            "cursos_asignados": [
+                "MED-204"
+            ]
+        },
+        {
+            "id": 71,
+            "username": "docente062",
+            "nombre_completo": "Gladys García Rodríguez",
+            "codigo_docente": "DOC-UATF-1062",
+            "email": "docente062@example.invalid",
+            "departamento": "Turismo",
+            "cursos_asignados": [
+                "CIV-523"
+            ]
+        },
+        {
+            "id": 72,
+            "username": "docente063",
+            "nombre_completo": "Lucas Castro Álvarez",
+            "codigo_docente": "DOC-UATF-1063",
+            "email": "docente063@example.invalid",
+            "departamento": "Lingüística e Idiomas",
+            "cursos_asignados": [
+                "CIV-524"
+            ]
+        },
+        {
+            "id": 73,
+            "username": "docente064",
+            "nombre_completo": "Paola Cabrera Colque",
+            "codigo_docente": "DOC-UATF-1064",
+            "email": "docente064@example.invalid",
+            "departamento": "Ingeniería de Sistemas",
+            "cursos_asignados": [
+                "CCV-102"
+            ]
+        },
+        {
+            "id": 74,
+            "username": "docente065",
+            "nombre_completo": "René Villegas López",
+            "codigo_docente": "DOC-UATF-1065",
+            "email": "docente065@example.invalid",
+            "departamento": "Ingeniería Informática",
+            "cursos_asignados": [
+                "AGR-302"
+            ]
+        },
+        {
+            "id": 75,
+            "username": "docente066",
+            "nombre_completo": "Jessica Fernández Ruiz",
+            "codigo_docente": "DOC-UATF-1066",
+            "email": "docente066@example.invalid",
+            "departamento": "Auditoría - Contaduría Pública",
+            "cursos_asignados": [
+                "AGR-501"
+            ]
+        },
+        {
+            "id": 76,
+            "username": "docente067",
+            "nombre_completo": "Gonzalo Álvarez Paredes",
+            "codigo_docente": "DOC-UATF-1067",
+            "email": "docente067@example.invalid",
+            "departamento": "Administración de Empresas",
+            "cursos_asignados": [
+                "CCV-101"
+            ]
+        },
+        {
+            "id": 77,
+            "username": "docente068",
+            "nombre_completo": "Erika Pinto García",
+            "codigo_docente": "DOC-UATF-1068",
+            "email": "docente068@example.invalid",
+            "departamento": "Economía",
+            "cursos_asignados": [
+                "PMM-401"
+            ]
+        },
+        {
+            "id": 78,
+            "username": "docente069",
+            "nombre_completo": "Félix Miranda Suárez",
+            "codigo_docente": "DOC-UATF-1069",
+            "email": "docente069@example.invalid",
+            "departamento": "Ingeniería Comercial",
+            "cursos_asignados": [
+                "PMM-302"
+            ]
+        },
+        {
+            "id": 79,
+            "username": "docente070",
+            "nombre_completo": "Patricia Gutiérrez Ticona",
+            "codigo_docente": "DOC-UATF-1070",
+            "email": "docente070@example.invalid",
+            "departamento": "Derecho",
+            "cursos_asignados": [
+                "PMM-402"
+            ]
+        },
+        {
+            "id": 80,
+            "username": "docente071",
+            "nombre_completo": "Hugo Suárez Pérez",
+            "codigo_docente": "DOC-UATF-1071",
+            "email": "docente071@example.invalid",
+            "departamento": "Medicina",
+            "cursos_asignados": [
+                "MED-202"
+            ]
+        },
+        {
+            "id": 81,
+            "username": "docente072",
+            "nombre_completo": "Ximena Callisaya Salazar",
+            "codigo_docente": "DOC-UATF-1072",
+            "email": "docente072@example.invalid",
+            "departamento": "Enfermería",
+            "cursos_asignados": [
+                "MED-203"
+            ]
+        },
+        {
+            "id": 82,
+            "username": "docente073",
+            "nombre_completo": "Pedro Valenzuela Aruquipa",
+            "codigo_docente": "DOC-UATF-1073",
+            "email": "docente073@example.invalid",
+            "departamento": "Ingeniería Civil",
+            "cursos_asignados": [
+                "MED-301"
+            ]
+        },
+        {
+            "id": 83,
+            "username": "docente074",
+            "nombre_completo": "Noemí Ramos Fernández",
+            "codigo_docente": "DOC-UATF-1074",
+            "email": "docente074@example.invalid",
+            "departamento": "Ingeniería Minera",
+            "cursos_asignados": [
+                "AGR-401"
+            ]
+        },
+        {
+            "id": 84,
+            "username": "docente075",
+            "nombre_completo": "Marcos Ortega Ortega",
+            "codigo_docente": "DOC-UATF-1075",
+            "email": "docente075@example.invalid",
+            "departamento": "Ingeniería Geológica",
+            "cursos_asignados": [
+                "AGR-402"
+            ]
+        },
+        {
+            "id": 85,
+            "username": "docente076",
+            "nombre_completo": "Andrea Colque Huanca",
+            "codigo_docente": "DOC-UATF-1076",
+            "email": "docente076@example.invalid",
+            "departamento": "Ingeniería Electrónica",
+            "cursos_asignados": [
+                "AGR-502"
+            ]
+        },
+        {
+            "id": 86,
+            "username": "docente077",
+            "nombre_completo": "Alejandro Flores Gonzales",
+            "codigo_docente": "DOC-UATF-1077",
+            "email": "docente077@example.invalid",
+            "departamento": "Ingeniería Mecánica",
+            "cursos_asignados": [
+                "CCV-301"
+            ]
+        },
+        {
+            "id": 87,
+            "username": "docente078",
+            "nombre_completo": "Lorena Morales Delgado",
+            "codigo_docente": "DOC-UATF-1078",
+            "email": "docente078@example.invalid",
+            "departamento": "Turismo",
+            "cursos_asignados": [
+                "CCV-201"
+            ]
+        },
+        {
+            "id": 88,
+            "username": "docente079",
+            "nombre_completo": "Gustavo Ortiz Apaza",
+            "codigo_docente": "DOC-UATF-1079",
+            "email": "docente079@example.invalid",
+            "departamento": "Lingüística e Idiomas",
+            "cursos_asignados": [
+                "PMM-501"
+            ]
+        },
+        {
+            "id": 89,
+            "username": "docente080",
+            "nombre_completo": "María Ticona Gutiérrez",
+            "codigo_docente": "DOC-UATF-1080",
+            "email": "docente080@example.invalid",
+            "departamento": "Ingeniería de Sistemas",
+            "cursos_asignados": [
+                "PMM-303"
+            ]
+        },
+        {
+            "id": 90,
+            "username": "docente081",
+            "nombre_completo": "Álvaro Condori Ortiz",
+            "codigo_docente": "DOC-UATF-1081",
+            "email": "docente081@example.invalid",
+            "departamento": "Ingeniería Informática",
+            "cursos_asignados": [
+                "AGV-101"
+            ]
+        },
+        {
+            "id": 91,
+            "username": "docente082",
+            "nombre_completo": "Natalia Mendoza Tarqui",
+            "codigo_docente": "DOC-UATF-1082",
+            "email": "docente082@example.invalid",
+            "departamento": "Auditoría - Contaduría Pública",
+            "cursos_asignados": [
+                "AGV-201"
+            ]
+        },
+        {
+            "id": 92,
+            "username": "docente083",
+            "nombre_completo": "Boris Guzmán Chávez",
+            "codigo_docente": "DOC-UATF-1083",
+            "email": "docente083@example.invalid",
+            "departamento": "Administración de Empresas",
+            "cursos_asignados": [
+                "MED-305"
+            ]
+        },
+        {
+            "id": 93,
+            "username": "docente084",
+            "nombre_completo": "Mariana Huanca Aguilar",
+            "codigo_docente": "DOC-UATF-1084",
+            "email": "docente084@example.invalid",
+            "departamento": "Economía",
+            "cursos_asignados": [
+                "MED-304"
+            ]
+        },
+        {
+            "id": 94,
+            "username": "docente085",
+            "nombre_completo": "Gabriel López Villegas",
+            "codigo_docente": "DOC-UATF-1085",
+            "email": "docente085@example.invalid",
+            "departamento": "Ingeniería Comercial",
+            "cursos_asignados": [
+                "MED-302"
+            ]
+        },
+        {
+            "id": 95,
+            "username": "docente086",
+            "nombre_completo": "Laura Cruz Ramos",
+            "codigo_docente": "DOC-UATF-1086",
+            "email": "docente086@example.invalid",
+            "departamento": "Derecho",
+            "cursos_asignados": [
+                "PMM-504"
+            ]
+        },
+        {
+            "id": 96,
+            "username": "docente087",
+            "nombre_completo": "Edgar Silva Guzmán",
+            "codigo_docente": "DOC-UATF-1087",
+            "email": "docente087@example.invalid",
+            "departamento": "Medicina",
+            "cursos_asignados": [
+                "AGV-301"
+            ]
+        },
+        {
+            "id": 97,
+            "username": "docente088",
+            "nombre_completo": "Rosa Tarqui Peña",
+            "codigo_docente": "DOC-UATF-1088",
+            "email": "docente088@example.invalid",
+            "departamento": "Enfermería",
+            "cursos_asignados": [
+                "AGV-401"
+            ]
+        },
+        {
+            "id": 98,
+            "username": "docente089",
+            "nombre_completo": "Víctor Pérez Vargas",
+            "codigo_docente": "DOC-UATF-1089",
+            "email": "docente089@example.invalid",
+            "departamento": "Ingeniería Civil",
+            "cursos_asignados": [
+                "AGV-501"
+            ]
+        },
+        {
+            "id": 99,
+            "username": "docente090",
+            "nombre_completo": "Vanessa Romero Medina",
+            "codigo_docente": "DOC-UATF-1090",
+            "email": "docente090@example.invalid",
+            "departamento": "Ingeniería Minera",
+            "cursos_asignados": [
+                "CCV-202"
+            ]
+        },
+        {
+            "id": 100,
+            "username": "docente091",
+            "nombre_completo": "Carlos Navarro Miranda",
+            "codigo_docente": "DOC-UATF-1091",
+            "email": "docente091@example.invalid",
+            "departamento": "Ingeniería Geológica",
+            "cursos_asignados": [
+                "CCV-302"
+            ]
+        },
+        {
+            "id": 101,
+            "username": "docente092",
+            "nombre_completo": "Sofía Peña Morales",
+            "codigo_docente": "DOC-UATF-1092",
+            "email": "docente092@example.invalid",
+            "departamento": "Ingeniería Electrónica",
+            "cursos_asignados": [
+                "CCV-401"
+            ]
+        },
+        {
+            "id": 102,
+            "username": "docente093",
+            "nombre_completo": "Christian Gonzales Silva",
+            "codigo_docente": "DOC-UATF-1093",
+            "email": "docente093@example.invalid",
+            "departamento": "Ingeniería Mecánica",
+            "cursos_asignados": [
+                "PMM-403"
+            ]
+        },
+        {
+            "id": 103,
+            "username": "docente094",
+            "nombre_completo": "Silvia Ruiz Benítez",
+            "codigo_docente": "DOC-UATF-1094",
+            "email": "docente094@example.invalid",
+            "departamento": "Turismo",
+            "cursos_asignados": [
+                "PMM-404"
+            ]
+        },
+        {
+            "id": 104,
+            "username": "docente095",
+            "nombre_completo": "Jorge Villca Rojas",
+            "codigo_docente": "DOC-UATF-1095",
+            "email": "docente095@example.invalid",
+            "departamento": "Lingüística e Idiomas",
+            "cursos_asignados": [
+                "PMM-502"
+            ]
+        },
+        {
+            "id": 105,
+            "username": "docente096",
+            "nombre_completo": "Cecilia Benítez Cabrera",
+            "codigo_docente": "DOC-UATF-1096",
+            "email": "docente096@example.invalid",
+            "departamento": "Ingeniería de Sistemas",
+            "cursos_asignados": [
+                "PMM-503"
+            ]
+        },
+        {
+            "id": 106,
+            "username": "docente097",
+            "nombre_completo": "Andrés Chávez Valenzuela",
+            "codigo_docente": "DOC-UATF-1097",
+            "email": "docente097@example.invalid",
+            "departamento": "Ingeniería Informática",
+            "cursos_asignados": [
+                "MVZ-101"
+            ]
+        },
+        {
+            "id": 107,
+            "username": "docente098",
+            "nombre_completo": "Camila Salazar Mendoza",
+            "codigo_docente": "DOC-UATF-1098",
+            "email": "docente098@example.invalid",
+            "departamento": "Auditoría - Contaduría Pública",
+            "cursos_asignados": [
+                "MED-303"
+            ]
+        },
+        {
+            "id": 108,
+            "username": "docente099",
+            "nombre_completo": "David Choque Navarro",
+            "codigo_docente": "DOC-UATF-1099",
+            "email": "docente099@example.invalid",
+            "departamento": "Administración de Empresas",
+            "cursos_asignados": [
+                "MED-401"
+            ]
+        },
+        {
+            "id": 109,
+            "username": "docente100",
+            "nombre_completo": "Monica Mamani Mamani",
+            "codigo_docente": "DOC-UATF-1100",
+            "email": "docente100@example.invalid",
+            "departamento": "Economía",
+            "cursos_asignados": [
+                "GEO-201"
+            ]
+        },
+        {
+            "id": 110,
+            "username": "docente101",
+            "nombre_completo": "Erick Vargas Torres",
+            "codigo_docente": "DOC-UATF-1101",
+            "email": "docente101@example.invalid",
+            "departamento": "Ingeniería Comercial",
+            "cursos_asignados": [
+                "GEO-101"
+            ]
+        },
+        {
+            "id": 111,
+            "username": "docente102",
+            "nombre_completo": "Gladys Delgado Pinto",
+            "codigo_docente": "DOC-UATF-1102",
+            "email": "docente102@example.invalid",
+            "departamento": "Derecho",
+            "cursos_asignados": [
+                "CCV-402"
+            ]
+        },
+        {
+            "id": 112,
+            "username": "docente103",
+            "nombre_completo": "Lucas Paredes Flores",
+            "codigo_docente": "DOC-UATF-1103",
+            "email": "docente103@example.invalid",
+            "departamento": "Medicina",
+            "cursos_asignados": [
+                "CCV-501"
+            ]
+        },
+        {
+            "id": 113,
+            "username": "docente104",
+            "nombre_completo": "Paola Quispe Cruz",
+            "codigo_docente": "DOC-UATF-1104",
+            "email": "docente104@example.invalid",
+            "departamento": "Enfermería",
+            "cursos_asignados": [
+                "CCV-502"
+            ]
+        },
+        {
+            "id": 114,
+            "username": "docente105",
+            "nombre_completo": "René Rojas Villca",
+            "codigo_docente": "DOC-UATF-1105",
+            "email": "docente105@example.invalid",
+            "departamento": "Ingeniería Civil",
+            "cursos_asignados": [
+                "MVZ-201"
+            ]
+        },
+        {
+            "id": 115,
+            "username": "docente106",
+            "nombre_completo": "Jessica Aguilar Quispe",
+            "codigo_docente": "DOC-UATF-1106",
+            "email": "docente106@example.invalid",
+            "departamento": "Ingeniería Minera",
+            "cursos_asignados": [
+                "MVZ-301"
+            ]
+        },
+        {
+            "id": 116,
+            "username": "docente107",
+            "nombre_completo": "Gonzalo Aruquipa Castro",
+            "codigo_docente": "DOC-UATF-1107",
+            "email": "docente107@example.invalid",
+            "departamento": "Ingeniería Geológica",
+            "cursos_asignados": [
+                "GYT-101"
+            ]
+        },
+        {
+            "id": 117,
+            "username": "docente108",
+            "nombre_completo": "Erika Rodríguez Callisaya",
+            "codigo_docente": "DOC-UATF-1108",
+            "email": "docente108@example.invalid",
+            "departamento": "Ingeniería Electrónica",
+            "cursos_asignados": [
+                "MED-404"
+            ]
+        },
+        {
+            "id": 118,
+            "username": "docente109",
+            "nombre_completo": "Félix Torres Condori",
+            "codigo_docente": "DOC-UATF-1109",
+            "email": "docente109@example.invalid",
+            "departamento": "Ingeniería Mecánica",
+            "cursos_asignados": [
+                "MED-402"
+            ]
+        },
+        {
+            "id": 119,
+            "username": "docente110",
+            "nombre_completo": "Patricia Medina Romero",
+            "codigo_docente": "DOC-UATF-1110",
+            "email": "docente110@example.invalid",
+            "departamento": "Turismo",
+            "cursos_asignados": [
+                "MED-403"
+            ]
+        },
+        {
+            "id": 120,
+            "username": "docente111",
+            "nombre_completo": "Hugo Apaza Choque",
+            "codigo_docente": "DOC-UATF-1111",
+            "email": "docente111@example.invalid",
+            "departamento": "Lingüística e Idiomas",
+            "cursos_asignados": [
+                "GEO-102"
+            ]
+        },
+        {
+            "id": 121,
+            "username": "docente112",
+            "nombre_completo": "Ximena García Rodríguez",
+            "codigo_docente": "DOC-UATF-1112",
+            "email": "docente112@example.invalid",
+            "departamento": "Ingeniería de Sistemas",
+            "cursos_asignados": [
+                "GEO-202"
+            ]
+        },
+        {
+            "id": 122,
+            "username": "docente113",
+            "nombre_completo": "Pedro Castro Álvarez",
+            "codigo_docente": "DOC-UATF-1113",
+            "email": "docente113@example.invalid",
+            "departamento": "Ingeniería Informática",
+            "cursos_asignados": [
+                "GEO-301"
+            ]
+        },
+        {
+            "id": 123,
+            "username": "docente114",
+            "nombre_completo": "Noemí Cabrera Colque",
+            "codigo_docente": "DOC-UATF-1114",
+            "email": "docente114@example.invalid",
+            "departamento": "Auditoría - Contaduría Pública",
+            "cursos_asignados": [
+                "GEO-302"
+            ]
+        },
+        {
+            "id": 124,
+            "username": "docente115",
+            "nombre_completo": "Marcos Villegas López",
+            "codigo_docente": "DOC-UATF-1115",
+            "email": "docente115@example.invalid",
+            "departamento": "Administración de Empresas",
+            "cursos_asignados": [
+                "MVZ-401"
+            ]
+        },
+        {
+            "id": 125,
+            "username": "docente116",
+            "nombre_completo": "Andrea Fernández Ruiz",
+            "codigo_docente": "DOC-UATF-1116",
+            "email": "docente116@example.invalid",
+            "departamento": "Economía",
+            "cursos_asignados": [
+                "GEO-303"
+            ]
+        },
+        {
+            "id": 126,
+            "username": "docente117",
+            "nombre_completo": "Alejandro Álvarez Paredes",
+            "codigo_docente": "DOC-UATF-1117",
+            "email": "docente117@example.invalid",
+            "departamento": "Ingeniería Comercial",
+            "cursos_asignados": [
+                "GEO-401"
+            ]
+        },
+        {
+            "id": 127,
+            "username": "docente118",
+            "nombre_completo": "Lorena Pinto García",
+            "codigo_docente": "DOC-UATF-1118",
+            "email": "docente118@example.invalid",
+            "departamento": "Derecho",
+            "cursos_asignados": [
+                "GEO-402"
+            ]
+        },
+        {
+            "id": 128,
+            "username": "docente119",
+            "nombre_completo": "Gustavo Miranda Suárez",
+            "codigo_docente": "DOC-UATF-1119",
+            "email": "docente119@example.invalid",
+            "departamento": "Medicina",
+            "cursos_asignados": [
+                "MVZ-501"
+            ]
+        },
+        {
+            "id": 129,
+            "username": "docente120",
+            "nombre_completo": "María Gutiérrez Ticona",
+            "codigo_docente": "DOC-UATF-1120",
+            "email": "docente120@example.invalid",
+            "departamento": "Enfermería",
+            "cursos_asignados": [
+                "AGI-301"
+            ]
+        },
+        {
+            "id": 130,
+            "username": "docente121",
+            "nombre_completo": "Álvaro Suárez Pérez",
+            "codigo_docente": "DOC-UATF-1121",
+            "email": "docente121@example.invalid",
+            "departamento": "Ingeniería Civil",
+            "cursos_asignados": [
+                "AGI-101"
+            ]
+        },
+        {
+            "id": 131,
+            "username": "docente122",
+            "nombre_completo": "Natalia Callisaya Salazar",
+            "codigo_docente": "DOC-UATF-1122",
+            "email": "docente122@example.invalid",
+            "departamento": "Ingeniería Minera",
+            "cursos_asignados": [
+                "MED-410"
+            ]
+        },
+        {
+            "id": 132,
+            "username": "docente123",
+            "nombre_completo": "Boris Valenzuela Aruquipa",
+            "codigo_docente": "DOC-UATF-1123",
+            "email": "docente123@example.invalid",
+            "departamento": "Ingeniería Geológica",
+            "cursos_asignados": [
+                "MED-409"
+            ]
+        },
+        {
+            "id": 133,
+            "username": "docente124",
+            "nombre_completo": "Mariana Ramos Fernández",
+            "codigo_docente": "DOC-UATF-1124",
+            "email": "docente124@example.invalid",
+            "departamento": "Ingeniería Electrónica",
+            "cursos_asignados": [
+                "MED-405"
+            ]
+        },
+        {
+            "id": 134,
+            "username": "docente125",
+            "nombre_completo": "Gabriel Ortega Ortega",
+            "codigo_docente": "DOC-UATF-1125",
+            "email": "docente125@example.invalid",
+            "departamento": "Ingeniería Mecánica",
+            "cursos_asignados": [
+                "AGI-201"
+            ]
+        },
+        {
+            "id": 135,
+            "username": "docente126",
+            "nombre_completo": "Laura Colque Huanca",
+            "codigo_docente": "DOC-UATF-1126",
+            "email": "docente126@example.invalid",
+            "departamento": "Turismo",
+            "cursos_asignados": [
+                "AGI-401"
+            ]
+        },
+        {
+            "id": 136,
+            "username": "docente127",
+            "nombre_completo": "Edgar Flores Gonzales",
+            "codigo_docente": "DOC-UATF-1127",
+            "email": "docente127@example.invalid",
+            "departamento": "Lingüística e Idiomas",
+            "cursos_asignados": [
+                "GEO-501"
+            ]
+        },
+        {
+            "id": 137,
+            "username": "docente128",
+            "nombre_completo": "Rosa Morales Delgado",
+            "codigo_docente": "DOC-UATF-1128",
+            "email": "docente128@example.invalid",
+            "departamento": "Ingeniería de Sistemas",
+            "cursos_asignados": [
+                "GEO-403"
+            ]
+        },
+        {
+            "id": 138,
+            "username": "docente129",
+            "nombre_completo": "Víctor Ortiz Apaza",
+            "codigo_docente": "DOC-UATF-1129",
+            "email": "docente129@example.invalid",
+            "departamento": "Ingeniería Informática",
+            "cursos_asignados": [
+                "AGI-501"
+            ]
+        },
+        {
+            "id": 139,
+            "username": "docente130",
+            "nombre_completo": "Vanessa Ticona Gutiérrez",
+            "codigo_docente": "DOC-UATF-1130",
+            "email": "docente130@example.invalid",
+            "departamento": "Auditoría - Contaduría Pública",
+            "cursos_asignados": [
+                "IDR-101"
+            ]
+        },
+        {
+            "id": 140,
+            "username": "docente131",
+            "nombre_completo": "Carlos Condori Ortiz",
+            "codigo_docente": "DOC-UATF-1131",
+            "email": "docente131@example.invalid",
+            "departamento": "Administración de Empresas",
+            "cursos_asignados": [
+                "IDR-201"
+            ]
+        },
+        {
+            "id": 141,
+            "username": "docente132",
+            "nombre_completo": "Sofía Mendoza Tarqui",
+            "codigo_docente": "DOC-UATF-1132",
+            "email": "docente132@example.invalid",
+            "departamento": "Economía",
+            "cursos_asignados": [
+                "IDR-401"
+            ]
+        },
+        {
+            "id": 142,
+            "username": "docente133",
+            "nombre_completo": "Christian Guzmán Chávez",
+            "codigo_docente": "DOC-UATF-1133",
+            "email": "docente133@example.invalid",
+            "departamento": "Ingeniería Comercial",
+            "cursos_asignados": [
+                "MED-406"
+            ]
+        },
+        {
+            "id": 143,
+            "username": "docente134",
+            "nombre_completo": "Silvia Huanca Aguilar",
+            "codigo_docente": "DOC-UATF-1134",
+            "email": "docente134@example.invalid",
+            "departamento": "Derecho",
+            "cursos_asignados": [
+                "MED-407"
+            ]
+        },
+        {
+            "id": 144,
+            "username": "docente135",
+            "nombre_completo": "Jorge López Villegas",
+            "codigo_docente": "DOC-UATF-1135",
+            "email": "docente135@example.invalid",
+            "departamento": "Medicina",
+            "cursos_asignados": [
+                "MED-408"
+            ]
+        },
+        {
+            "id": 145,
+            "username": "docente136",
+            "nombre_completo": "Cecilia Cruz Ramos",
+            "codigo_docente": "DOC-UATF-1136",
+            "email": "docente136@example.invalid",
+            "departamento": "Enfermería",
+            "cursos_asignados": [
+                "MED-501"
+            ]
+        },
+        {
+            "id": 146,
+            "username": "docente137",
+            "nombre_completo": "Andrés Silva Guzmán",
+            "codigo_docente": "DOC-UATF-1137",
+            "email": "docente137@example.invalid",
+            "departamento": "Ingeniería Civil",
+            "cursos_asignados": [
+                "MED-502"
+            ]
+        },
+        {
+            "id": 147,
+            "username": "docente138",
+            "nombre_completo": "Camila Tarqui Peña",
+            "codigo_docente": "DOC-UATF-1138",
+            "email": "docente138@example.invalid",
+            "departamento": "Ingeniería Minera",
+            "cursos_asignados": [
+                "GEO-502"
+            ]
+        },
+        {
+            "id": 148,
+            "username": "docente139",
+            "nombre_completo": "David Pérez Vargas",
+            "codigo_docente": "DOC-UATF-1139",
+            "email": "docente139@example.invalid",
+            "departamento": "Ingeniería Geológica",
+            "cursos_asignados": [
+                "GEO-404"
+            ]
+        },
+        {
+            "id": 149,
+            "username": "docente140",
+            "nombre_completo": "Monica Romero Medina",
+            "codigo_docente": "DOC-UATF-1140",
+            "email": "docente140@example.invalid",
+            "departamento": "Ingeniería Electrónica",
+            "cursos_asignados": [
+                "IDR-301"
+            ]
+        },
+        {
+            "id": 150,
+            "username": "docente141",
+            "nombre_completo": "Erick Navarro Miranda",
+            "codigo_docente": "DOC-UATF-1141",
+            "email": "docente141@example.invalid",
+            "departamento": "Ingeniería Mecánica",
+            "cursos_asignados": [
+                "IDR-501"
+            ]
+        },
+        {
+            "id": 151,
+            "username": "docente142",
+            "nombre_completo": "Gladys Peña Morales",
+            "codigo_docente": "DOC-UATF-1142",
+            "email": "docente142@example.invalid",
+            "departamento": "Turismo",
+            "cursos_asignados": [
+                "MED-503"
+            ]
+        },
+        {
+            "id": 152,
+            "username": "docente143",
+            "nombre_completo": "Lucas Gonzales Silva",
+            "codigo_docente": "DOC-UATF-1143",
+            "email": "docente143@example.invalid",
+            "departamento": "Lingüística e Idiomas",
+            "cursos_asignados": [
+                "MED-504"
+            ]
+        },
+        {
+            "id": 153,
+            "username": "docente144",
+            "nombre_completo": "Paola Ruiz Benítez",
+            "codigo_docente": "DOC-UATF-1144",
+            "email": "docente144@example.invalid",
+            "departamento": "Ingeniería de Sistemas",
+            "cursos_asignados": [
+                "ARQ-401"
+            ]
+        },
+        {
+            "id": 154,
+            "username": "docente145",
+            "nombre_completo": "René Villca Rojas",
+            "codigo_docente": "DOC-UATF-1145",
+            "email": "docente145@example.invalid",
+            "departamento": "Ingeniería Informática",
+            "cursos_asignados": [
+                "ARQ-201"
+            ]
+        },
+        {
+            "id": 155,
+            "username": "docente146",
+            "nombre_completo": "Jessica Benítez Cabrera",
+            "codigo_docente": "DOC-UATF-1146",
+            "email": "docente146@example.invalid",
+            "departamento": "Auditoría - Contaduría Pública",
+            "cursos_asignados": [
+                "ARQ-101"
+            ]
+        },
+        {
+            "id": 156,
+            "username": "docente147",
+            "nombre_completo": "Gonzalo Chávez Valenzuela",
+            "codigo_docente": "DOC-UATF-1147",
+            "email": "docente147@example.invalid",
+            "departamento": "Administración de Empresas",
+            "cursos_asignados": [
+                "GEO-503"
+            ]
+        },
+        {
+            "id": 157,
+            "username": "docente148",
+            "nombre_completo": "Erika Salazar Mendoza",
+            "codigo_docente": "DOC-UATF-1148",
+            "email": "docente148@example.invalid",
+            "departamento": "Economía",
+            "cursos_asignados": [
+                "ARQ-301"
+            ]
+        },
+        {
+            "id": 158,
+            "username": "docente149",
+            "nombre_completo": "Félix Choque Navarro",
+            "codigo_docente": "DOC-UATF-1149",
+            "email": "docente149@example.invalid",
+            "departamento": "Ingeniería Comercial",
+            "cursos_asignados": [
+                "ARQ-501"
+            ]
+        },
+        {
+            "id": 159,
+            "username": "docente150",
+            "nombre_completo": "Patricia Mamani Mamani",
+            "codigo_docente": "DOC-UATF-1150",
+            "email": "docente150@example.invalid",
+            "departamento": "Derecho",
+            "cursos_asignados": [
+                "AMB-301"
+            ]
+        }
+    ],
+    "muestra_estudiantes": [
+        {
+            "id": 5,
+            "username": "estudiante1",
+            "nombre_completo": "Mateo Morales",
+            "codigo_estudiante": "",
+            "email": "estudiante1.audit@laboratorio.local",
+            "departamento": ""
+        },
+        {
+            "id": 6,
+            "username": "estudiante2",
+            "nombre_completo": "Sofía Benítez",
+            "codigo_estudiante": "",
+            "email": "estudiante2.audit@laboratorio.local",
+            "departamento": ""
+        },
+        {
+            "id": 7,
+            "username": "estudiante3",
+            "nombre_completo": "Lucas Fernández",
+            "codigo_estudiante": "",
+            "email": "estudiante3.audit@laboratorio.local",
+            "departamento": ""
+        },
+        {
+            "id": 8,
+            "username": "estudiante4",
+            "nombre_completo": "Valentina Cruz",
+            "codigo_estudiante": "",
+            "email": "estudiante4.audit@laboratorio.local",
+            "departamento": ""
+        },
+        {
+            "id": 9,
+            "username": "estudiante5",
+            "nombre_completo": "Joaquín Silva",
+            "codigo_estudiante": "",
+            "email": "estudiante5.audit@laboratorio.local",
+            "departamento": ""
+        },
+        {
+            "id": 160,
+            "username": "estudiante0001",
+            "nombre_completo": "Jorge Pérez Chávez",
+            "codigo_estudiante": "RU-2023-10001",
+            "email": "estudiante0001@example.invalid",
+            "departamento": "Ingeniería Informática (Cohorte 2023)"
+        },
+        {
+            "id": 161,
+            "username": "estudiante0002",
+            "nombre_completo": "Camila Morales Ruiz",
+            "codigo_estudiante": "RU-2024-10002",
+            "email": "estudiante0002@example.invalid",
+            "departamento": "Auditoría - Contaduría Pública (Cohorte 2024)"
+        },
+        {
+            "id": 162,
+            "username": "estudiante0003",
+            "nombre_completo": "Gabriel Álvarez Navarro",
+            "codigo_estudiante": "RU-2025-10003",
+            "email": "estudiante0003@example.invalid",
+            "departamento": "Administración de Empresas (Cohorte 2025)"
+        },
+        {
+            "id": 163,
+            "username": "estudiante0004",
+            "nombre_completo": "Andrea Aguilar Tarqui",
+            "codigo_estudiante": "RU-2026-10004",
+            "email": "estudiante0004@example.invalid",
+            "departamento": "Economía (Cohorte 2026)"
+        },
+        {
+            "id": 164,
+            "username": "estudiante0005",
+            "nombre_completo": "Marcos Villca López",
+            "codigo_estudiante": "RU-2022-10005",
+            "email": "estudiante0005@example.invalid",
+            "departamento": "Ingeniería Comercial (Cohorte 2022)"
+        },
+        {
+            "id": 165,
+            "username": "estudiante0006",
+            "nombre_completo": "Silvia Huanca Mendoza",
+            "codigo_estudiante": "RU-2023-10006",
+            "email": "estudiante0006@example.invalid",
+            "departamento": "Derecho (Cohorte 2023)"
+        },
+        {
+            "id": 166,
+            "username": "estudiante0007",
+            "nombre_completo": "René Valenzuela Ortiz",
+            "codigo_estudiante": "RU-2024-10007",
+            "email": "estudiante0007@example.invalid",
+            "departamento": "Medicina (Cohorte 2024)"
+        },
+        {
+            "id": 167,
+            "username": "estudiante0008",
+            "nombre_completo": "Ximena García Colque",
+            "codigo_estudiante": "RU-2025-10008",
+            "email": "estudiante0008@example.invalid",
+            "departamento": "Enfermería (Cohorte 2025)"
+        },
+        {
+            "id": 168,
+            "username": "estudiante0009",
+            "nombre_completo": "Jorge Vargas Valenzuela",
+            "codigo_estudiante": "RU-2026-10009",
+            "email": "estudiante0009@example.invalid",
+            "departamento": "Ingeniería Civil (Cohorte 2026)"
+        },
+        {
+            "id": 169,
+            "username": "estudiante0010",
+            "nombre_completo": "Vanessa Romero Gutiérrez",
+            "codigo_estudiante": "RU-2022-10010",
+            "email": "estudiante0010@example.invalid",
+            "departamento": "Ingeniería Minera (Cohorte 2022)"
+        },
+        {
+            "id": 170,
+            "username": "estudiante0011",
+            "nombre_completo": "Gabriel Ortiz Álvarez",
+            "codigo_estudiante": "RU-2023-10011",
+            "email": "estudiante0011@example.invalid",
+            "departamento": "Ingeniería Geológica (Cohorte 2023)"
+        },
+        {
+            "id": 171,
+            "username": "estudiante0012",
+            "nombre_completo": "Erika Pinto Cabrera",
+            "codigo_estudiante": "RU-2024-10012",
+            "email": "estudiante0012@example.invalid",
+            "departamento": "Ingeniería Electrónica (Cohorte 2024)"
+        },
+        {
+            "id": 172,
+            "username": "estudiante0013",
+            "nombre_completo": "Marcos Aruquipa Apaza",
+            "codigo_estudiante": "RU-2025-10013",
+            "email": "estudiante0013@example.invalid",
+            "departamento": "Ingeniería Mecánica (Cohorte 2025)"
+        },
+        {
+            "id": 173,
+            "username": "estudiante0014",
+            "nombre_completo": "Laura Benítez Rodríguez",
+            "codigo_estudiante": "RU-2026-10014",
+            "email": "estudiante0014@example.invalid",
+            "departamento": "Turismo (Cohorte 2026)"
+        },
+        {
+            "id": 174,
+            "username": "estudiante0015",
+            "nombre_completo": "René López Rojas",
+            "codigo_estudiante": "RU-2022-10015",
+            "email": "estudiante0015@example.invalid",
+            "departamento": "Lingüística e Idiomas (Cohorte 2022)"
+        },
+        {
+            "id": 175,
+            "username": "estudiante0016",
+            "nombre_completo": "Paola Ramos Delgado",
+            "codigo_estudiante": "RU-2023-10016",
+            "email": "estudiante0016@example.invalid",
+            "departamento": "Ingeniería de Sistemas (Cohorte 2023)"
+        },
+        {
+            "id": 176,
+            "username": "estudiante0017",
+            "nombre_completo": "Jorge Castro Choque",
+            "codigo_estudiante": "RU-2024-10017",
+            "email": "estudiante0017@example.invalid",
+            "departamento": "Ingeniería Informática (Cohorte 2024)"
+        },
+        {
+            "id": 177,
+            "username": "estudiante0018",
+            "nombre_completo": "Natalia Delgado Benítez",
+            "codigo_estudiante": "RU-2025-10018",
+            "email": "estudiante0018@example.invalid",
+            "departamento": "Auditoría - Contaduría Pública (Cohorte 2025)"
+        },
+        {
+            "id": 178,
+            "username": "estudiante0019",
+            "nombre_completo": "Gabriel Navarro Gonzales",
+            "codigo_estudiante": "RU-2026-10019",
+            "email": "estudiante0019@example.invalid",
+            "departamento": "Administración de Empresas (Cohorte 2026)"
+        },
+        {
+            "id": 179,
+            "username": "estudiante0020",
+            "nombre_completo": "Monica Ticona Romero",
+            "codigo_estudiante": "RU-2022-10020",
+            "email": "estudiante0020@example.invalid",
+            "departamento": "Economía (Cohorte 2022)"
+        }
+    ],
+    "cursos_registrados": [
+        {
+            "id": 5,
+            "codigo": "SIS-111",
+            "nombre": "Introducción a la Programación (SIS-111)",
+            "idnumber": "UATF-SIS-111-2026",
+            "categoria_id": 22
+        },
+        {
+            "id": 6,
+            "codigo": "SIS-211",
+            "nombre": "Estructura de Datos (SIS-211)",
+            "idnumber": "UATF-SIS-211-2026",
+            "categoria_id": 22
+        },
+        {
+            "id": 7,
+            "codigo": "INF-111",
+            "nombre": "Arquitectura de Computadoras (INF-111)",
+            "idnumber": "UATF-INF-111-2026",
+            "categoria_id": 16
+        },
+        {
+            "id": 8,
+            "codigo": "AUD-201",
+            "nombre": "Auditoría Financiera I (AUD-201)",
+            "idnumber": "UATF-AUD-201-2026",
+            "categoria_id": 8
+        },
+        {
+            "id": 9,
+            "codigo": "ADM-101",
+            "nombre": "Teoría General de la Administración (ADM-101)",
+            "idnumber": "UATF-ADM-101-2026",
+            "categoria_id": 10
+        },
+        {
+            "id": 10,
+            "codigo": "DER-101",
+            "nombre": "Derecho Constitucional Boliviano (DER-101)",
+            "idnumber": "UATF-DER-101-2026",
+            "categoria_id": 48
+        },
+        {
+            "id": 11,
+            "codigo": "MED-101",
+            "nombre": "Anatomía Humana Descriptiva (MED-101)",
+            "idnumber": "UATF-MED-101-2026",
+            "categoria_id": 46
+        },
+        {
+            "id": 12,
+            "codigo": "CIV-211",
+            "nombre": "Resistencia de Materiales I (CIV-211)",
+            "idnumber": "UATF-CIV-211-2026",
+            "categoria_id": 27
+        },
+        {
+            "id": 13,
+            "codigo": "ELE-101",
+            "nombre": "Circuitos Eléctricos I (ELE-101)",
+            "idnumber": "UATF-ELE-101-2026",
+            "categoria_id": 31
+        },
+        {
+            "id": 14,
+            "codigo": "TUR-101",
+            "nombre": "Introducción al Turismo y Patrimonio (TUR-101)",
+            "idnumber": "UATF-TUR-101-2026",
+            "categoria_id": 52
+        },
+        {
+            "id": 15,
+            "codigo": "AUD-102",
+            "nombre": "Contabilidad Básica (AUD-102)",
+            "idnumber": "UATF-AUD-102-2026",
+            "categoria_id": 8
+        },
+        {
+            "id": 16,
+            "codigo": "AUD-103",
+            "nombre": "Contabilidad Intermedia (AUD-103)",
+            "idnumber": "UATF-AUD-103-2026",
+            "categoria_id": 8
+        },
+        {
+            "id": 17,
+            "codigo": "AUD-202",
+            "nombre": "Auditoría Financiera II (AUD-202)",
+            "idnumber": "UATF-AUD-202-2026",
+            "categoria_id": 8
+        },
+        {
+            "id": 18,
+            "codigo": "AUD-301",
+            "nombre": "Auditoría Tributaria (AUD-301)",
+            "idnumber": "UATF-AUD-301-2026",
+            "categoria_id": 8
+        },
+        {
+            "id": 19,
+            "codigo": "AUD-302",
+            "nombre": "Contabilidad de Costos I (AUD-302)",
+            "idnumber": "UATF-AUD-302-2026",
+            "categoria_id": 8
+        },
+        {
+            "id": 20,
+            "codigo": "AUD-303",
+            "nombre": "Contabilidad de Costos II (AUD-303)",
+            "idnumber": "UATF-AUD-303-2026",
+            "categoria_id": 8
+        },
+        {
+            "id": 21,
+            "codigo": "AUD-401",
+            "nombre": "Auditoría Operativa y de Gestión (AUD-401)",
+            "idnumber": "UATF-AUD-401-2026",
+            "categoria_id": 8
+        },
+        {
+            "id": 22,
+            "codigo": "AUD-402",
+            "nombre": "Auditoría Forense y Delitos Financieros (AUD-402)",
+            "idnumber": "UATF-AUD-402-2026",
+            "categoria_id": 8
+        },
+        {
+            "id": 23,
+            "codigo": "AUD-403",
+            "nombre": "Gabinete de Auditoría (AUD-403)",
+            "idnumber": "UATF-AUD-403-2026",
+            "categoria_id": 8
+        },
+        {
+            "id": 24,
+            "codigo": "AUD-501",
+            "nombre": "Normas Internacionales de Información Financiera (NIIF) (AUD-501)",
+            "idnumber": "UATF-AUD-501-2026",
+            "categoria_id": 8
+        },
+        {
+            "id": 25,
+            "codigo": "AUD-502",
+            "nombre": "Auditoría Ambiental y Social (AUD-502)",
+            "idnumber": "UATF-AUD-502-2026",
+            "categoria_id": 8
+        },
+        {
+            "id": 26,
+            "codigo": "AUD-503",
+            "nombre": "Contabilidad Gubernamental Integrada (AUD-503)",
+            "idnumber": "UATF-AUD-503-2026",
+            "categoria_id": 8
+        },
+        {
+            "id": 27,
+            "codigo": "AUD-504",
+            "nombre": "Auditoría de Sistemas Contables (AUD-504)",
+            "idnumber": "UATF-AUD-504-2026",
+            "categoria_id": 8
+        },
+        {
+            "id": 28,
+            "codigo": "AUD-505",
+            "nombre": "Ética Profesional y Deontología Contable (AUD-505)",
+            "idnumber": "UATF-AUD-505-2026",
+            "categoria_id": 8
+        },
+        {
+            "id": 29,
+            "codigo": "ADM-102",
+            "nombre": "Administración Pública (ADM-102)",
+            "idnumber": "UATF-ADM-102-2026",
+            "categoria_id": 10
+        },
+        {
+            "id": 30,
+            "codigo": "ADM-201",
+            "nombre": "Gestión del Talento Humano I (ADM-201)",
+            "idnumber": "UATF-ADM-201-2026",
+            "categoria_id": 10
+        },
+        {
+            "id": 31,
+            "codigo": "ADM-202",
+            "nombre": "Gestión del Talento Humano II (ADM-202)",
+            "idnumber": "UATF-ADM-202-2026",
+            "categoria_id": 10
+        },
+        {
+            "id": 32,
+            "codigo": "ADM-301",
+            "nombre": "Organización y Métodos (ADM-301)",
+            "idnumber": "UATF-ADM-301-2026",
+            "categoria_id": 10
+        },
+        {
+            "id": 33,
+            "codigo": "ADM-302",
+            "nombre": "Dirección Estratégica (ADM-302)",
+            "idnumber": "UATF-ADM-302-2026",
+            "categoria_id": 10
+        },
+        {
+            "id": 34,
+            "codigo": "ADM-401",
+            "nombre": "Mercadotecnia Estratégica (ADM-401)",
+            "idnumber": "UATF-ADM-401-2026",
+            "categoria_id": 10
+        },
+        {
+            "id": 35,
+            "codigo": "ADM-402",
+            "nombre": "Administración de Operaciones y Producción (ADM-402)",
+            "idnumber": "UATF-ADM-402-2026",
+            "categoria_id": 10
+        },
+        {
+            "id": 36,
+            "codigo": "ADM-403",
+            "nombre": "Finanzas Corporativas (ADM-403)",
+            "idnumber": "UATF-ADM-403-2026",
+            "categoria_id": 10
+        },
+        {
+            "id": 37,
+            "codigo": "ADM-501",
+            "nombre": "Preparación y Evaluación de Proyectos (ADM-501)",
+            "idnumber": "UATF-ADM-501-2026",
+            "categoria_id": 10
+        },
+        {
+            "id": 38,
+            "codigo": "ADM-502",
+            "nombre": "Comportamiento Organizacional (ADM-502)",
+            "idnumber": "UATF-ADM-502-2026",
+            "categoria_id": 10
+        },
+        {
+            "id": 39,
+            "codigo": "ADM-503",
+            "nombre": "Negociación y Resolución de Conflictos (ADM-503)",
+            "idnumber": "UATF-ADM-503-2026",
+            "categoria_id": 10
+        },
+        {
+            "id": 40,
+            "codigo": "ECO-101",
+            "nombre": "Microeconomía I (ECO-101)",
+            "idnumber": "UATF-ECO-101-2026",
+            "categoria_id": 11
+        },
+        {
+            "id": 41,
+            "codigo": "ECO-102",
+            "nombre": "Microeconomía II (ECO-102)",
+            "idnumber": "UATF-ECO-102-2026",
+            "categoria_id": 11
+        },
+        {
+            "id": 42,
+            "codigo": "ECO-201",
+            "nombre": "Macroeconomía I (ECO-201)",
+            "idnumber": "UATF-ECO-201-2026",
+            "categoria_id": 11
+        },
+        {
+            "id": 43,
+            "codigo": "ECO-202",
+            "nombre": "Macroeconomía II (ECO-202)",
+            "idnumber": "UATF-ECO-202-2026",
+            "categoria_id": 11
+        },
+        {
+            "id": 44,
+            "codigo": "ECO-301",
+            "nombre": "Econometría I (ECO-301)",
+            "idnumber": "UATF-ECO-301-2026",
+            "categoria_id": 11
+        },
+        {
+            "id": 45,
+            "codigo": "ECO-302",
+            "nombre": "Econometría II (ECO-302)",
+            "idnumber": "UATF-ECO-302-2026",
+            "categoria_id": 11
+        },
+        {
+            "id": 46,
+            "codigo": "ECO-401",
+            "nombre": "Comercio Internacional (ECO-401)",
+            "idnumber": "UATF-ECO-401-2026",
+            "categoria_id": 11
+        },
+        {
+            "id": 47,
+            "codigo": "ECO-402",
+            "nombre": "Economía del Desarrollo (ECO-402)",
+            "idnumber": "UATF-ECO-402-2026",
+            "categoria_id": 11
+        },
+        {
+            "id": 48,
+            "codigo": "ECO-501",
+            "nombre": "Política Económica Boliviana (ECO-501)",
+            "idnumber": "UATF-ECO-501-2026",
+            "categoria_id": 11
+        },
+        {
+            "id": 49,
+            "codigo": "ECO-502",
+            "nombre": "Historia Económica de Bolivia (ECO-502)",
+            "idnumber": "UATF-ECO-502-2026",
+            "categoria_id": 11
+        },
+        {
+            "id": 50,
+            "codigo": "ICO-101",
+            "nombre": "Fundamentos de Comercio Exterior (ICO-101)",
+            "idnumber": "UATF-ICO-101-2026",
+            "categoria_id": 9
+        },
+        {
+            "id": 51,
+            "codigo": "ICO-201",
+            "nombre": "Investigación de Mercados Cuantitativa (ICO-201)",
+            "idnumber": "UATF-ICO-201-2026",
+            "categoria_id": 9
+        },
+        {
+            "id": 52,
+            "codigo": "ICO-301",
+            "nombre": "Gestión de Ventas y Canales de Distribución (ICO-301)",
+            "idnumber": "UATF-ICO-301-2026",
+            "categoria_id": 9
+        },
+        {
+            "id": 53,
+            "codigo": "ICO-302",
+            "nombre": "Publicidad y Promoción Comercial (ICO-302)",
+            "idnumber": "UATF-ICO-302-2026",
+            "categoria_id": 9
+        },
+        {
+            "id": 54,
+            "codigo": "ICO-401",
+            "nombre": "Comercio Electrónico y Plataformas Digitales (ICO-401)",
+            "idnumber": "UATF-ICO-401-2026",
+            "categoria_id": 9
+        },
+        {
+            "id": 55,
+            "codigo": "ICO-402",
+            "nombre": "Inteligencia de Negocios y Big Data Comercial (ICO-402)",
+            "idnumber": "UATF-ICO-402-2026",
+            "categoria_id": 9
+        },
+        {
+            "id": 56,
+            "codigo": "ICO-501",
+            "nombre": "Simulación de Negocios Internacionales (ICO-501)",
+            "idnumber": "UATF-ICO-501-2026",
+            "categoria_id": 9
+        },
+        {
+            "id": 57,
+            "codigo": "ICO-502",
+            "nombre": "Marketing Internacional y Exportaciones (ICO-502)",
+            "idnumber": "UATF-ICO-502-2026",
+            "categoria_id": 9
+        },
+        {
+            "id": 58,
+            "codigo": "CTT-101",
+            "nombre": "Contabilidad General Aplicada (Tupiza) (CTT-101)",
+            "idnumber": "UATF-CTT-101-2026",
+            "categoria_id": 12
+        },
+        {
+            "id": 59,
+            "codigo": "CTT-201",
+            "nombre": "Costos Agropecuarios (Tupiza) (CTT-201)",
+            "idnumber": "UATF-CTT-201-2026",
+            "categoria_id": 12
+        },
+        {
+            "id": 60,
+            "codigo": "CTT-301",
+            "nombre": "Auditoría de Cooperativas (Tupiza) (CTT-301)",
+            "idnumber": "UATF-CTT-301-2026",
+            "categoria_id": 12
+        },
+        {
+            "id": 61,
+            "codigo": "CTT-401",
+            "nombre": "Contabilidad Minera Regional (Tupiza) (CTT-401)",
+            "idnumber": "UATF-CTT-401-2026",
+            "categoria_id": 12
+        },
+        {
+            "id": 62,
+            "codigo": "CTT-501",
+            "nombre": "Taller de Práctica Contable (Tupiza) (CTT-501)",
+            "idnumber": "UATF-CTT-501-2026",
+            "categoria_id": 12
+        },
+        {
+            "id": 63,
+            "codigo": "ECU-101",
+            "nombre": "Introducción a la Economía Regional (Uyuni) (ECU-101)",
+            "idnumber": "UATF-ECU-101-2026",
+            "categoria_id": 13
+        },
+        {
+            "id": 64,
+            "codigo": "ECU-201",
+            "nombre": "Economía de los Recursos Evaporíticos (Uyuni) (ECU-201)",
+            "idnumber": "UATF-ECU-201-2026",
+            "categoria_id": 13
+        },
+        {
+            "id": 65,
+            "codigo": "ECU-301",
+            "nombre": "Microeconomía Turística (Uyuni) (ECU-301)",
+            "idnumber": "UATF-ECU-301-2026",
+            "categoria_id": 13
+        },
+        {
+            "id": 66,
+            "codigo": "ECU-401",
+            "nombre": "Formulación de Proyectos Turísticos (Uyuni) (ECU-401)",
+            "idnumber": "UATF-ECU-401-2026",
+            "categoria_id": 13
+        },
+        {
+            "id": 67,
+            "codigo": "ECU-501",
+            "nombre": "Planificación del Desarrollo Local (Uyuni) (ECU-501)",
+            "idnumber": "UATF-ECU-501-2026",
+            "categoria_id": 13
+        },
+        {
+            "id": 68,
+            "codigo": "ECN-101",
+            "nombre": "Fundamentos de Economía Minera (Uncía) (ECN-101)",
+            "idnumber": "UATF-ECN-101-2026",
+            "categoria_id": 14
+        },
+        {
+            "id": 69,
+            "codigo": "ECN-201",
+            "nombre": "Economía Laboral y Sindical (Uncía) (ECN-201)",
+            "idnumber": "UATF-ECN-201-2026",
+            "categoria_id": 14
+        },
+        {
+            "id": 70,
+            "codigo": "ECN-301",
+            "nombre": "Finanzas Públicas Municipales (Uncía) (ECN-301)",
+            "idnumber": "UATF-ECN-301-2026",
+            "categoria_id": 14
+        },
+        {
+            "id": 71,
+            "codigo": "ECN-401",
+            "nombre": "Economía Solidaria y Comunitaria (Uncía) (ECN-401)",
+            "idnumber": "UATF-ECN-401-2026",
+            "categoria_id": 14
+        },
+        {
+            "id": 72,
+            "codigo": "ECN-501",
+            "nombre": "Seminario de Grado en Economía Regional (Uncía) (ECN-501)",
+            "idnumber": "UATF-ECN-501-2026",
+            "categoria_id": 14
+        },
+        {
+            "id": 73,
+            "codigo": "INF-112",
+            "nombre": "Programación Básica (INF-112)",
+            "idnumber": "UATF-INF-112-2026",
+            "categoria_id": 16
+        },
+        {
+            "id": 74,
+            "codigo": "INF-121",
+            "nombre": "Estructuras de Datos Discretas (INF-121)",
+            "idnumber": "UATF-INF-121-2026",
+            "categoria_id": 16
+        },
+        {
+            "id": 75,
+            "codigo": "INF-122",
+            "nombre": "Programación Orientada a Objetos (INF-122)",
+            "idnumber": "UATF-INF-122-2026",
+            "categoria_id": 16
+        },
+        {
+            "id": 76,
+            "codigo": "INF-231",
+            "nombre": "Sistemas Operativos (INF-231)",
+            "idnumber": "UATF-INF-231-2026",
+            "categoria_id": 16
+        },
+        {
+            "id": 77,
+            "codigo": "INF-232",
+            "nombre": "Base de Datos I (INF-232)",
+            "idnumber": "UATF-INF-232-2026",
+            "categoria_id": 16
+        },
+        {
+            "id": 78,
+            "codigo": "INF-241",
+            "nombre": "Base de Datos II (INF-241)",
+            "idnumber": "UATF-INF-241-2026",
+            "categoria_id": 16
+        },
+        {
+            "id": 79,
+            "codigo": "INF-242",
+            "nombre": "Redes de Computadoras I (INF-242)",
+            "idnumber": "UATF-INF-242-2026",
+            "categoria_id": 16
+        },
+        {
+            "id": 80,
+            "codigo": "INF-351",
+            "nombre": "Redes de Computadoras II (INF-351)",
+            "idnumber": "UATF-INF-351-2026",
+            "categoria_id": 16
+        },
+        {
+            "id": 81,
+            "codigo": "INF-352",
+            "nombre": "Ingeniería de Software I (INF-352)",
+            "idnumber": "UATF-INF-352-2026",
+            "categoria_id": 16
+        },
+        {
+            "id": 82,
+            "codigo": "INF-361",
+            "nombre": "Ingeniería de Software II (INF-361)",
+            "idnumber": "UATF-INF-361-2026",
+            "categoria_id": 16
+        },
+        {
+            "id": 83,
+            "codigo": "INF-362",
+            "nombre": "Inteligencia Artificial (INF-362)",
+            "idnumber": "UATF-INF-362-2026",
+            "categoria_id": 16
+        },
+        {
+            "id": 84,
+            "codigo": "INF-471",
+            "nombre": "Aprendizaje Automático (Machine Learning) (INF-471)",
+            "idnumber": "UATF-INF-471-2026",
+            "categoria_id": 16
+        },
+        {
+            "id": 85,
+            "codigo": "INF-472",
+            "nombre": "Seguridad en Sistemas Informáticos (INF-472)",
+            "idnumber": "UATF-INF-472-2026",
+            "categoria_id": 16
+        },
+        {
+            "id": 86,
+            "codigo": "INF-581",
+            "nombre": "Taller de Grado en Informática (INF-581)",
+            "idnumber": "UATF-INF-581-2026",
+            "categoria_id": 16
+        },
+        {
+            "id": 87,
+            "codigo": "QMC-101",
+            "nombre": "Química General I (QMC-101)",
+            "idnumber": "UATF-QMC-101-2026",
+            "categoria_id": 17
+        },
+        {
+            "id": 88,
+            "codigo": "QMC-102",
+            "nombre": "Química Inorgánica (QMC-102)",
+            "idnumber": "UATF-QMC-102-2026",
+            "categoria_id": 17
+        },
+        {
+            "id": 89,
+            "codigo": "QMC-201",
+            "nombre": "Química Orgánica I (QMC-201)",
+            "idnumber": "UATF-QMC-201-2026",
+            "categoria_id": 17
+        },
+        {
+            "id": 90,
+            "codigo": "QMC-202",
+            "nombre": "Química Orgánica II (QMC-202)",
+            "idnumber": "UATF-QMC-202-2026",
+            "categoria_id": 17
+        },
+        {
+            "id": 91,
+            "codigo": "QMC-301",
+            "nombre": "Fisicoquímica I (QMC-301)",
+            "idnumber": "UATF-QMC-301-2026",
+            "categoria_id": 17
+        },
+        {
+            "id": 92,
+            "codigo": "QMC-302",
+            "nombre": "Fisicoquímica II (QMC-302)",
+            "idnumber": "UATF-QMC-302-2026",
+            "categoria_id": 17
+        },
+        {
+            "id": 93,
+            "codigo": "QMC-401",
+            "nombre": "Química Analítica Cualitativa (QMC-401)",
+            "idnumber": "UATF-QMC-401-2026",
+            "categoria_id": 17
+        },
+        {
+            "id": 94,
+            "codigo": "QMC-402",
+            "nombre": "Química Analítica Cuantitativa (QMC-402)",
+            "idnumber": "UATF-QMC-402-2026",
+            "categoria_id": 17
+        },
+        {
+            "id": 95,
+            "codigo": "QMC-501",
+            "nombre": "Análisis Instrumental (QMC-501)",
+            "idnumber": "UATF-QMC-501-2026",
+            "categoria_id": 17
+        },
+        {
+            "id": 96,
+            "codigo": "QMC-502",
+            "nombre": "Química Ambiental (QMC-502)",
+            "idnumber": "UATF-QMC-502-2026",
+            "categoria_id": 17
+        },
+        {
+            "id": 97,
+            "codigo": "FIS-101",
+            "nombre": "Física General I (Mecánica) (FIS-101)",
+            "idnumber": "UATF-FIS-101-2026",
+            "categoria_id": 18
+        },
+        {
+            "id": 98,
+            "codigo": "FIS-102",
+            "nombre": "Física General II (Termodinámica y Fluidos) (FIS-102)",
+            "idnumber": "UATF-FIS-102-2026",
+            "categoria_id": 18
+        },
+        {
+            "id": 99,
+            "codigo": "FIS-201",
+            "nombre": "Física General III (Electromagnetismo) (FIS-201)",
+            "idnumber": "UATF-FIS-201-2026",
+            "categoria_id": 18
+        },
+        {
+            "id": 100,
+            "codigo": "FIS-202",
+            "nombre": "Física General IV (Ondas y Óptica) (FIS-202)",
+            "idnumber": "UATF-FIS-202-2026",
+            "categoria_id": 18
+        },
+        {
+            "id": 101,
+            "codigo": "FIS-301",
+            "nombre": "Mecánica Clásica (FIS-301)",
+            "idnumber": "UATF-FIS-301-2026",
+            "categoria_id": 18
+        },
+        {
+            "id": 102,
+            "codigo": "FIS-302",
+            "nombre": "Electrodinámica Clásica (FIS-302)",
+            "idnumber": "UATF-FIS-302-2026",
+            "categoria_id": 18
+        },
+        {
+            "id": 103,
+            "codigo": "FIS-401",
+            "nombre": "Mecánica Cuántica I (FIS-401)",
+            "idnumber": "UATF-FIS-401-2026",
+            "categoria_id": 18
+        },
+        {
+            "id": 104,
+            "codigo": "FIS-402",
+            "nombre": "Física Estadística (FIS-402)",
+            "idnumber": "UATF-FIS-402-2026",
+            "categoria_id": 18
+        },
+        {
+            "id": 105,
+            "codigo": "FIS-501",
+            "nombre": "Física del Estado Sólido (FIS-501)",
+            "idnumber": "UATF-FIS-501-2026",
+            "categoria_id": 18
+        },
+        {
+            "id": 106,
+            "codigo": "MAT-101",
+            "nombre": "Álgebra Superior (MAT-101)",
+            "idnumber": "UATF-MAT-101-2026",
+            "categoria_id": 19
+        },
+        {
+            "id": 107,
+            "codigo": "MAT-102",
+            "nombre": "Cálculo Diferencial e Integral I (MAT-102)",
+            "idnumber": "UATF-MAT-102-2026",
+            "categoria_id": 19
+        },
+        {
+            "id": 108,
+            "codigo": "MAT-201",
+            "nombre": "Cálculo Multivariable (MAT-201)",
+            "idnumber": "UATF-MAT-201-2026",
+            "categoria_id": 19
+        },
+        {
+            "id": 109,
+            "codigo": "MAT-202",
+            "nombre": "Álgebra Lineal (MAT-202)",
+            "idnumber": "UATF-MAT-202-2026",
+            "categoria_id": 19
+        },
+        {
+            "id": 110,
+            "codigo": "MAT-301",
+            "nombre": "Ecuaciones Diferenciales Ordinarias (MAT-301)",
+            "idnumber": "UATF-MAT-301-2026",
+            "categoria_id": 19
+        },
+        {
+            "id": 111,
+            "codigo": "MAT-302",
+            "nombre": "Análisis Real (MAT-302)",
+            "idnumber": "UATF-MAT-302-2026",
+            "categoria_id": 19
+        },
+        {
+            "id": 112,
+            "codigo": "MAT-401",
+            "nombre": "Variable Compleja (MAT-401)",
+            "idnumber": "UATF-MAT-401-2026",
+            "categoria_id": 19
+        },
+        {
+            "id": 113,
+            "codigo": "MAT-501",
+            "nombre": "Análisis Numérico (MAT-501)",
+            "idnumber": "UATF-MAT-501-2026",
+            "categoria_id": 19
+        },
+        {
+            "id": 114,
+            "codigo": "EST-101",
+            "nombre": "Estadística Descriptiva (EST-101)",
+            "idnumber": "UATF-EST-101-2026",
+            "categoria_id": 20
+        },
+        {
+            "id": 115,
+            "codigo": "EST-102",
+            "nombre": "Probabilidades (EST-102)",
+            "idnumber": "UATF-EST-102-2026",
+            "categoria_id": 20
+        },
+        {
+            "id": 116,
+            "codigo": "EST-201",
+            "nombre": "Inferencia Estadística I (EST-201)",
+            "idnumber": "UATF-EST-201-2026",
+            "categoria_id": 20
+        },
+        {
+            "id": 117,
+            "codigo": "EST-202",
+            "nombre": "Inferencia Estadística II (EST-202)",
+            "idnumber": "UATF-EST-202-2026",
+            "categoria_id": 20
+        },
+        {
+            "id": 118,
+            "codigo": "EST-301",
+            "nombre": "Modelos Lineales y Regresión (EST-301)",
+            "idnumber": "UATF-EST-301-2026",
+            "categoria_id": 20
+        },
+        {
+            "id": 119,
+            "codigo": "EST-302",
+            "nombre": "Diseño de Experimentos (EST-302)",
+            "idnumber": "UATF-EST-302-2026",
+            "categoria_id": 20
+        },
+        {
+            "id": 120,
+            "codigo": "EST-401",
+            "nombre": "Muestreo Estadístico (EST-401)",
+            "idnumber": "UATF-EST-401-2026",
+            "categoria_id": 20
+        },
+        {
+            "id": 121,
+            "codigo": "EST-501",
+            "nombre": "Minería de Datos Estadísticos (EST-501)",
+            "idnumber": "UATF-EST-501-2026",
+            "categoria_id": 20
+        },
+        {
+            "id": 122,
+            "codigo": "SIS-221",
+            "nombre": "Base de Datos Transaccionales (SIS-221)",
+            "idnumber": "UATF-SIS-221-2026",
+            "categoria_id": 22
+        },
+        {
+            "id": 123,
+            "codigo": "SIS-222",
+            "nombre": "Análisis y Diseño de Sistemas (SIS-222)",
+            "idnumber": "UATF-SIS-222-2026",
+            "categoria_id": 22
+        },
+        {
+            "id": 124,
+            "codigo": "SIS-311",
+            "nombre": "Redes de Datos y Comunicaciones (SIS-311)",
+            "idnumber": "UATF-SIS-311-2026",
+            "categoria_id": 22
+        },
+        {
+            "id": 125,
+            "codigo": "SIS-312",
+            "nombre": "Programación Web y Móvil (SIS-312)",
+            "idnumber": "UATF-SIS-312-2026",
+            "categoria_id": 22
+        },
+        {
+            "id": 126,
+            "codigo": "SIS-321",
+            "nombre": "Sistemas de Información Empresarial (ERP\/CRM) (SIS-321)",
+            "idnumber": "UATF-SIS-321-2026",
+            "categoria_id": 22
+        },
+        {
+            "id": 127,
+            "codigo": "SIS-322",
+            "nombre": "Ingeniería de Requisitos y Calidad (SIS-322)",
+            "idnumber": "UATF-SIS-322-2026",
+            "categoria_id": 22
+        },
+        {
+            "id": 128,
+            "codigo": "SIS-411",
+            "nombre": "Gestión de Proyectos de Software (PMI\/Scrum) (SIS-411)",
+            "idnumber": "UATF-SIS-411-2026",
+            "categoria_id": 22
+        },
+        {
+            "id": 129,
+            "codigo": "SIS-412",
+            "nombre": "Auditoría y Seguridad de Sistemas (SIS-412)",
+            "idnumber": "UATF-SIS-412-2026",
+            "categoria_id": 22
+        },
+        {
+            "id": 130,
+            "codigo": "SIS-421",
+            "nombre": "Inteligencia de Negocios y Analítica (SIS-421)",
+            "idnumber": "UATF-SIS-421-2026",
+            "categoria_id": 22
+        },
+        {
+            "id": 131,
+            "codigo": "SIS-422",
+            "nombre": "Computación en la Nube y DevOps (SIS-422)",
+            "idnumber": "UATF-SIS-422-2026",
+            "categoria_id": 22
+        },
+        {
+            "id": 132,
+            "codigo": "SIS-511",
+            "nombre": "Gobernanza de TI (COBIT\/ITIL) (SIS-511)",
+            "idnumber": "UATF-SIS-511-2026",
+            "categoria_id": 22
+        },
+        {
+            "id": 133,
+            "codigo": "SIS-512",
+            "nombre": "Ciberseguridad y Hacking Ético (SIS-512)",
+            "idnumber": "UATF-SIS-512-2026",
+            "categoria_id": 22
+        },
+        {
+            "id": 134,
+            "codigo": "SIS-521",
+            "nombre": "Taller de Graduación en Sistemas (SIS-521)",
+            "idnumber": "UATF-SIS-521-2026",
+            "categoria_id": 22
+        },
+        {
+            "id": 135,
+            "codigo": "SST-101",
+            "nombre": "Algoritmos y Programación (Tupiza) (SST-101)",
+            "idnumber": "UATF-SST-101-2026",
+            "categoria_id": 23
+        },
+        {
+            "id": 136,
+            "codigo": "SST-102",
+            "nombre": "Bases de Datos para Aplicaciones (Tupiza) (SST-102)",
+            "idnumber": "UATF-SST-102-2026",
+            "categoria_id": 23
+        },
+        {
+            "id": 137,
+            "codigo": "SST-201",
+            "nombre": "Programación Orientada a Objetos (Tupiza) (SST-201)",
+            "idnumber": "UATF-SST-201-2026",
+            "categoria_id": 23
+        },
+        {
+            "id": 138,
+            "codigo": "SST-202",
+            "nombre": "Redes de Área Local (Tupiza) (SST-202)",
+            "idnumber": "UATF-SST-202-2026",
+            "categoria_id": 23
+        },
+        {
+            "id": 139,
+            "codigo": "SST-301",
+            "nombre": "Desarrollo Web Fullstack (Tupiza) (SST-301)",
+            "idnumber": "UATF-SST-301-2026",
+            "categoria_id": 23
+        },
+        {
+            "id": 140,
+            "codigo": "SST-302",
+            "nombre": "Sistemas de Información Geográfica (Tupiza) (SST-302)",
+            "idnumber": "UATF-SST-302-2026",
+            "categoria_id": 23
+        },
+        {
+            "id": 141,
+            "codigo": "SST-401",
+            "nombre": "Sistemas Agroinformáticos (Tupiza) (SST-401)",
+            "idnumber": "UATF-SST-401-2026",
+            "categoria_id": 23
+        },
+        {
+            "id": 142,
+            "codigo": "SST-402",
+            "nombre": "Gestión y Mantenimiento de TI (Tupiza) (SST-402)",
+            "idnumber": "UATF-SST-402-2026",
+            "categoria_id": 23
+        },
+        {
+            "id": 143,
+            "codigo": "SST-501",
+            "nombre": "Comercio Electrónico Regional (Tupiza) (SST-501)",
+            "idnumber": "UATF-SST-501-2026",
+            "categoria_id": 23
+        },
+        {
+            "id": 144,
+            "codigo": "SST-502",
+            "nombre": "Proyecto Integrador de Sistemas (Tupiza) (SST-502)",
+            "idnumber": "UATF-SST-502-2026",
+            "categoria_id": 23
+        },
+        {
+            "id": 145,
+            "codigo": "IDP-101",
+            "nombre": "Fundamentos del Diseño Digital (IDP-101)",
+            "idnumber": "UATF-IDP-101-2026",
+            "categoria_id": 24
+        },
+        {
+            "id": 146,
+            "codigo": "IDP-102",
+            "nombre": "Programación Creativa y Frontend (IDP-102)",
+            "idnumber": "UATF-IDP-102-2026",
+            "categoria_id": 24
+        },
+        {
+            "id": 147,
+            "codigo": "IDP-201",
+            "nombre": "Diseño de Experiencia de Usuario (UX) (IDP-201)",
+            "idnumber": "UATF-IDP-201-2026",
+            "categoria_id": 24
+        },
+        {
+            "id": 148,
+            "codigo": "IDP-202",
+            "nombre": "Diseño de Interfaces de Usuario (UI) (IDP-202)",
+            "idnumber": "UATF-IDP-202-2026",
+            "categoria_id": 24
+        },
+        {
+            "id": 149,
+            "codigo": "IDP-301",
+            "nombre": "Animación Digital 2D y Motion Graphics (IDP-301)",
+            "idnumber": "UATF-IDP-301-2026",
+            "categoria_id": 24
+        },
+        {
+            "id": 150,
+            "codigo": "IDP-302",
+            "nombre": "Modelado y Animación 3D (IDP-302)",
+            "idnumber": "UATF-IDP-302-2026",
+            "categoria_id": 24
+        },
+        {
+            "id": 151,
+            "codigo": "IDP-401",
+            "nombre": "Desarrollo de Videojuegos I (IDP-401)",
+            "idnumber": "UATF-IDP-401-2026",
+            "categoria_id": 24
+        },
+        {
+            "id": 152,
+            "codigo": "IDP-402",
+            "nombre": "Realidad Aumentada y Virtual (AR\/VR) (IDP-402)",
+            "idnumber": "UATF-IDP-402-2026",
+            "categoria_id": 24
+        },
+        {
+            "id": 153,
+            "codigo": "IDP-501",
+            "nombre": "Producción Multimedia Interactiva (IDP-501)",
+            "idnumber": "UATF-IDP-501-2026",
+            "categoria_id": 24
+        },
+        {
+            "id": 154,
+            "codigo": "IDP-502",
+            "nombre": "Portafolio Profesional y Emprendimiento Digital (IDP-502)",
+            "idnumber": "UATF-IDP-502-2026",
+            "categoria_id": 24
+        },
+        {
+            "id": 155,
+            "codigo": "ODO-101",
+            "nombre": "Anatomía Dental y Oclusión (ODO-101)",
+            "idnumber": "UATF-ODO-101-2026",
+            "categoria_id": 25
+        },
+        {
+            "id": 156,
+            "codigo": "ODO-102",
+            "nombre": "Histología y Embriología Bucomaxilofacial (ODO-102)",
+            "idnumber": "UATF-ODO-102-2026",
+            "categoria_id": 25
+        },
+        {
+            "id": 157,
+            "codigo": "ODO-201",
+            "nombre": "Materiales Dentales y Biomateriales (ODO-201)",
+            "idnumber": "UATF-ODO-201-2026",
+            "categoria_id": 25
+        },
+        {
+            "id": 158,
+            "codigo": "ODO-202",
+            "nombre": "Microbiología e Inmunología Oral (ODO-202)",
+            "idnumber": "UATF-ODO-202-2026",
+            "categoria_id": 25
+        },
+        {
+            "id": 159,
+            "codigo": "ODO-301",
+            "nombre": "Operatoria Dental I (ODO-301)",
+            "idnumber": "UATF-ODO-301-2026",
+            "categoria_id": 25
+        },
+        {
+            "id": 160,
+            "codigo": "ODO-302",
+            "nombre": "Periodoncia I (ODO-302)",
+            "idnumber": "UATF-ODO-302-2026",
+            "categoria_id": 25
+        },
+        {
+            "id": 161,
+            "codigo": "ODO-401",
+            "nombre": "Endodoncia I (ODO-401)",
+            "idnumber": "UATF-ODO-401-2026",
+            "categoria_id": 25
+        },
+        {
+            "id": 162,
+            "codigo": "ODO-402",
+            "nombre": "Cirugía Bucal I (ODO-402)",
+            "idnumber": "UATF-ODO-402-2026",
+            "categoria_id": 25
+        },
+        {
+            "id": 163,
+            "codigo": "ODO-501",
+            "nombre": "Prótesis Dental Fija y Removible (ODO-501)",
+            "idnumber": "UATF-ODO-501-2026",
+            "categoria_id": 25
+        },
+        {
+            "id": 164,
+            "codigo": "ODO-502",
+            "nombre": "Odontopediatría y Ortodoncia Preventiva (ODO-502)",
+            "idnumber": "UATF-ODO-502-2026",
+            "categoria_id": 25
+        },
+        {
+            "id": 165,
+            "codigo": "CIV-101",
+            "nombre": "Topografía General (CIV-101)",
+            "idnumber": "UATF-CIV-101-2026",
+            "categoria_id": 27
+        },
+        {
+            "id": 166,
+            "codigo": "CIV-102",
+            "nombre": "Geología Aplicada a la Ingeniería Civil (CIV-102)",
+            "idnumber": "UATF-CIV-102-2026",
+            "categoria_id": 27
+        },
+        {
+            "id": 167,
+            "codigo": "CIV-212",
+            "nombre": "Resistencia de Materiales II (CIV-212)",
+            "idnumber": "UATF-CIV-212-2026",
+            "categoria_id": 27
+        },
+        {
+            "id": 168,
+            "codigo": "CIV-221",
+            "nombre": "Mecánica de Fluidos (CIV-221)",
+            "idnumber": "UATF-CIV-221-2026",
+            "categoria_id": 27
+        },
+        {
+            "id": 169,
+            "codigo": "CIV-222",
+            "nombre": "Hidráulica General (CIV-222)",
+            "idnumber": "UATF-CIV-222-2026",
+            "categoria_id": 27
+        },
+        {
+            "id": 170,
+            "codigo": "CIV-311",
+            "nombre": "Mecánica de Suelos I (CIV-311)",
+            "idnumber": "UATF-CIV-311-2026",
+            "categoria_id": 27
+        },
+        {
+            "id": 171,
+            "codigo": "CIV-312",
+            "nombre": "Mecánica de Suelos II (CIV-312)",
+            "idnumber": "UATF-CIV-312-2026",
+            "categoria_id": 27
+        },
+        {
+            "id": 172,
+            "codigo": "CIV-321",
+            "nombre": "Análisis Estructural I (CIV-321)",
+            "idnumber": "UATF-CIV-321-2026",
+            "categoria_id": 27
+        },
+        {
+            "id": 173,
+            "codigo": "CIV-322",
+            "nombre": "Análisis Estructural II (CIV-322)",
+            "idnumber": "UATF-CIV-322-2026",
+            "categoria_id": 27
+        },
+        {
+            "id": 174,
+            "codigo": "CIV-411",
+            "nombre": "Hormigón Armado I (CIV-411)",
+            "idnumber": "UATF-CIV-411-2026",
+            "categoria_id": 27
+        },
+        {
+            "id": 175,
+            "codigo": "CIV-412",
+            "nombre": "Hormigón Armado II (CIV-412)",
+            "idnumber": "UATF-CIV-412-2026",
+            "categoria_id": 27
+        },
+        {
+            "id": 176,
+            "codigo": "CIV-421",
+            "nombre": "Ingeniería Sanitaria I (Agua Potable) (CIV-421)",
+            "idnumber": "UATF-CIV-421-2026",
+            "categoria_id": 27
+        },
+        {
+            "id": 177,
+            "codigo": "CIV-422",
+            "nombre": "Ingeniería Sanitaria II (Alcantarillado) (CIV-422)",
+            "idnumber": "UATF-CIV-422-2026",
+            "categoria_id": 27
+        },
+        {
+            "id": 178,
+            "codigo": "CIV-511",
+            "nombre": "Carreteras y Pavimentos I (CIV-511)",
+            "idnumber": "UATF-CIV-511-2026",
+            "categoria_id": 27
+        },
+        {
+            "id": 179,
+            "codigo": "CIV-512",
+            "nombre": "Carreteras y Pavimentos II (CIV-512)",
+            "idnumber": "UATF-CIV-512-2026",
+            "categoria_id": 27
+        },
+        {
+            "id": 180,
+            "codigo": "CIV-521",
+            "nombre": "Estructuras Metálicas y de Madera (CIV-521)",
+            "idnumber": "UATF-CIV-521-2026",
+            "categoria_id": 27
+        },
+        {
+            "id": 181,
+            "codigo": "CIV-522",
+            "nombre": "Puentes y Estructuras Especiales (CIV-522)",
+            "idnumber": "UATF-CIV-522-2026",
+            "categoria_id": 27
+        },
+        {
+            "id": 182,
+            "codigo": "CIV-523",
+            "nombre": "Presas y Obras Hidráulicas (CIV-523)",
+            "idnumber": "UATF-CIV-523-2026",
+            "categoria_id": 27
+        },
+        {
+            "id": 183,
+            "codigo": "CIV-524",
+            "nombre": "Dirección y Supervisión de Obras (CIV-524)",
+            "idnumber": "UATF-CIV-524-2026",
+            "categoria_id": 27
+        },
+        {
+            "id": 184,
+            "codigo": "CCV-101",
+            "nombre": "Materiales de Construcción (CCV-101)",
+            "idnumber": "UATF-CCV-101-2026",
+            "categoria_id": 28
+        },
+        {
+            "id": 185,
+            "codigo": "CCV-102",
+            "nombre": "Dibujo Técnico y Planos de Construcción (CCV-102)",
+            "idnumber": "UATF-CCV-102-2026",
+            "categoria_id": 28
+        },
+        {
+            "id": 186,
+            "codigo": "CCV-201",
+            "nombre": "Tecnología del Hormigón (CCV-201)",
+            "idnumber": "UATF-CCV-201-2026",
+            "categoria_id": 28
+        },
+        {
+            "id": 187,
+            "codigo": "CCV-202",
+            "nombre": "Instalaciones Hidrosanitarias en Edificaciones (CCV-202)",
+            "idnumber": "UATF-CCV-202-2026",
+            "categoria_id": 28
+        },
+        {
+            "id": 188,
+            "codigo": "CCV-301",
+            "nombre": "Instalaciones Eléctricas en Edificaciones (CCV-301)",
+            "idnumber": "UATF-CCV-301-2026",
+            "categoria_id": 28
+        },
+        {
+            "id": 189,
+            "codigo": "CCV-302",
+            "nombre": "Cómputos Métricos y Presupuestos (CCV-302)",
+            "idnumber": "UATF-CCV-302-2026",
+            "categoria_id": 28
+        },
+        {
+            "id": 190,
+            "codigo": "CCV-401",
+            "nombre": "Técnicas de Construcción en Obra Gruesa (CCV-401)",
+            "idnumber": "UATF-CCV-401-2026",
+            "categoria_id": 28
+        },
+        {
+            "id": 191,
+            "codigo": "CCV-402",
+            "nombre": "Técnicas de Construcción en Obra Fina (CCV-402)",
+            "idnumber": "UATF-CCV-402-2026",
+            "categoria_id": 28
+        },
+        {
+            "id": 192,
+            "codigo": "CCV-501",
+            "nombre": "Seguridad Industrial y Salud en la Construcción (CCV-501)",
+            "idnumber": "UATF-CCV-501-2026",
+            "categoria_id": 28
+        },
+        {
+            "id": 193,
+            "codigo": "CCV-502",
+            "nombre": "Fiscalización y Control de Obras (CCV-502)",
+            "idnumber": "UATF-CCV-502-2026",
+            "categoria_id": 28
+        },
+        {
+            "id": 194,
+            "codigo": "GYT-101",
+            "nombre": "Topografía Aplicada a Obras (GYT-101)",
+            "idnumber": "UATF-GYT-101-2026",
+            "categoria_id": 29
+        },
+        {
+            "id": 195,
+            "codigo": "GYT-102",
+            "nombre": "Trigonometría Esférica y Geometría (GYT-102)",
+            "idnumber": "UATF-GYT-102-2026",
+            "categoria_id": 29
+        },
+        {
+            "id": 196,
+            "codigo": "GYT-201",
+            "nombre": "Geodesia Satelital y GNSS\/GPS (GYT-201)",
+            "idnumber": "UATF-GYT-201-2026",
+            "categoria_id": 29
+        },
+        {
+            "id": 197,
+            "codigo": "GYT-202",
+            "nombre": "Fotogrametría y Drones (GYT-202)",
+            "idnumber": "UATF-GYT-202-2026",
+            "categoria_id": 29
+        },
+        {
+            "id": 198,
+            "codigo": "GYT-301",
+            "nombre": "Cartografía y Sistemas de Proyección (GYT-301)",
+            "idnumber": "UATF-GYT-301-2026",
+            "categoria_id": 29
+        },
+        {
+            "id": 199,
+            "codigo": "GYT-302",
+            "nombre": "Geodesia Física y Gravimetría (GYT-302)",
+            "idnumber": "UATF-GYT-302-2026",
+            "categoria_id": 29
+        },
+        {
+            "id": 200,
+            "codigo": "GYT-401",
+            "nombre": "Topografía Subterránea y Minera (GYT-401)",
+            "idnumber": "UATF-GYT-401-2026",
+            "categoria_id": 29
+        },
+        {
+            "id": 201,
+            "codigo": "GYT-402",
+            "nombre": "Catastro Urbano y Rural (GYT-402)",
+            "idnumber": "UATF-GYT-402-2026",
+            "categoria_id": 29
+        },
+        {
+            "id": 202,
+            "codigo": "GYT-501",
+            "nombre": "Teledetección Espacial e Imágenes Satelitales (GYT-501)",
+            "idnumber": "UATF-GYT-501-2026",
+            "categoria_id": 29
+        },
+        {
+            "id": 203,
+            "codigo": "GYT-502",
+            "nombre": "Geodesia Aplicada a Grandes Obras (GYT-502)",
+            "idnumber": "UATF-GYT-502-2026",
+            "categoria_id": 29
+        },
+        {
+            "id": 204,
+            "codigo": "ELE-102",
+            "nombre": "Circuitos Eléctricos II (ELE-102)",
+            "idnumber": "UATF-ELE-102-2026",
+            "categoria_id": 31
+        },
+        {
+            "id": 205,
+            "codigo": "ELE-201",
+            "nombre": "Electromagnetismo y Máquinas Eléctricas I (ELE-201)",
+            "idnumber": "UATF-ELE-201-2026",
+            "categoria_id": 31
+        },
+        {
+            "id": 206,
+            "codigo": "ELE-202",
+            "nombre": "Máquinas Eléctricas II (ELE-202)",
+            "idnumber": "UATF-ELE-202-2026",
+            "categoria_id": 31
+        },
+        {
+            "id": 207,
+            "codigo": "ELE-301",
+            "nombre": "Sistemas Eléctricos de Potencia I (ELE-301)",
+            "idnumber": "UATF-ELE-301-2026",
+            "categoria_id": 31
+        },
+        {
+            "id": 208,
+            "codigo": "ELE-302",
+            "nombre": "Protección de Sistemas Eléctricos (ELE-302)",
+            "idnumber": "UATF-ELE-302-2026",
+            "categoria_id": 31
+        },
+        {
+            "id": 209,
+            "codigo": "ELE-401",
+            "nombre": "Subestaciones Eléctricas (ELE-401)",
+            "idnumber": "UATF-ELE-401-2026",
+            "categoria_id": 31
+        },
+        {
+            "id": 210,
+            "codigo": "ELE-402",
+            "nombre": "Instalaciones Eléctricas Industriales (ELE-402)",
+            "idnumber": "UATF-ELE-402-2026",
+            "categoria_id": 31
+        },
+        {
+            "id": 211,
+            "codigo": "ELE-501",
+            "nombre": "Energías Renovables y Generación Distribuida (ELE-501)",
+            "idnumber": "UATF-ELE-501-2026",
+            "categoria_id": 31
+        },
+        {
+            "id": 212,
+            "codigo": "ELE-502",
+            "nombre": "Mercados Eléctricos y Regulación (ELE-502)",
+            "idnumber": "UATF-ELE-502-2026",
+            "categoria_id": 31
+        },
+        {
+            "id": 213,
+            "codigo": "MEC-101",
+            "nombre": "Termodinámica Técnica (MEC-101)",
+            "idnumber": "UATF-MEC-101-2026",
+            "categoria_id": 32
+        },
+        {
+            "id": 214,
+            "codigo": "MEC-102",
+            "nombre": "Mecanismos y Máquinas (MEC-102)",
+            "idnumber": "UATF-MEC-102-2026",
+            "categoria_id": 32
+        },
+        {
+            "id": 215,
+            "codigo": "MEC-201",
+            "nombre": "Diseño de Elementos de Máquinas I (MEC-201)",
+            "idnumber": "UATF-MEC-201-2026",
+            "categoria_id": 32
+        },
+        {
+            "id": 216,
+            "codigo": "MEC-202",
+            "nombre": "Diseño de Elementos de Máquinas II (MEC-202)",
+            "idnumber": "UATF-MEC-202-2026",
+            "categoria_id": 32
+        },
+        {
+            "id": 217,
+            "codigo": "MEC-301",
+            "nombre": "Transferencia de Calor (MEC-301)",
+            "idnumber": "UATF-MEC-301-2026",
+            "categoria_id": 32
+        },
+        {
+            "id": 218,
+            "codigo": "MEC-302",
+            "nombre": "Turbomáquinas y Máquinas Hidráulicas (MEC-302)",
+            "idnumber": "UATF-MEC-302-2026",
+            "categoria_id": 32
+        },
+        {
+            "id": 219,
+            "codigo": "MEC-401",
+            "nombre": "Tecnología de Materiales Mecánicos (MEC-401)",
+            "idnumber": "UATF-MEC-401-2026",
+            "categoria_id": 32
+        },
+        {
+            "id": 220,
+            "codigo": "MEC-402",
+            "nombre": "Procesos de Manufactura Mecánica (MEC-402)",
+            "idnumber": "UATF-MEC-402-2026",
+            "categoria_id": 32
+        },
+        {
+            "id": 221,
+            "codigo": "MEC-501",
+            "nombre": "Mantenimiento Mecánico Industrial (MEC-501)",
+            "idnumber": "UATF-MEC-501-2026",
+            "categoria_id": 32
+        },
+        {
+            "id": 222,
+            "codigo": "AUT-101",
+            "nombre": "Motores de Combustión Interna I (AUT-101)",
+            "idnumber": "UATF-AUT-101-2026",
+            "categoria_id": 33
+        },
+        {
+            "id": 223,
+            "codigo": "AUT-102",
+            "nombre": "Sistemas de Transmisión Automotriz (AUT-102)",
+            "idnumber": "UATF-AUT-102-2026",
+            "categoria_id": 33
+        },
+        {
+            "id": 224,
+            "codigo": "AUT-201",
+            "nombre": "Sistemas de Frenos, Dirección y Suspensión (AUT-201)",
+            "idnumber": "UATF-AUT-201-2026",
+            "categoria_id": 33
+        },
+        {
+            "id": 225,
+            "codigo": "AUT-202",
+            "nombre": "Electricidad y Electrónica del Automóvil (AUT-202)",
+            "idnumber": "UATF-AUT-202-2026",
+            "categoria_id": 33
+        },
+        {
+            "id": 226,
+            "codigo": "AUT-301",
+            "nombre": "Sistemas de Inyección Electrónica Gasolina (AUT-301)",
+            "idnumber": "UATF-AUT-301-2026",
+            "categoria_id": 33
+        },
+        {
+            "id": 227,
+            "codigo": "AUT-302",
+            "nombre": "Sistemas de Inyección Electrónica Diesel (AUT-302)",
+            "idnumber": "UATF-AUT-302-2026",
+            "categoria_id": 33
+        },
+        {
+            "id": 228,
+            "codigo": "AUT-401",
+            "nombre": "Vehículos Híbridos y Eléctricos (AUT-401)",
+            "idnumber": "UATF-AUT-401-2026",
+            "categoria_id": 33
+        },
+        {
+            "id": 229,
+            "codigo": "AUT-501",
+            "nombre": "Laboratorio de Diagnóstico Automotriz (AUT-501)",
+            "idnumber": "UATF-AUT-501-2026",
+            "categoria_id": 33
+        },
+        {
+            "id": 230,
+            "codigo": "MCT-101",
+            "nombre": "Sensores y Acondicionamiento de Señales (MCT-101)",
+            "idnumber": "UATF-MCT-101-2026",
+            "categoria_id": 34
+        },
+        {
+            "id": 231,
+            "codigo": "MCT-102",
+            "nombre": "Actuadores y Accionamientos Eléctricos (MCT-102)",
+            "idnumber": "UATF-MCT-102-2026",
+            "categoria_id": 34
+        },
+        {
+            "id": 232,
+            "codigo": "MCT-201",
+            "nombre": "Microcontroladores y Sistemas Embebidos (MCT-201)",
+            "idnumber": "UATF-MCT-201-2026",
+            "categoria_id": 34
+        },
+        {
+            "id": 233,
+            "codigo": "MCT-202",
+            "nombre": "Teoría de Control Automático (MCT-202)",
+            "idnumber": "UATF-MCT-202-2026",
+            "categoria_id": 34
+        },
+        {
+            "id": 234,
+            "codigo": "MCT-301",
+            "nombre": "Automatización Industrial con PLCs (MCT-301)",
+            "idnumber": "UATF-MCT-301-2026",
+            "categoria_id": 34
+        },
+        {
+            "id": 235,
+            "codigo": "MCT-302",
+            "nombre": "Sistemas SCADA e Interfaces HMI (MCT-302)",
+            "idnumber": "UATF-MCT-302-2026",
+            "categoria_id": 34
+        },
+        {
+            "id": 236,
+            "codigo": "MCT-401",
+            "nombre": "Robótica Industrial (MCT-401)",
+            "idnumber": "UATF-MCT-401-2026",
+            "categoria_id": 34
+        },
+        {
+            "id": 237,
+            "codigo": "MCT-402",
+            "nombre": "Visión Artificial para Robótica (MCT-402)",
+            "idnumber": "UATF-MCT-402-2026",
+            "categoria_id": 34
+        },
+        {
+            "id": 238,
+            "codigo": "MCT-501",
+            "nombre": "Diseño de Sistemas Mecatrónicos Integrados (MCT-501)",
+            "idnumber": "UATF-MCT-501-2026",
+            "categoria_id": 34
+        },
+        {
+            "id": 239,
+            "codigo": "ELT-101",
+            "nombre": "Dispositivos y Circuitos Electrónicos I (ELT-101)",
+            "idnumber": "UATF-ELT-101-2026",
+            "categoria_id": 35
+        },
+        {
+            "id": 240,
+            "codigo": "ELT-102",
+            "nombre": "Electrónica Analógica II (ELT-102)",
+            "idnumber": "UATF-ELT-102-2026",
+            "categoria_id": 35
+        },
+        {
+            "id": 241,
+            "codigo": "ELT-201",
+            "nombre": "Electrónica Digital I (ELT-201)",
+            "idnumber": "UATF-ELT-201-2026",
+            "categoria_id": 35
+        },
+        {
+            "id": 242,
+            "codigo": "ELT-202",
+            "nombre": "Electrónica Digital II y FPGAs (ELT-202)",
+            "idnumber": "UATF-ELT-202-2026",
+            "categoria_id": 35
+        },
+        {
+            "id": 243,
+            "codigo": "ELT-301",
+            "nombre": "Electrónica de Potencia (ELT-301)",
+            "idnumber": "UATF-ELT-301-2026",
+            "categoria_id": 35
+        },
+        {
+            "id": 244,
+            "codigo": "ELT-302",
+            "nombre": "Sistemas de Telecomunicaciones (ELT-302)",
+            "idnumber": "UATF-ELT-302-2026",
+            "categoria_id": 35
+        },
+        {
+            "id": 245,
+            "codigo": "ELT-401",
+            "nombre": "Procesamiento Digital de Señales (DSP) (ELT-401)",
+            "idnumber": "UATF-ELT-401-2026",
+            "categoria_id": 35
+        },
+        {
+            "id": 246,
+            "codigo": "ELT-402",
+            "nombre": "Instrumentación Electrónica (ELT-402)",
+            "idnumber": "UATF-ELT-402-2026",
+            "categoria_id": 35
+        },
+        {
+            "id": 247,
+            "codigo": "ELT-501",
+            "nombre": "Internet de las Cosas (IoT) y Redes Inalámbricas (ELT-501)",
+            "idnumber": "UATF-ELT-501-2026",
+            "categoria_id": 35
+        },
+        {
+            "id": 248,
+            "codigo": "MIN-101",
+            "nombre": "Introducción a la Minería y Geología Minera (MIN-101)",
+            "idnumber": "UATF-MIN-101-2026",
+            "categoria_id": 37
+        },
+        {
+            "id": 249,
+            "codigo": "MIN-102",
+            "nombre": "Topografía Minera Subterránea (MIN-102)",
+            "idnumber": "UATF-MIN-102-2026",
+            "categoria_id": 37
+        },
+        {
+            "id": 250,
+            "codigo": "MIN-201",
+            "nombre": "Mecánica de Rocas I (MIN-201)",
+            "idnumber": "UATF-MIN-201-2026",
+            "categoria_id": 37
+        },
+        {
+            "id": 251,
+            "codigo": "MIN-202",
+            "nombre": "Mecánica de Rocas II (MIN-202)",
+            "idnumber": "UATF-MIN-202-2026",
+            "categoria_id": 37
+        },
+        {
+            "id": 252,
+            "codigo": "MIN-301",
+            "nombre": "Perforación y Voladura de Rocas I (MIN-301)",
+            "idnumber": "UATF-MIN-301-2026",
+            "categoria_id": 37
+        },
+        {
+            "id": 253,
+            "codigo": "MIN-302",
+            "nombre": "Perforación y Voladura de Rocas II (MIN-302)",
+            "idnumber": "UATF-MIN-302-2026",
+            "categoria_id": 37
+        },
+        {
+            "id": 254,
+            "codigo": "MIN-303",
+            "nombre": "Explotación de Minas Subterráneas I (MIN-303)",
+            "idnumber": "UATF-MIN-303-2026",
+            "categoria_id": 37
+        },
+        {
+            "id": 255,
+            "codigo": "MIN-304",
+            "nombre": "Explotación de Minas Subterráneas II (MIN-304)",
+            "idnumber": "UATF-MIN-304-2026",
+            "categoria_id": 37
+        },
+        {
+            "id": 256,
+            "codigo": "MIN-401",
+            "nombre": "Ventilación de Minas (MIN-401)",
+            "idnumber": "UATF-MIN-401-2026",
+            "categoria_id": 37
+        },
+        {
+            "id": 257,
+            "codigo": "MIN-402",
+            "nombre": "Carguío y Transporte Minero (MIN-402)",
+            "idnumber": "UATF-MIN-402-2026",
+            "categoria_id": 37
+        },
+        {
+            "id": 258,
+            "codigo": "MIN-403",
+            "nombre": "Explotación de Minas a Cielo Abierto (Open Pit) (MIN-403)",
+            "idnumber": "UATF-MIN-403-2026",
+            "categoria_id": 37
+        },
+        {
+            "id": 259,
+            "codigo": "MIN-404",
+            "nombre": "Drenaje y Bombeo en Minas (MIN-404)",
+            "idnumber": "UATF-MIN-404-2026",
+            "categoria_id": 37
+        },
+        {
+            "id": 260,
+            "codigo": "MIN-501",
+            "nombre": "Seguridad y Salud Ocupacional en Minería (MIN-501)",
+            "idnumber": "UATF-MIN-501-2026",
+            "categoria_id": 37
+        },
+        {
+            "id": 261,
+            "codigo": "MIN-502",
+            "nombre": "Evaluación de Yacimientos y Geoestadística (MIN-502)",
+            "idnumber": "UATF-MIN-502-2026",
+            "categoria_id": 37
+        },
+        {
+            "id": 262,
+            "codigo": "MIN-503",
+            "nombre": "Economía Minera y Legislación (MIN-503)",
+            "idnumber": "UATF-MIN-503-2026",
+            "categoria_id": 37
+        },
+        {
+            "id": 263,
+            "codigo": "PMM-101",
+            "nombre": "Química Metalúrgica (PMM-101)",
+            "idnumber": "UATF-PMM-101-2026",
+            "categoria_id": 38
+        },
+        {
+            "id": 264,
+            "codigo": "PMM-102",
+            "nombre": "Conminución y Molienda de Minerales (PMM-102)",
+            "idnumber": "UATF-PMM-102-2026",
+            "categoria_id": 38
+        },
+        {
+            "id": 265,
+            "codigo": "PMM-201",
+            "nombre": "Flotación de Minerales I (PMM-201)",
+            "idnumber": "UATF-PMM-201-2026",
+            "categoria_id": 38
+        },
+        {
+            "id": 266,
+            "codigo": "PMM-202",
+            "nombre": "Flotación de Minerales II (Sulfuros Complejos) (PMM-202)",
+            "idnumber": "UATF-PMM-202-2026",
+            "categoria_id": 38
+        },
+        {
+            "id": 267,
+            "codigo": "PMM-301",
+            "nombre": "Concentración Gravimétrica y Magnética (PMM-301)",
+            "idnumber": "UATF-PMM-301-2026",
+            "categoria_id": 38
+        },
+        {
+            "id": 268,
+            "codigo": "PMM-302",
+            "nombre": "Hidrometalurgia I (Lixiviación) (PMM-302)",
+            "idnumber": "UATF-PMM-302-2026",
+            "categoria_id": 38
+        },
+        {
+            "id": 269,
+            "codigo": "PMM-303",
+            "nombre": "Hidrometalurgia II (Extracción por Solventes y EW) (PMM-303)",
+            "idnumber": "UATF-PMM-303-2026",
+            "categoria_id": 38
+        },
+        {
+            "id": 270,
+            "codigo": "PMM-401",
+            "nombre": "Pirometalurgia I (Tostación y Fusión) (PMM-401)",
+            "idnumber": "UATF-PMM-401-2026",
+            "categoria_id": 38
+        },
+        {
+            "id": 271,
+            "codigo": "PMM-402",
+            "nombre": "Pirometalurgia II (Conversión y Refinación Fuego) (PMM-402)",
+            "idnumber": "UATF-PMM-402-2026",
+            "categoria_id": 38
+        },
+        {
+            "id": 272,
+            "codigo": "PMM-403",
+            "nombre": "Metalurgia del Oro y la Plata (PMM-403)",
+            "idnumber": "UATF-PMM-403-2026",
+            "categoria_id": 38
+        },
+        {
+            "id": 273,
+            "codigo": "PMM-404",
+            "nombre": "Separación Sólido-Líquido (PMM-404)",
+            "idnumber": "UATF-PMM-404-2026",
+            "categoria_id": 38
+        },
+        {
+            "id": 274,
+            "codigo": "PMM-501",
+            "nombre": "Tratamiento y Disposición de Colas y Relaves (PMM-501)",
+            "idnumber": "UATF-PMM-501-2026",
+            "categoria_id": 38
+        },
+        {
+            "id": 275,
+            "codigo": "PMM-502",
+            "nombre": "Control y Automatización de Plantas Metalúrgicas (PMM-502)",
+            "idnumber": "UATF-PMM-502-2026",
+            "categoria_id": 38
+        },
+        {
+            "id": 276,
+            "codigo": "PMM-503",
+            "nombre": "Metalurgia de Minerales No Metálicos y Evaporíticos (PMM-503)",
+            "idnumber": "UATF-PMM-503-2026",
+            "categoria_id": 38
+        },
+        {
+            "id": 277,
+            "codigo": "PMM-504",
+            "nombre": "Diseño de Plantas Concentradoras (PMM-504)",
+            "idnumber": "UATF-PMM-504-2026",
+            "categoria_id": 38
+        },
+        {
+            "id": 278,
+            "codigo": "GEO-101",
+            "nombre": "Geología General (GEO-101)",
+            "idnumber": "UATF-GEO-101-2026",
+            "categoria_id": 40
+        },
+        {
+            "id": 279,
+            "codigo": "GEO-102",
+            "nombre": "Mineralogía General y Descriptiva (GEO-102)",
+            "idnumber": "UATF-GEO-102-2026",
+            "categoria_id": 40
+        },
+        {
+            "id": 280,
+            "codigo": "GEO-201",
+            "nombre": "Petrología Ígnea y Metamórfica (GEO-201)",
+            "idnumber": "UATF-GEO-201-2026",
+            "categoria_id": 40
+        },
+        {
+            "id": 281,
+            "codigo": "GEO-202",
+            "nombre": "Estratigrafía y Sedimentología (GEO-202)",
+            "idnumber": "UATF-GEO-202-2026",
+            "categoria_id": 40
+        },
+        {
+            "id": 282,
+            "codigo": "GEO-301",
+            "nombre": "Geología Estructural (GEO-301)",
+            "idnumber": "UATF-GEO-301-2026",
+            "categoria_id": 40
+        },
+        {
+            "id": 283,
+            "codigo": "GEO-302",
+            "nombre": "Paleontología General (GEO-302)",
+            "idnumber": "UATF-GEO-302-2026",
+            "categoria_id": 40
+        },
+        {
+            "id": 284,
+            "codigo": "GEO-303",
+            "nombre": "Geomorfología y Fotointerpretación (GEO-303)",
+            "idnumber": "UATF-GEO-303-2026",
+            "categoria_id": 40
+        },
+        {
+            "id": 285,
+            "codigo": "GEO-401",
+            "nombre": "Geología de Yacimientos Minerales I (Metálicos) (GEO-401)",
+            "idnumber": "UATF-GEO-401-2026",
+            "categoria_id": 40
+        },
+        {
+            "id": 286,
+            "codigo": "GEO-402",
+            "nombre": "Geología de Yacimientos Minerales II (No Metálicos) (GEO-402)",
+            "idnumber": "UATF-GEO-402-2026",
+            "categoria_id": 40
+        },
+        {
+            "id": 287,
+            "codigo": "GEO-403",
+            "nombre": "Prospección Geoquímica (GEO-403)",
+            "idnumber": "UATF-GEO-403-2026",
+            "categoria_id": 40
+        },
+        {
+            "id": 288,
+            "codigo": "GEO-404",
+            "nombre": "Prospección Geofísica (GEO-404)",
+            "idnumber": "UATF-GEO-404-2026",
+            "categoria_id": 40
+        },
+        {
+            "id": 289,
+            "codigo": "GEO-501",
+            "nombre": "Hidrogeología (GEO-501)",
+            "idnumber": "UATF-GEO-501-2026",
+            "categoria_id": 40
+        },
+        {
+            "id": 290,
+            "codigo": "GEO-502",
+            "nombre": "Geología de Bolivia (GEO-502)",
+            "idnumber": "UATF-GEO-502-2026",
+            "categoria_id": 40
+        },
+        {
+            "id": 291,
+            "codigo": "GEO-503",
+            "nombre": "Geotecnia y Geología de Obras (GEO-503)",
+            "idnumber": "UATF-GEO-503-2026",
+            "categoria_id": 40
+        },
+        {
+            "id": 292,
+            "codigo": "GEO-504",
+            "nombre": "Sondeos y Perforación Geológica (GEO-504)",
+            "idnumber": "UATF-GEO-504-2026",
+            "categoria_id": 40
+        },
+        {
+            "id": 293,
+            "codigo": "AMB-101",
+            "nombre": "Ecología General y Ecosistemas (AMB-101)",
+            "idnumber": "UATF-AMB-101-2026",
+            "categoria_id": 41
+        },
+        {
+            "id": 294,
+            "codigo": "AMB-102",
+            "nombre": "Química y Microbiología Ambiental (AMB-102)",
+            "idnumber": "UATF-AMB-102-2026",
+            "categoria_id": 41
+        },
+        {
+            "id": 295,
+            "codigo": "AMB-201",
+            "nombre": "Contaminación y Calidad del Aire (AMB-201)",
+            "idnumber": "UATF-AMB-201-2026",
+            "categoria_id": 41
+        },
+        {
+            "id": 296,
+            "codigo": "AMB-202",
+            "nombre": "Contaminación y Tratamiento de Aguas (AMB-202)",
+            "idnumber": "UATF-AMB-202-2026",
+            "categoria_id": 41
+        },
+        {
+            "id": 297,
+            "codigo": "AMB-301",
+            "nombre": "Gestión Integral de Residuos Sólidos (AMB-301)",
+            "idnumber": "UATF-AMB-301-2026",
+            "categoria_id": 41
+        },
+        {
+            "id": 298,
+            "codigo": "AMB-302",
+            "nombre": "Evaluación de Impacto Ambiental (EIA) (AMB-302)",
+            "idnumber": "UATF-AMB-302-2026",
+            "categoria_id": 41
+        },
+        {
+            "id": 299,
+            "codigo": "AMB-303",
+            "nombre": "Sistemas de Información Geográfica Ambiental (AMB-303)",
+            "idnumber": "UATF-AMB-303-2026",
+            "categoria_id": 41
+        },
+        {
+            "id": 300,
+            "codigo": "AMB-401",
+            "nombre": "Remediación de Suelos Contaminados (AMB-401)",
+            "idnumber": "UATF-AMB-401-2026",
+            "categoria_id": 41
+        },
+        {
+            "id": 301,
+            "codigo": "AMB-402",
+            "nombre": "Auditoría Ambiental y Normas ISO 14001 (AMB-402)",
+            "idnumber": "UATF-AMB-402-2026",
+            "categoria_id": 41
+        },
+        {
+            "id": 302,
+            "codigo": "AMB-403",
+            "nombre": "Manejo Integral de Cuencas Hidrográficas (AMB-403)",
+            "idnumber": "UATF-AMB-403-2026",
+            "categoria_id": 41
+        },
+        {
+            "id": 303,
+            "codigo": "AMB-404",
+            "nombre": "Toxicología Ambiental y Salud Pública (AMB-404)",
+            "idnumber": "UATF-AMB-404-2026",
+            "categoria_id": 41
+        },
+        {
+            "id": 304,
+            "codigo": "AMB-501",
+            "nombre": "Energías Limpias y Mitigación del Cambio Climático (AMB-501)",
+            "idnumber": "UATF-AMB-501-2026",
+            "categoria_id": 41
+        },
+        {
+            "id": 305,
+            "codigo": "AMB-502",
+            "nombre": "Legislación y Derecho Ambiental Boliviano (AMB-502)",
+            "idnumber": "UATF-AMB-502-2026",
+            "categoria_id": 41
+        },
+        {
+            "id": 306,
+            "codigo": "AMB-503",
+            "nombre": "Economía Ambiental y Valoración de Servicios Ecosistémicos (AMB-503)",
+            "idnumber": "UATF-AMB-503-2026",
+            "categoria_id": 41
+        },
+        {
+            "id": 307,
+            "codigo": "AMB-504",
+            "nombre": "Planificación y Ordenamiento Territorial Ambiental (AMB-504)",
+            "idnumber": "UATF-AMB-504-2026",
+            "categoria_id": 41
+        },
+        {
+            "id": 308,
+            "codigo": "ENF-101",
+            "nombre": "Bases Conceptuales de Enfermería (ENF-101)",
+            "idnumber": "UATF-ENF-101-2026",
+            "categoria_id": 43
+        },
+        {
+            "id": 309,
+            "codigo": "ENF-102",
+            "nombre": "Anatomía y Fisiología Humana para Enfermería (ENF-102)",
+            "idnumber": "UATF-ENF-102-2026",
+            "categoria_id": 43
+        },
+        {
+            "id": 310,
+            "codigo": "ENF-201",
+            "nombre": "Farmacología Clínica para Enfermería (ENF-201)",
+            "idnumber": "UATF-ENF-201-2026",
+            "categoria_id": 43
+        },
+        {
+            "id": 311,
+            "codigo": "ENF-202",
+            "nombre": "Microbiología y Parasitología Clínica (ENF-202)",
+            "idnumber": "UATF-ENF-202-2026",
+            "categoria_id": 43
+        },
+        {
+            "id": 312,
+            "codigo": "ENF-203",
+            "nombre": "Enfermería en Salud Comunitaria I (ENF-203)",
+            "idnumber": "UATF-ENF-203-2026",
+            "categoria_id": 43
+        },
+        {
+            "id": 313,
+            "codigo": "ENF-301",
+            "nombre": "Enfermería Médico-Quirúrgica I (ENF-301)",
+            "idnumber": "UATF-ENF-301-2026",
+            "categoria_id": 43
+        },
+        {
+            "id": 314,
+            "codigo": "ENF-302",
+            "nombre": "Enfermería Médico-Quirúrgica II (ENF-302)",
+            "idnumber": "UATF-ENF-302-2026",
+            "categoria_id": 43
+        },
+        {
+            "id": 315,
+            "codigo": "ENF-303",
+            "nombre": "Enfermería Gineco-Obstétrica (ENF-303)",
+            "idnumber": "UATF-ENF-303-2026",
+            "categoria_id": 43
+        },
+        {
+            "id": 316,
+            "codigo": "ENF-401",
+            "nombre": "Enfermería Pediátrica y del Adolescente (ENF-401)",
+            "idnumber": "UATF-ENF-401-2026",
+            "categoria_id": 43
+        },
+        {
+            "id": 317,
+            "codigo": "ENF-402",
+            "nombre": "Enfermería en Salud Mental y Psiquiatría (ENF-402)",
+            "idnumber": "UATF-ENF-402-2026",
+            "categoria_id": 43
+        },
+        {
+            "id": 318,
+            "codigo": "ENF-403",
+            "nombre": "Enfermería en Urgencias y Cuidados Críticos (ENF-403)",
+            "idnumber": "UATF-ENF-403-2026",
+            "categoria_id": 43
+        },
+        {
+            "id": 319,
+            "codigo": "ENF-404",
+            "nombre": "Enfermería en Salud Comunitaria II (ENF-404)",
+            "idnumber": "UATF-ENF-404-2026",
+            "categoria_id": 43
+        },
+        {
+            "id": 320,
+            "codigo": "ENF-501",
+            "nombre": "Administración y Gestión de Servicios de Enfermería (ENF-501)",
+            "idnumber": "UATF-ENF-501-2026",
+            "categoria_id": 43
+        },
+        {
+            "id": 321,
+            "codigo": "ENF-502",
+            "nombre": "Bioética y Legislación en Salud (ENF-502)",
+            "idnumber": "UATF-ENF-502-2026",
+            "categoria_id": 43
+        },
+        {
+            "id": 322,
+            "codigo": "ENF-503",
+            "nombre": "Investigación en Enfermería (ENF-503)",
+            "idnumber": "UATF-ENF-503-2026",
+            "categoria_id": 43
+        },
+        {
+            "id": 323,
+            "codigo": "ENF-504",
+            "nombre": "Nutrición y Dietoterapia (ENF-504)",
+            "idnumber": "UATF-ENF-504-2026",
+            "categoria_id": 43
+        },
+        {
+            "id": 324,
+            "codigo": "ENF-505",
+            "nombre": "Enfermería Geriátrica y Gerontológica (ENF-505)",
+            "idnumber": "UATF-ENF-505-2026",
+            "categoria_id": 43
+        },
+        {
+            "id": 325,
+            "codigo": "ENF-506",
+            "nombre": "Salud Intercultural y Medicina Tradicional (ENF-506)",
+            "idnumber": "UATF-ENF-506-2026",
+            "categoria_id": 43
+        },
+        {
+            "id": 326,
+            "codigo": "ENF-507",
+            "nombre": "Taller de Práctica Hospitalaria Integrada (ENF-507)",
+            "idnumber": "UATF-ENF-507-2026",
+            "categoria_id": 43
+        },
+        {
+            "id": 327,
+            "codigo": "ENF-508",
+            "nombre": "Internado Rotatorio de Enfermería (ENF-508)",
+            "idnumber": "UATF-ENF-508-2026",
+            "categoria_id": 43
+        },
+        {
+            "id": 328,
+            "codigo": "EVL-101",
+            "nombre": "Introducción a la Enfermería Fronteriza (Villazón) (EVL-101)",
+            "idnumber": "UATF-EVL-101-2026",
+            "categoria_id": 44
+        },
+        {
+            "id": 329,
+            "codigo": "EVL-102",
+            "nombre": "Morfofisiología Humana (Villazón) (EVL-102)",
+            "idnumber": "UATF-EVL-102-2026",
+            "categoria_id": 44
+        },
+        {
+            "id": 330,
+            "codigo": "EVL-201",
+            "nombre": "Farmacología Básica y Aplicada (Villazón) (EVL-201)",
+            "idnumber": "UATF-EVL-201-2026",
+            "categoria_id": 44
+        },
+        {
+            "id": 331,
+            "codigo": "EVL-202",
+            "nombre": "Enfermería en Atención Primaria (Villazón) (EVL-202)",
+            "idnumber": "UATF-EVL-202-2026",
+            "categoria_id": 44
+        },
+        {
+            "id": 332,
+            "codigo": "EVL-203",
+            "nombre": "Bioseguridad y Control de Infecciones (Villazón) (EVL-203)",
+            "idnumber": "UATF-EVL-203-2026",
+            "categoria_id": 44
+        },
+        {
+            "id": 333,
+            "codigo": "EVL-301",
+            "nombre": "Cuidados Médico-Quirúrgicos del Adulto (Villazón) (EVL-301)",
+            "idnumber": "UATF-EVL-301-2026",
+            "categoria_id": 44
+        },
+        {
+            "id": 334,
+            "codigo": "EVL-302",
+            "nombre": "Salud Materno-Infantil en Zonas Fronterizas (Villazón) (EVL-302)",
+            "idnumber": "UATF-EVL-302-2026",
+            "categoria_id": 44
+        },
+        {
+            "id": 335,
+            "codigo": "EVL-303",
+            "nombre": "Enfermería Pediátrica Comunitaria (Villazón) (EVL-303)",
+            "idnumber": "UATF-EVL-303-2026",
+            "categoria_id": 44
+        },
+        {
+            "id": 336,
+            "codigo": "EVL-401",
+            "nombre": "Enfermería en Urgencias y Desastres (Villazón) (EVL-401)",
+            "idnumber": "UATF-EVL-401-2026",
+            "categoria_id": 44
+        },
+        {
+            "id": 337,
+            "codigo": "EVL-402",
+            "nombre": "Epidemiología de Enfermedades Transfronterizas (Villazón) (EVL-402)",
+            "idnumber": "UATF-EVL-402-2026",
+            "categoria_id": 44
+        },
+        {
+            "id": 338,
+            "codigo": "EVL-403",
+            "nombre": "Salud Ocupacional y del Trabajador (Villazón) (EVL-403)",
+            "idnumber": "UATF-EVL-403-2026",
+            "categoria_id": 44
+        },
+        {
+            "id": 339,
+            "codigo": "EVL-501",
+            "nombre": "Gestión de Centros de Salud de Primer Nivel (Villazón) (EVL-501)",
+            "idnumber": "UATF-EVL-501-2026",
+            "categoria_id": 44
+        },
+        {
+            "id": 340,
+            "codigo": "EVL-502",
+            "nombre": "Ética y Deontología en Salud (Villazón) (EVL-502)",
+            "idnumber": "UATF-EVL-502-2026",
+            "categoria_id": 44
+        },
+        {
+            "id": 341,
+            "codigo": "EVL-503",
+            "nombre": "Investigación en Salud Comunitaria (Villazón) (EVL-503)",
+            "idnumber": "UATF-EVL-503-2026",
+            "categoria_id": 44
+        },
+        {
+            "id": 342,
+            "codigo": "EVL-504",
+            "nombre": "Internado Rotatorio en Red Rural (Villazón) (EVL-504)",
+            "idnumber": "UATF-EVL-504-2026",
+            "categoria_id": 44
+        },
+        {
+            "id": 343,
+            "codigo": "MED-102",
+            "nombre": "Histología, Embriología y Genética Médica (MED-102)",
+            "idnumber": "UATF-MED-102-2026",
+            "categoria_id": 46
+        },
+        {
+            "id": 344,
+            "codigo": "MED-103",
+            "nombre": "Fisiología Médica General y de Sistemas (MED-103)",
+            "idnumber": "UATF-MED-103-2026",
+            "categoria_id": 46
+        },
+        {
+            "id": 345,
+            "codigo": "MED-104",
+            "nombre": "Bioquímica y Biología Molecular Médica (MED-104)",
+            "idnumber": "UATF-MED-104-2026",
+            "categoria_id": 46
+        },
+        {
+            "id": 346,
+            "codigo": "MED-105",
+            "nombre": "Bioética, Humanismo Médico y Deontología (MED-105)",
+            "idnumber": "UATF-MED-105-2026",
+            "categoria_id": 46
+        },
+        {
+            "id": 347,
+            "codigo": "MED-201",
+            "nombre": "Microbiología y Parasitología Médica (MED-201)",
+            "idnumber": "UATF-MED-201-2026",
+            "categoria_id": 46
+        },
+        {
+            "id": 348,
+            "codigo": "MED-202",
+            "nombre": "Farmacología Médica General y Terapéutica (MED-202)",
+            "idnumber": "UATF-MED-202-2026",
+            "categoria_id": 46
+        },
+        {
+            "id": 349,
+            "codigo": "MED-203",
+            "nombre": "Anatomía Patológica General y Especial (MED-203)",
+            "idnumber": "UATF-MED-203-2026",
+            "categoria_id": 46
+        },
+        {
+            "id": 350,
+            "codigo": "MED-204",
+            "nombre": "Inmunología Médica (MED-204)",
+            "idnumber": "UATF-MED-204-2026",
+            "categoria_id": 46
+        },
+        {
+            "id": 351,
+            "codigo": "MED-205",
+            "nombre": "Semiología Médica y Propedéutica Clínica (MED-205)",
+            "idnumber": "UATF-MED-205-2026",
+            "categoria_id": 46
+        },
+        {
+            "id": 352,
+            "codigo": "MED-301",
+            "nombre": "Medicina Interna I (Cardiología y Neumología) (MED-301)",
+            "idnumber": "UATF-MED-301-2026",
+            "categoria_id": 46
+        },
+        {
+            "id": 353,
+            "codigo": "MED-302",
+            "nombre": "Medicina Interna II (Gastroenterología y Nefrología) (MED-302)",
+            "idnumber": "UATF-MED-302-2026",
+            "categoria_id": 46
+        },
+        {
+            "id": 354,
+            "codigo": "MED-303",
+            "nombre": "Cirugía General I y Patología Quirúrgica (MED-303)",
+            "idnumber": "UATF-MED-303-2026",
+            "categoria_id": 46
+        },
+        {
+            "id": 355,
+            "codigo": "MED-304",
+            "nombre": "Ginecología y Reproducción Humana (MED-304)",
+            "idnumber": "UATF-MED-304-2026",
+            "categoria_id": 46
+        },
+        {
+            "id": 356,
+            "codigo": "MED-305",
+            "nombre": "Obstetricia Fisiológica y Patológica (MED-305)",
+            "idnumber": "UATF-MED-305-2026",
+            "categoria_id": 46
+        },
+        {
+            "id": 357,
+            "codigo": "MED-401",
+            "nombre": "Pediatría y Puericultura (MED-401)",
+            "idnumber": "UATF-MED-401-2026",
+            "categoria_id": 46
+        },
+        {
+            "id": 358,
+            "codigo": "MED-402",
+            "nombre": "Cirugía General II y Especialidades Quirúrgicas (MED-402)",
+            "idnumber": "UATF-MED-402-2026",
+            "categoria_id": 46
+        },
+        {
+            "id": 359,
+            "codigo": "MED-403",
+            "nombre": "Neurología y Neurocirugía (MED-403)",
+            "idnumber": "UATF-MED-403-2026",
+            "categoria_id": 46
+        },
+        {
+            "id": 360,
+            "codigo": "MED-404",
+            "nombre": "Traumatología y Ortopedia (MED-404)",
+            "idnumber": "UATF-MED-404-2026",
+            "categoria_id": 46
+        },
+        {
+            "id": 361,
+            "codigo": "MED-405",
+            "nombre": "Psiquiatría y Salud Mental (MED-405)",
+            "idnumber": "UATF-MED-405-2026",
+            "categoria_id": 46
+        },
+        {
+            "id": 362,
+            "codigo": "MED-406",
+            "nombre": "Dermatología Clínica (MED-406)",
+            "idnumber": "UATF-MED-406-2026",
+            "categoria_id": 46
+        },
+        {
+            "id": 363,
+            "codigo": "MED-407",
+            "nombre": "Oftalmología (MED-407)",
+            "idnumber": "UATF-MED-407-2026",
+            "categoria_id": 46
+        },
+        {
+            "id": 364,
+            "codigo": "MED-408",
+            "nombre": "Otorrinolaringología (MED-408)",
+            "idnumber": "UATF-MED-408-2026",
+            "categoria_id": 46
+        },
+        {
+            "id": 365,
+            "codigo": "MED-409",
+            "nombre": "Urología (MED-409)",
+            "idnumber": "UATF-MED-409-2026",
+            "categoria_id": 46
+        },
+        {
+            "id": 366,
+            "codigo": "MED-410",
+            "nombre": "Epidemiología y Salud Pública (MED-410)",
+            "idnumber": "UATF-MED-410-2026",
+            "categoria_id": 46
+        },
+        {
+            "id": 367,
+            "codigo": "MED-501",
+            "nombre": "Medicina Legal y Toxicología Forense (MED-501)",
+            "idnumber": "UATF-MED-501-2026",
+            "categoria_id": 46
+        },
+        {
+            "id": 368,
+            "codigo": "MED-502",
+            "nombre": "Infectología Clínica y Enfermedades Tropicales (MED-502)",
+            "idnumber": "UATF-MED-502-2026",
+            "categoria_id": 46
+        },
+        {
+            "id": 369,
+            "codigo": "MED-503",
+            "nombre": "Endocrinología y Enfermedades Metabólicas (MED-503)",
+            "idnumber": "UATF-MED-503-2026",
+            "categoria_id": 46
+        },
+        {
+            "id": 370,
+            "codigo": "MED-504",
+            "nombre": "Hematología y Oncología Médica (MED-504)",
+            "idnumber": "UATF-MED-504-2026",
+            "categoria_id": 46
+        },
+        {
+            "id": 371,
+            "codigo": "MED-505",
+            "nombre": "Reumatología y Enfermedades Autoinmunes (MED-505)",
+            "idnumber": "UATF-MED-505-2026",
+            "categoria_id": 46
+        },
+        {
+            "id": 372,
+            "codigo": "MED-506",
+            "nombre": "Medicina de Urgencias y Terapia Intensiva (MED-506)",
+            "idnumber": "UATF-MED-506-2026",
+            "categoria_id": 46
+        },
+        {
+            "id": 373,
+            "codigo": "MED-507",
+            "nombre": "Diagnóstico por Imágenes (Radiología) (MED-507)",
+            "idnumber": "UATF-MED-507-2026",
+            "categoria_id": 46
+        },
+        {
+            "id": 374,
+            "codigo": "MED-508",
+            "nombre": "Medicina Familiar y Comunitaria (MED-508)",
+            "idnumber": "UATF-MED-508-2026",
+            "categoria_id": 46
+        },
+        {
+            "id": 375,
+            "codigo": "MED-509",
+            "nombre": "Geriatría Clínica (MED-509)",
+            "idnumber": "UATF-MED-509-2026",
+            "categoria_id": 46
+        },
+        {
+            "id": 376,
+            "codigo": "MED-510",
+            "nombre": "Taller de Razonamiento Clínico e Integración (MED-510)",
+            "idnumber": "UATF-MED-510-2026",
+            "categoria_id": 46
+        },
+        {
+            "id": 377,
+            "codigo": "DER-102",
+            "nombre": "Introducción al Derecho y Teoría General (DER-102)",
+            "idnumber": "UATF-DER-102-2026",
+            "categoria_id": 48
+        },
+        {
+            "id": 378,
+            "codigo": "DER-103",
+            "nombre": "Derecho Romano e Historia del Derecho (DER-103)",
+            "idnumber": "UATF-DER-103-2026",
+            "categoria_id": 48
+        },
+        {
+            "id": 379,
+            "codigo": "DER-104",
+            "nombre": "Sociología Jurídica y Pluralismo Jurídico (DER-104)",
+            "idnumber": "UATF-DER-104-2026",
+            "categoria_id": 48
+        },
+        {
+            "id": 380,
+            "codigo": "DER-201",
+            "nombre": "Derecho Civil I (Personas y Derechos Reales) (DER-201)",
+            "idnumber": "UATF-DER-201-2026",
+            "categoria_id": 48
+        },
+        {
+            "id": 381,
+            "codigo": "DER-202",
+            "nombre": "Derecho Penal I (Parte General) (DER-202)",
+            "idnumber": "UATF-DER-202-2026",
+            "categoria_id": 48
+        },
+        {
+            "id": 382,
+            "codigo": "DER-203",
+            "nombre": "Derecho Administrativo y Procedimiento Administrativo (DER-203)",
+            "idnumber": "UATF-DER-203-2026",
+            "categoria_id": 48
+        },
+        {
+            "id": 383,
+            "codigo": "DER-204",
+            "nombre": "Derecho Internacional Público (DER-204)",
+            "idnumber": "UATF-DER-204-2026",
+            "categoria_id": 48
+        },
+        {
+            "id": 384,
+            "codigo": "DER-301",
+            "nombre": "Derecho Civil II (Obligaciones y Contratos) (DER-301)",
+            "idnumber": "UATF-DER-301-2026",
+            "categoria_id": 48
+        },
+        {
+            "id": 385,
+            "codigo": "DER-302",
+            "nombre": "Derecho Penal II (Parte Especial) (DER-302)",
+            "idnumber": "UATF-DER-302-2026",
+            "categoria_id": 48
+        },
+        {
+            "id": 386,
+            "codigo": "DER-303",
+            "nombre": "Derecho Procesal Orgánico y Teoría del Proceso (DER-303)",
+            "idnumber": "UATF-DER-303-2026",
+            "categoria_id": 48
+        },
+        {
+            "id": 387,
+            "codigo": "DER-304",
+            "nombre": "Derecho Comercial y Societario (DER-304)",
+            "idnumber": "UATF-DER-304-2026",
+            "categoria_id": 48
+        },
+        {
+            "id": 388,
+            "codigo": "DER-401",
+            "nombre": "Derecho Procesal Civil (DER-401)",
+            "idnumber": "UATF-DER-401-2026",
+            "categoria_id": 48
+        },
+        {
+            "id": 389,
+            "codigo": "DER-402",
+            "nombre": "Derecho Procesal Penal (DER-402)",
+            "idnumber": "UATF-DER-402-2026",
+            "categoria_id": 48
+        },
+        {
+            "id": 390,
+            "codigo": "DER-403",
+            "nombre": "Derecho Laboral y Seguridad Social (DER-403)",
+            "idnumber": "UATF-DER-403-2026",
+            "categoria_id": 48
+        },
+        {
+            "id": 391,
+            "codigo": "DER-404",
+            "nombre": "Derecho Minero e Hidrocarburífero (DER-404)",
+            "idnumber": "UATF-DER-404-2026",
+            "categoria_id": 48
+        },
+        {
+            "id": 392,
+            "codigo": "DER-501",
+            "nombre": "Derecho de Familia y Procedimiento Familiar (DER-501)",
+            "idnumber": "UATF-DER-501-2026",
+            "categoria_id": 48
+        },
+        {
+            "id": 393,
+            "codigo": "DER-502",
+            "nombre": "Derecho Agrario y Ambiental (DER-502)",
+            "idnumber": "UATF-DER-502-2026",
+            "categoria_id": 48
+        },
+        {
+            "id": 394,
+            "codigo": "DER-503",
+            "nombre": "Derecho Tributario y Aduanero (DER-503)",
+            "idnumber": "UATF-DER-503-2026",
+            "categoria_id": 48
+        },
+        {
+            "id": 395,
+            "codigo": "DER-504",
+            "nombre": "Práctica Forense y Clínica Jurídica (DER-504)",
+            "idnumber": "UATF-DER-504-2026",
+            "categoria_id": 48
+        },
+        {
+            "id": 396,
+            "codigo": "DNC-101",
+            "nombre": "Derecho Indígena Originario Campesino (Uncía) (DNC-101)",
+            "idnumber": "UATF-DNC-101-2026",
+            "categoria_id": 49
+        },
+        {
+            "id": 397,
+            "codigo": "DNC-102",
+            "nombre": "Derecho Civil: Bienes y Derechos Reales (Uncía) (DNC-102)",
+            "idnumber": "UATF-DNC-102-2026",
+            "categoria_id": 49
+        },
+        {
+            "id": 398,
+            "codigo": "DNC-201",
+            "nombre": "Derecho Penal Aplicado a la Región Minera (Uncía) (DNC-201)",
+            "idnumber": "UATF-DNC-201-2026",
+            "categoria_id": 49
+        },
+        {
+            "id": 399,
+            "codigo": "DNC-202",
+            "nombre": "Derecho Laboral Minero y Cooperativo (Uncía) (DNC-202)",
+            "idnumber": "UATF-DNC-202-2026",
+            "categoria_id": 49
+        },
+        {
+            "id": 400,
+            "codigo": "DNC-301",
+            "nombre": "Derecho Administrativo Municipal (Uncía) (DNC-301)",
+            "idnumber": "UATF-DNC-301-2026",
+            "categoria_id": 49
+        },
+        {
+            "id": 401,
+            "codigo": "DNC-302",
+            "nombre": "Derecho Procesal Civil y Oralidad (Uncía) (DNC-302)",
+            "idnumber": "UATF-DNC-302-2026",
+            "categoria_id": 49
+        },
+        {
+            "id": 402,
+            "codigo": "DNC-401",
+            "nombre": "Derecho de Familias y Protección Integral (Uncía) (DNC-401)",
+            "idnumber": "UATF-DNC-401-2026",
+            "categoria_id": 49
+        },
+        {
+            "id": 403,
+            "codigo": "DNC-402",
+            "nombre": "Derecho de la Seguridad Social Minera (Uncía) (DNC-402)",
+            "idnumber": "UATF-DNC-402-2026",
+            "categoria_id": 49
+        },
+        {
+            "id": 404,
+            "codigo": "DNC-501",
+            "nombre": "MASC: Conciliación y Arbitraje (Uncía) (DNC-501)",
+            "idnumber": "UATF-DNC-501-2026",
+            "categoria_id": 49
+        },
+        {
+            "id": 405,
+            "codigo": "DNC-502",
+            "nombre": "Clínica Forense y Práctica Judicial (Uncía) (DNC-502)",
+            "idnumber": "UATF-DNC-502-2026",
+            "categoria_id": 49
+        },
+        {
+            "id": 406,
+            "codigo": "DTP-101",
+            "nombre": "Derecho Fronterizo e Integración Regional (Tupiza) (DTP-101)",
+            "idnumber": "UATF-DTP-101-2026",
+            "categoria_id": 50
+        },
+        {
+            "id": 407,
+            "codigo": "DTP-102",
+            "nombre": "Derecho Civil: Contratos Comerciales (Tupiza) (DTP-102)",
+            "idnumber": "UATF-DTP-102-2026",
+            "categoria_id": 50
+        },
+        {
+            "id": 408,
+            "codigo": "DTP-201",
+            "nombre": "Derecho Aduanero y Régimen de Exportación (Tupiza) (DTP-201)",
+            "idnumber": "UATF-DTP-201-2026",
+            "categoria_id": 50
+        },
+        {
+            "id": 409,
+            "codigo": "DTP-202",
+            "nombre": "Derecho Penal y Tráfico Ilícito Transfronterizo (Tupiza) (DTP-202)",
+            "idnumber": "UATF-DTP-202-2026",
+            "categoria_id": 50
+        },
+        {
+            "id": 410,
+            "codigo": "DTP-301",
+            "nombre": "Derecho Ambiental y Recursos Hídricos (Tupiza) (DTP-301)",
+            "idnumber": "UATF-DTP-301-2026",
+            "categoria_id": 50
+        },
+        {
+            "id": 411,
+            "codigo": "DTP-302",
+            "nombre": "Derecho Procesal Penal y Litigación Oral (Tupiza) (DTP-302)",
+            "idnumber": "UATF-DTP-302-2026",
+            "categoria_id": 50
+        },
+        {
+            "id": 412,
+            "codigo": "DTP-401",
+            "nombre": "Derecho Notarial y Registral (Tupiza) (DTP-401)",
+            "idnumber": "UATF-DTP-401-2026",
+            "categoria_id": 50
+        },
+        {
+            "id": 413,
+            "codigo": "DTP-402",
+            "nombre": "Derecho Tributario Municipal y Regional (Tupiza) (DTP-402)",
+            "idnumber": "UATF-DTP-402-2026",
+            "categoria_id": 50
+        },
+        {
+            "id": 414,
+            "codigo": "DTP-501",
+            "nombre": "Derechos Humanos y Protección Internacional (Tupiza) (DTP-501)",
+            "idnumber": "UATF-DTP-501-2026",
+            "categoria_id": 50
+        },
+        {
+            "id": 415,
+            "codigo": "DTP-502",
+            "nombre": "Taller de Práctica Jurídica Forense (Tupiza) (DTP-502)",
+            "idnumber": "UATF-DTP-502-2026",
+            "categoria_id": 50
+        },
+        {
+            "id": 416,
+            "codigo": "TUR-102",
+            "nombre": "Geografía Turística de Bolivia (TUR-102)",
+            "idnumber": "UATF-TUR-102-2026",
+            "categoria_id": 52
+        },
+        {
+            "id": 417,
+            "codigo": "TUR-201",
+            "nombre": "Gestión Hotelera y Hospitalidad (TUR-201)",
+            "idnumber": "UATF-TUR-201-2026",
+            "categoria_id": 52
+        },
+        {
+            "id": 418,
+            "codigo": "TUR-202",
+            "nombre": "Agencias de Viajes y Operación Turística (TUR-202)",
+            "idnumber": "UATF-TUR-202-2026",
+            "categoria_id": 52
+        },
+        {
+            "id": 419,
+            "codigo": "TUR-301",
+            "nombre": "Turismo Cultural y Patrimonio de la Humanidad (TUR-301)",
+            "idnumber": "UATF-TUR-301-2026",
+            "categoria_id": 52
+        },
+        {
+            "id": 420,
+            "codigo": "TUR-302",
+            "nombre": "Ecoturismo y Áreas Protegidas (TUR-302)",
+            "idnumber": "UATF-TUR-302-2026",
+            "categoria_id": 52
+        },
+        {
+            "id": 421,
+            "codigo": "TUR-401",
+            "nombre": "Marketing Turístico y Promoción Digital (TUR-401)",
+            "idnumber": "UATF-TUR-401-2026",
+            "categoria_id": 52
+        },
+        {
+            "id": 422,
+            "codigo": "TUR-402",
+            "nombre": "Planificación y Políticas del Turismo (TUR-402)",
+            "idnumber": "UATF-TUR-402-2026",
+            "categoria_id": 52
+        },
+        {
+            "id": 423,
+            "codigo": "TUR-501",
+            "nombre": "Turismo de Aventura y Deportes Extremos (TUR-501)",
+            "idnumber": "UATF-TUR-501-2026",
+            "categoria_id": 52
+        },
+        {
+            "id": 424,
+            "codigo": "TUR-502",
+            "nombre": "Proyecto de Grado en Turismo (TUR-502)",
+            "idnumber": "UATF-TUR-502-2026",
+            "categoria_id": 52
+        },
+        {
+            "id": 425,
+            "codigo": "TUY-101",
+            "nombre": "Turismo en Ecosistemas Extremos (Uyuni) (TUY-101)",
+            "idnumber": "UATF-TUY-101-2026",
+            "categoria_id": 53
+        },
+        {
+            "id": 426,
+            "codigo": "TUY-201",
+            "nombre": "Operaciones Turísticas en el Salar de Uyuni (TUY-201)",
+            "idnumber": "UATF-TUY-201-2026",
+            "categoria_id": 53
+        },
+        {
+            "id": 427,
+            "codigo": "TUY-301",
+            "nombre": "Inglés Técnico para Guías de Uyuni (TUY-301)",
+            "idnumber": "UATF-TUY-301-2026",
+            "categoria_id": 53
+        },
+        {
+            "id": 428,
+            "codigo": "TUY-401",
+            "nombre": "Sostenibilidad y Conservación del Salar (TUY-401)",
+            "idnumber": "UATF-TUY-401-2026",
+            "categoria_id": 53
+        },
+        {
+            "id": 429,
+            "codigo": "TUY-501",
+            "nombre": "Gestión de Empresas de Turismo Altiplánico (TUY-501)",
+            "idnumber": "UATF-TUY-501-2026",
+            "categoria_id": 53
+        },
+        {
+            "id": 430,
+            "codigo": "LIN-101",
+            "nombre": "Lingüística General y Teoría del Lenguaje (LIN-101)",
+            "idnumber": "UATF-LIN-101-2026",
+            "categoria_id": 54
+        },
+        {
+            "id": 431,
+            "codigo": "LIN-102",
+            "nombre": "Fonética y Fonología del Español (LIN-102)",
+            "idnumber": "UATF-LIN-102-2026",
+            "categoria_id": 54
+        },
+        {
+            "id": 432,
+            "codigo": "LIN-201",
+            "nombre": "Morfosintaxis del Español (LIN-201)",
+            "idnumber": "UATF-LIN-201-2026",
+            "categoria_id": 54
+        },
+        {
+            "id": 433,
+            "codigo": "LIN-202",
+            "nombre": "Lengua Quechua I (Fonología y Gramática) (LIN-202)",
+            "idnumber": "UATF-LIN-202-2026",
+            "categoria_id": 54
+        },
+        {
+            "id": 434,
+            "codigo": "LIN-301",
+            "nombre": "Lengua Quechua II (Conversación y Redacción) (LIN-301)",
+            "idnumber": "UATF-LIN-301-2026",
+            "categoria_id": 54
+        },
+        {
+            "id": 435,
+            "codigo": "LIN-302",
+            "nombre": "Lengua Inglesa Avanzada I (LIN-302)",
+            "idnumber": "UATF-LIN-302-2026",
+            "categoria_id": 54
+        },
+        {
+            "id": 436,
+            "codigo": "LIN-401",
+            "nombre": "Lengua Inglesa Avanzada II (LIN-401)",
+            "idnumber": "UATF-LIN-401-2026",
+            "categoria_id": 54
+        },
+        {
+            "id": 437,
+            "codigo": "LIN-402",
+            "nombre": "Teoría y Práctica de la Traducción (LIN-402)",
+            "idnumber": "UATF-LIN-402-2026",
+            "categoria_id": 54
+        },
+        {
+            "id": 438,
+            "codigo": "LIN-501",
+            "nombre": "Sociolingüística y Contacto de Lenguas (LIN-501)",
+            "idnumber": "UATF-LIN-501-2026",
+            "categoria_id": 54
+        },
+        {
+            "id": 439,
+            "codigo": "LIN-502",
+            "nombre": "Metodología de la Enseñanza de Lenguas (LIN-502)",
+            "idnumber": "UATF-LIN-502-2026",
+            "categoria_id": 54
+        },
+        {
+            "id": 440,
+            "codigo": "LUY-101",
+            "nombre": "Inglés Aplicado al Sector Servicios (Uyuni) (LUY-101)",
+            "idnumber": "UATF-LUY-101-2026",
+            "categoria_id": 55
+        },
+        {
+            "id": 441,
+            "codigo": "LUY-201",
+            "nombre": "Francés para Fines Turísticos (Uyuni) (LUY-201)",
+            "idnumber": "UATF-LUY-201-2026",
+            "categoria_id": 55
+        },
+        {
+            "id": 442,
+            "codigo": "LUY-301",
+            "nombre": "Quechua Altiplánico y Toponimia (Uyuni) (LUY-301)",
+            "idnumber": "UATF-LUY-301-2026",
+            "categoria_id": 55
+        },
+        {
+            "id": 443,
+            "codigo": "LUY-401",
+            "nombre": "Traducción de Guías e Información Turística (LUY-401)",
+            "idnumber": "UATF-LUY-401-2026",
+            "categoria_id": 55
+        },
+        {
+            "id": 444,
+            "codigo": "LUY-501",
+            "nombre": "Interculturalidad y Comunicación en Turismo (LUY-501)",
+            "idnumber": "UATF-LUY-501-2026",
+            "categoria_id": 55
+        },
+        {
+            "id": 445,
+            "codigo": "TSO-101",
+            "nombre": "Fundamentos del Trabajo Social (TSO-101)",
+            "idnumber": "UATF-TSO-101-2026",
+            "categoria_id": 56
+        },
+        {
+            "id": 446,
+            "codigo": "TSO-102",
+            "nombre": "Teoría Social y Enfoques de Desarrollo (TSO-102)",
+            "idnumber": "UATF-TSO-102-2026",
+            "categoria_id": 56
+        },
+        {
+            "id": 447,
+            "codigo": "TSO-201",
+            "nombre": "Trabajo Social con Familias (TSO-201)",
+            "idnumber": "UATF-TSO-201-2026",
+            "categoria_id": 56
+        },
+        {
+            "id": 448,
+            "codigo": "TSO-202",
+            "nombre": "Trabajo Social de Grupo (TSO-202)",
+            "idnumber": "UATF-TSO-202-2026",
+            "categoria_id": 56
+        },
+        {
+            "id": 449,
+            "codigo": "TSO-301",
+            "nombre": "Trabajo Social Comunitario (TSO-301)",
+            "idnumber": "UATF-TSO-301-2026",
+            "categoria_id": 56
+        },
+        {
+            "id": 450,
+            "codigo": "TSO-302",
+            "nombre": "Planificación y Gestión de Proyectos Sociales (TSO-302)",
+            "idnumber": "UATF-TSO-302-2026",
+            "categoria_id": 56
+        },
+        {
+            "id": 451,
+            "codigo": "TSO-401",
+            "nombre": "Trabajo Social en el Ámbito Judicial y Peritaje (TSO-401)",
+            "idnumber": "UATF-TSO-401-2026",
+            "categoria_id": 56
+        },
+        {
+            "id": 452,
+            "codigo": "TSO-402",
+            "nombre": "Políticas Públicas y Bienestar Social (TSO-402)",
+            "idnumber": "UATF-TSO-402-2026",
+            "categoria_id": 56
+        },
+        {
+            "id": 453,
+            "codigo": "TSO-501",
+            "nombre": "Trabajo Social en Salud y Hospitales (TSO-501)",
+            "idnumber": "UATF-TSO-501-2026",
+            "categoria_id": 56
+        },
+        {
+            "id": 454,
+            "codigo": "TSO-502",
+            "nombre": "Práctica Preprofesional y Sistematización (TSO-502)",
+            "idnumber": "UATF-TSO-502-2026",
+            "categoria_id": 56
+        },
+        {
+            "id": 455,
+            "codigo": "COM-101",
+            "nombre": "Teorías de la Comunicación y la Información (COM-101)",
+            "idnumber": "UATF-COM-101-2026",
+            "categoria_id": 58
+        },
+        {
+            "id": 456,
+            "codigo": "COM-201",
+            "nombre": "Periodismo Informativo y Redacción (COM-201)",
+            "idnumber": "UATF-COM-201-2026",
+            "categoria_id": 58
+        },
+        {
+            "id": 457,
+            "codigo": "COM-301",
+            "nombre": "Producción Radiofónica y Podcast (COM-301)",
+            "idnumber": "UATF-COM-301-2026",
+            "categoria_id": 58
+        },
+        {
+            "id": 458,
+            "codigo": "COM-401",
+            "nombre": "Producción Audiovisual y Televisiva (COM-401)",
+            "idnumber": "UATF-COM-401-2026",
+            "categoria_id": 58
+        },
+        {
+            "id": 459,
+            "codigo": "COM-501",
+            "nombre": "Comunicación Estratégica y Organizacional (COM-501)",
+            "idnumber": "UATF-COM-501-2026",
+            "categoria_id": 58
+        },
+        {
+            "id": 460,
+            "codigo": "AGR-101",
+            "nombre": "Botánica General y Sistemática (AGR-101)",
+            "idnumber": "UATF-AGR-101-2026",
+            "categoria_id": 60
+        },
+        {
+            "id": 461,
+            "codigo": "AGR-102",
+            "nombre": "Edafología y Fertilidad de Suelos (AGR-102)",
+            "idnumber": "UATF-AGR-102-2026",
+            "categoria_id": 60
+        },
+        {
+            "id": 462,
+            "codigo": "AGR-201",
+            "nombre": "Fisiología Vegetal (AGR-201)",
+            "idnumber": "UATF-AGR-201-2026",
+            "categoria_id": 60
+        },
+        {
+            "id": 463,
+            "codigo": "AGR-202",
+            "nombre": "Agrometeorología y Climatología (AGR-202)",
+            "idnumber": "UATF-AGR-202-2026",
+            "categoria_id": 60
+        },
+        {
+            "id": 464,
+            "codigo": "AGR-301",
+            "nombre": "Sistemas de Riego y Drenaje Agrícola (AGR-301)",
+            "idnumber": "UATF-AGR-301-2026",
+            "categoria_id": 60
+        },
+        {
+            "id": 465,
+            "codigo": "AGR-302",
+            "nombre": "Entomología Agrícola y Manejo de Plagas (AGR-302)",
+            "idnumber": "UATF-AGR-302-2026",
+            "categoria_id": 60
+        },
+        {
+            "id": 466,
+            "codigo": "AGR-401",
+            "nombre": "Fitopatología Agrícola (AGR-401)",
+            "idnumber": "UATF-AGR-401-2026",
+            "categoria_id": 60
+        },
+        {
+            "id": 467,
+            "codigo": "AGR-402",
+            "nombre": "Producción de Cultivos Andinos (Papa y Granos) (AGR-402)",
+            "idnumber": "UATF-AGR-402-2026",
+            "categoria_id": 60
+        },
+        {
+            "id": 468,
+            "codigo": "AGR-501",
+            "nombre": "Genética Vegetal y Mejoramiento Genético (AGR-501)",
+            "idnumber": "UATF-AGR-501-2026",
+            "categoria_id": 60
+        },
+        {
+            "id": 469,
+            "codigo": "AGR-502",
+            "nombre": "Agroecología y Producción Orgánica (AGR-502)",
+            "idnumber": "UATF-AGR-502-2026",
+            "categoria_id": 60
+        },
+        {
+            "id": 470,
+            "codigo": "AGV-101",
+            "nombre": "Sistemas de Producción en Valles Templados (Villazón) (AGV-101)",
+            "idnumber": "UATF-AGV-101-2026",
+            "categoria_id": 61
+        },
+        {
+            "id": 471,
+            "codigo": "AGV-201",
+            "nombre": "Producción y Sanidad Pecuaria (Villazón) (AGV-201)",
+            "idnumber": "UATF-AGV-201-2026",
+            "categoria_id": 61
+        },
+        {
+            "id": 472,
+            "codigo": "AGV-301",
+            "nombre": "Producción Forrajera y Pasturas (Villazón) (AGV-301)",
+            "idnumber": "UATF-AGV-301-2026",
+            "categoria_id": 61
+        },
+        {
+            "id": 473,
+            "codigo": "AGV-401",
+            "nombre": "Horticultura Intensiva y Bajo Carpa (Villazón) (AGV-401)",
+            "idnumber": "UATF-AGV-401-2026",
+            "categoria_id": 61
+        },
+        {
+            "id": 474,
+            "codigo": "AGV-501",
+            "nombre": "Gestión de Agronegocios en Zonas Fronterizas (Villazón) (AGV-501)",
+            "idnumber": "UATF-AGV-501-2026",
+            "categoria_id": 61
+        },
+        {
+            "id": 475,
+            "codigo": "MVZ-101",
+            "nombre": "Anatomía Veterinaria Comparada (Tupiza) (MVZ-101)",
+            "idnumber": "UATF-MVZ-101-2026",
+            "categoria_id": 62
+        },
+        {
+            "id": 476,
+            "codigo": "MVZ-201",
+            "nombre": "Fisiología de la Reproducción Animal (Tupiza) (MVZ-201)",
+            "idnumber": "UATF-MVZ-201-2026",
+            "categoria_id": 62
+        },
+        {
+            "id": 477,
+            "codigo": "MVZ-301",
+            "nombre": "Farmacología y Terapéutica Veterinaria (Tupiza) (MVZ-301)",
+            "idnumber": "UATF-MVZ-301-2026",
+            "categoria_id": 62
+        },
+        {
+            "id": 478,
+            "codigo": "MVZ-401",
+            "nombre": "Clínica y Cirugía de Grandes Animales (Tupiza) (MVZ-401)",
+            "idnumber": "UATF-MVZ-401-2026",
+            "categoria_id": 62
+        },
+        {
+            "id": 479,
+            "codigo": "MVZ-501",
+            "nombre": "Salud Pública Veterinaria y Zoonosis (Tupiza) (MVZ-501)",
+            "idnumber": "UATF-MVZ-501-2026",
+            "categoria_id": 62
+        },
+        {
+            "id": 480,
+            "codigo": "AGI-101",
+            "nombre": "Química y Bioquímica de Alimentos (AGI-101)",
+            "idnumber": "UATF-AGI-101-2026",
+            "categoria_id": 63
+        },
+        {
+            "id": 481,
+            "codigo": "AGI-201",
+            "nombre": "Microbiología Industrial de Alimentos (AGI-201)",
+            "idnumber": "UATF-AGI-201-2026",
+            "categoria_id": 63
+        },
+        {
+            "id": 482,
+            "codigo": "AGI-301",
+            "nombre": "Operaciones Unitarias Agroindustriales I (AGI-301)",
+            "idnumber": "UATF-AGI-301-2026",
+            "categoria_id": 63
+        },
+        {
+            "id": 483,
+            "codigo": "AGI-401",
+            "nombre": "Tecnología de Granos y Tubérculos Andinos (AGI-401)",
+            "idnumber": "UATF-AGI-401-2026",
+            "categoria_id": 63
+        },
+        {
+            "id": 484,
+            "codigo": "AGI-501",
+            "nombre": "Control de Calidad e Inocuidad (HACCP\/BPM) (AGI-501)",
+            "idnumber": "UATF-AGI-501-2026",
+            "categoria_id": 63
+        },
+        {
+            "id": 485,
+            "codigo": "IDR-101",
+            "nombre": "Sistemas Agrarios y Campesinados Andinos (IDR-101)",
+            "idnumber": "UATF-IDR-101-2026",
+            "categoria_id": 64
+        },
+        {
+            "id": 486,
+            "codigo": "IDR-201",
+            "nombre": "Extensión y Comunicación para el Desarrollo (IDR-201)",
+            "idnumber": "UATF-IDR-201-2026",
+            "categoria_id": 64
+        },
+        {
+            "id": 487,
+            "codigo": "IDR-301",
+            "nombre": "Seguridad y Soberanía Alimentaria Rural (IDR-301)",
+            "idnumber": "UATF-IDR-301-2026",
+            "categoria_id": 64
+        },
+        {
+            "id": 488,
+            "codigo": "IDR-401",
+            "nombre": "Políticas Agrarias y Legislación Rural (IDR-401)",
+            "idnumber": "UATF-IDR-401-2026",
+            "categoria_id": 64
+        },
+        {
+            "id": 489,
+            "codigo": "IDR-501",
+            "nombre": "Diseño y Evaluación de Proyectos de Desarrollo Rural (IDR-501)",
+            "idnumber": "UATF-IDR-501-2026",
+            "categoria_id": 64
+        },
+        {
+            "id": 490,
+            "codigo": "ARQ-101",
+            "nombre": "Taller de Diseño Arquitectónico I (ARQ-101)",
+            "idnumber": "UATF-ARQ-101-2026",
+            "categoria_id": 66
+        },
+        {
+            "id": 491,
+            "codigo": "ARQ-201",
+            "nombre": "Historia de la Arquitectura y Urbanismo I (ARQ-201)",
+            "idnumber": "UATF-ARQ-201-2026",
+            "categoria_id": 66
+        },
+        {
+            "id": 492,
+            "codigo": "ARQ-301",
+            "nombre": "Construcciones y Tecnologías Arquitectónicas (ARQ-301)",
+            "idnumber": "UATF-ARQ-301-2026",
+            "categoria_id": 66
+        },
+        {
+            "id": 493,
+            "codigo": "ARQ-401",
+            "nombre": "Restauración y Conservación de Monumentos (ARQ-401)",
+            "idnumber": "UATF-ARQ-401-2026",
+            "categoria_id": 66
+        },
+        {
+            "id": 494,
+            "codigo": "ARQ-501",
+            "nombre": "Urbanismo y Planificación Territorial (ARQ-501)",
+            "idnumber": "UATF-ARQ-501-2026",
+            "categoria_id": 66
+        },
+        {
+            "id": 495,
+            "codigo": "ARM-101",
+            "nombre": "Teoría de la Música y Solfeo I (ARM-101)",
+            "idnumber": "UATF-ARM-101-2026",
+            "categoria_id": 67
+        },
+        {
+            "id": 496,
+            "codigo": "ARM-201",
+            "nombre": "Armonía Tradicional y Funcional (ARM-201)",
+            "idnumber": "UATF-ARM-201-2026",
+            "categoria_id": 67
+        },
+        {
+            "id": 497,
+            "codigo": "ARM-301",
+            "nombre": "Historia de la Música Universal y Boliviana (ARM-301)",
+            "idnumber": "UATF-ARM-301-2026",
+            "categoria_id": 67
+        },
+        {
+            "id": 498,
+            "codigo": "ARM-401",
+            "nombre": "Contrapunto y Fuga (ARM-401)",
+            "idnumber": "UATF-ARM-401-2026",
+            "categoria_id": 67
+        },
+        {
+            "id": 499,
+            "codigo": "ARM-501",
+            "nombre": "Dirección Coral y Ensamble Instrumental (ARM-501)",
+            "idnumber": "UATF-ARM-501-2026",
+            "categoria_id": 67
+        },
+        {
+            "id": 500,
+            "codigo": "ARP-101",
+            "nombre": "Dibujo Artístico y Expresión Gráfica (ARP-101)",
+            "idnumber": "UATF-ARP-101-2026",
+            "categoria_id": 68
+        },
+        {
+            "id": 501,
+            "codigo": "ARP-201",
+            "nombre": "Pintura y Teoría del Color (ARP-201)",
+            "idnumber": "UATF-ARP-201-2026",
+            "categoria_id": 68
+        },
+        {
+            "id": 502,
+            "codigo": "ARP-301",
+            "nombre": "Escultura y Modelado Tridimensional (ARP-301)",
+            "idnumber": "UATF-ARP-301-2026",
+            "categoria_id": 68
+        },
+        {
+            "id": 503,
+            "codigo": "ARP-401",
+            "nombre": "Grabado y Artes Gráficas (ARP-401)",
+            "idnumber": "UATF-ARP-401-2026",
+            "categoria_id": 68
+        },
+        {
+            "id": 504,
+            "codigo": "ARP-501",
+            "nombre": "Historia y Crítica del Arte Contemporáneo (ARP-501)",
+            "idnumber": "UATF-ARP-501-2026",
+            "categoria_id": 68
+        }
+    ]
+}

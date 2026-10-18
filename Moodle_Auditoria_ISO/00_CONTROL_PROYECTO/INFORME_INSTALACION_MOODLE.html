@@ -1,0 +1,182 @@
+﻿<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<title>Informe Final de Instalación Moodle 5.3</title>
+<style>
+@page { size: A4; margin: 15mm; }
+body { font-family: 'Segoe UI', Arial, sans-serif; color: #1a202c; line-height: 1.5; font-size: 12px; }
+h1 { color: #1a365d; font-size: 18px; border-bottom: 2px solid #2b6cb0; padding-bottom: 6px; margin-top: 0; }
+h2 { color: #2b6cb0; font-size: 14px; border-bottom: 1px solid #e2e8f0; padding-bottom: 4px; margin-top: 14px; }
+table { width: 100%; border-collapse: collapse; margin: 8px 0; font-size: 11px; }
+th, td { border: 1px solid #cbd5e0; padding: 5px 8px; text-align: left; }
+th { background: #edf2f7; color: #2d3748; }
+ul, ol { margin: 4px 0 8px 20px; padding: 0; }
+li { margin-bottom: 3px; }
+pre { background: #2d3748; color: #f7fafc; padding: 8px; border-radius: 4px; font-size: 10px; }
+.header-card { background: #ebf8ff; border: 1px solid #bee3f8; border-radius: 6px; padding: 12px; margin-bottom: 15px; }
+</style>
+</head>
+<body>
+<div class="header-card">
+<h1 style="margin:0; border:none; padding:0;">EXPEDIENTE DE AUDITORÍA: INFORME TÉCNICO DE INSTALACIÓN</h1>
+<p style="margin:4px 0 0 0; color:#2c5282;"><strong>Moodle LMS 5.3 (v5.3.0) &bull; Laboratorio de Auditoría ISO/IEC 27001 &amp; ISO/IEC 25010</strong></p>
+</div><p>**Expediente de AuditorÃ­a:** ISO/IEC 27001 - ISO/IEC 25010 - ISO 19011  </p>
+<p>**Fecha de EmisiÃ³n:** 12 de Octubre de 2026  </p>
+<p>**Responsable TÃ©cnico:** Especialista DevOps y Auditor de Sistemas de InformaciÃ³n  </p>
+<p>**Entorno de Laboratorio:** EstaciÃ³n de Trabajo Local (Windows 11 Pro 64-bit)  </p>
+<p>---</p>
+<h2>1. Objetivo</h2>
+<p>Desplegar una instancia local totalmente funcional, inmutable y reproducible de **Moodle 5.3 (v5.3.0)** soportada por una base de datos relacional **PostgreSQL 18+**, configurando el idioma EspaÃ±ol Internacional como predeterminado, aprovisionando datos de prueba representativos para auditorÃ­a, y consolidando un expediente documental oficial exhaustivo con evidencia tÃ©cnica, sumas criptogrÃ¡ficas y trazabilidad para procesos de auditorÃ­a bajo estÃ¡ndares ISO/IEC.</p>
+<p>---</p>
+<h2>2. Alcance</h2>
+<li>Descarga y verificaciÃ³n de integridad de las fuentes oficiales de Moodle HQ (Moodle Core, Moodle-Docker y DevDocs).</li>
+<li>Aislamiento y configuraciÃ³n de base de datos dedicada en PostgreSQL sobre puerto no conflictivo (5433).</li>
+<li>ConfiguraciÃ³n y habilitaciÃ³n de extensiones crÃ­ticas de PHP 8.4.</li>
+<li>InstalaciÃ³n automatizada e inmutable de la plataforma mediante CLI (`admin/cli/install.php`).</li>
+<li>ConfiguraciÃ³n de internacionalizaciÃ³n (EspaÃ±ol `es` y preservaciÃ³n de InglÃ©s `en`).</li>
+<li>Aprovisionamiento de identidades ficticias y curso acadÃ©mico representativo (`AUD-101`).</li>
+<li>VerificaciÃ³n empÃ­rica de seguridad (`report_security`), logs de auditorÃ­a y tareas programadas (`cron.php`).</li>
+<li>GeneraciÃ³n de copias de respaldo consistentes (CÃ³digo, Base de Datos con `pg_dump`, y `moodledata`) con manifiesto de hashes SHA-256.</li>
+<li>RecopilaciÃ³n de documentaciÃ³n tÃ©cnica oficial estructurada en formatos PDF, HTML y Markdown.</li>
+<p>---</p>
+<h2>3. Equipo y EstaciÃ³n de Trabajo</h2>
+<li>**Nombre del Equipo:** DESKTOP-FJP4IH3</li>
+<li>**Arquitectura:** x86_64 (64 bits)</li>
+<li>**Memoria RAM:** 16 GB DDR4 (15.4 GB visible en SO, 3.5 GB libres)</li>
+<li>**Almacenamiento:** Unidad C:\ con 354 GB disponibles en sistema de archivos NTFS.</li>
+<p>---</p>
+<h2>4. Sistema Operativo (SO)</h2>
+<li>**DenominaciÃ³n:** Microsoft Windows 11 Pro</li>
+<li>**VersiÃ³n:** 10.0.26300</li>
+<li>**CompilaciÃ³n (Build):** 26300 (64-bit)</li>
+<p>---</p>
+<h2>5. Requisitos del Sistema</h2>
+<p>Moodle 5.3 exige PHP >= 8.3 y soporte oficial para PostgreSQL 17/18. Todas las dependencias de memoria (`memory_limit = 512M`), tiempo de ejecuciÃ³n (`max_execution_time = 300s`) y extensiones criptogrÃ¡ficas/de internacionalizaciÃ³n se cumplieron holgadamente sin comprometer el host.</p>
+<p>---</p>
+<h2>6. Herramientas Utilizadas</h2>
+<li>**Git:** VersiÃ³n 2.55.0.windows.5 para control de versiones e inmutabilidad.</li>
+<li>**Node.js:** VersiÃ³n 24.21.0 y npm 11.19.0 para automatizaciÃ³n documental.</li>
+<li>**Google Chrome Headless:** Motor de renderizado para generaciÃ³n de PDFs oficiales de auditorÃ­a.</li>
+<li>**PowerShell:** Shell nativo para automatizaciÃ³n de tareas y servicios.</li>
+<p>---</p>
+<h2>7. VersiÃ³n Exacta de Moodle</h2>
+<li>**Producto:** Moodle LMS Core</li>
+<li>**VersiÃ³n:** 5.3.0</li>
+<li>**Etiqueta Oficial (Tag):** `v5.3.0`</li>
+<li>**Tag Object:** `d3ae3f3a367b936e38dcc06adfd6bf954302101d`</li>
+<li>**Commit SHA HEAD:** `42622298fe06f9626d988d60b2bf589bd8f850e8`</li>
+<li>**Licencia:** GNU General Public License v3.0 or later (GPL-3.0-or-later)</li>
+<p>---</p>
+<h2>8. Base de Datos (PostgreSQL)</h2>
+<li>**Motor:** PostgreSQL 18.6 (x86_64-windows)</li>
+<li>**Modo de Despliegue:** Cluster dedicado de auditorÃ­a inicializado con `initdb` en `02_ENTORNO_EJECUCION/pgsql_data`.</li>
+<li>**Puerto Asignado:** 5433 (aislado del puerto 5432 preexistente en el equipo).</li>
+<li>**Base de Datos:** `moodle`</li>
+<li>**Propietario / Usuario:** `moodleuser`</li>
+<li>**CodificaciÃ³n:** UTF-8 / Collation C.</li>
+<p>---</p>
+<h2>9. IntÃ©rprete PHP</h2>
+<li>**VersiÃ³n:** PHP 8.4.25 (cli) (built: Aug 25 2026 18:38:47) ZTS Visual C++ 2022 x64.</li>
+<li>**Extensiones Validadas al 100%:** `curl`, `intl`, `mbstring`, `openssl`, `sodium`, `zip`, `gd`, `xml`, `soap`, `pgsql`, `pdo_pgsql`, `exif`, `opcache`.</li>
+<p>---</p>
+<h2>10. EvaluaciÃ³n del Entorno Docker</h2>
+<li>**DetecciÃ³n:** Docker Desktop y WSL2 no se encontraban activos en la mÃ¡quina anfitriona.</li>
+<li>**DecisiÃ³n DevOps/AuditorÃ­a:** Se clonÃ³ el repositorio oficial `moodle-docker` en `01_CODIGO_FUENTE/moodle-docker` como especificaciÃ³n de referencia, implementando la ejecuciÃ³n local nativa mediante PostgreSQL 18 + PHP 8.4 para evitar requerimientos intrusivos de reinicio de sistema o privilegios UAC no solicitados.</li>
+<p>---</p>
+<h2>11. Procedimiento de InstalaciÃ³n</h2>
+<li>CreaciÃ³n de la estructura normalizada de carpetas `Moodle_Auditoria_ISO`.</li>
+<li>InicializaciÃ³n del cluster PostgreSQL en puerto 5433 y creaciÃ³n de BD `moodle` y usuario `moodleuser`.</li>
+<li>Ajuste de `php.ini` con extensiones requeridas y adiciÃ³n de binarios PostgreSQL al PATH.</li>
+<li>ClonaciÃ³n de las fuentes oficiales de Moodle en tag `v5.3.0`.</li>
+<li>EjecuciÃ³n del asistente CLI `admin/cli/install.php` con parÃ¡metros automatizados.</li>
+<li>InstalaciÃ³n y activaciÃ³n del paquete de idioma espaÃ±ol `es`.</li>
+<p>---</p>
+<h2>12. ConfiguraciÃ³n de la Instancia</h2>
+<li>**Nombre Completo del Sitio:** Moodle Auditoria ISO</li>
+<li>**Nombre Corto:** MOODLE-AUDIT</li>
+<li>**URL Base (wwwroot):** `http://localhost:8000`</li>
+<li>**Directorio de Datos (dataroot):** `Moodle_Auditoria_ISO/02_ENTORNO_EJECUCION/moodledata`</li>
+<li>**Router Web:** `02_ENTORNO_EJECUCION/router.php` para soporte de archivos estÃ¡ticos y slasharguments.</li>
+<p>---</p>
+<h2>13. Idioma y LocalizaciÃ³n</h2>
+<li>**Idioma Predeterminado:** EspaÃ±ol Internacional (`es`).</li>
+<li>**Idiomas Disponibles:** EspaÃ±ol (`es`) e InglÃ©s (`en`).</li>
+<li>**VerificaciÃ³n:** Interfaz de acceso, panel de control, menÃºs administrativos y cursos renderizados en espaÃ±ol.</li>
+<p>---</p>
+<h2>14. Datos de Prueba (Ambiente de AuditorÃ­a)</h2>
+<li>**Administrador:** `admin_auditoria` (local de laboratorio).</li>
+<li>**Profesores Ficticios:**</li>
+<p>  - Prof. Carlos Mendoza (`profesor1`)</p>
+<p>  - Dra. Elena Paredes (`profesor2`)</p>
+<li>**Estudiantes Ficticios:**</li>
+<p>  - Andrea Soto (`estudiante1`)</p>
+<p>  - David Quiroga (`estudiante2`)</p>
+<p>  - Gabriel Morales (`estudiante3`)</p>
+<p>  - Mariana Fuentes (`estudiante4`)</p>
+<p>  - Valeria RÃ­os (`estudiante5`)</p>
+<li>**Curso Ficticio:** `AUD-101 AuditorÃ­a de Sistemas de InformaciÃ³n`.</li>
+<li>**Actividades Implementadas:** Tarea de AuditorÃ­a ISO/IEC 27001, Foro de Debate TÃ©cnico, Cuestionario de EvaluaciÃ³n y Libro de Calificaciones.</li>
+<p>---</p>
+<h2>15. Tareas Programadas (Cron)</h2>
+<li>**Script de EjecuciÃ³n:** `02_ENTORNO_EJECUCION/ejecutar_cron.ps1`</li>
+<li>**Comando NÃºcleo:** `php admin/cli/cron.php`</li>
+<li>**Registro de Evidencia:** `06_EVIDENCIAS_INSTALACION/logs/cron.log`</li>
+<p>---</p>
+<h2>16. VerificaciÃ³n de Seguridad y LÃ­nea Base</h2>
+<li>**MÃ³dulo:** `report_security` de Moodle Core.</li>
+<li>**Resultado de AuditorÃ­a Inicial:** Se conservÃ³ la lÃ­nea base original sin alterar hallazgos de laboratorio (entorno HTTP local, visualizaciÃ³n de errores controlada) para su evaluaciÃ³n transparente en el expediente ISO.</li>
+<li>**UbicaciÃ³n:** `09_AUDITORIA_ISO/LINEA_BASE_SEGURIDAD/`.</li>
+<p>---</p>
+<h2>17. Logs y Trazabilidad Forense</h2>
+<li>**Mecanismo:** Standard Log Store (`mdl_logstore_standard_log`).</li>
+<li>**Eventos Registrados:** Inicio de sesiÃ³n, matriculaciÃ³n de usuarios, creaciÃ³n de actividades, envÃ­os de tareas y registro de calificaciones.</li>
+<p>---</p>
+<h2>18. Copias de Seguridad (Backup)</h2>
+<li>**Script:** `07_BACKUPS/ejecutar_backup_completo.ps1`</li>
+<li>**Componentes Respaldados:**</li>
+<p>  1. Base de datos: Dump SQL consistente mediante `pg_dump`.</p>
+<p>  2. Directorio de datos: Archivo comprimido de `moodledata`.</p>
+<p>  3. CÃ³digo fuente: Archivo comprimido del cÃ³digo de Moodle v5.3.0.</p>
+<li>**Integridad:** Hashes SHA-256 calculados y documentados en `07_BACKUPS/MANIFIESTO_BACKUP.txt`.</li>
+<p>---</p>
+<h2>19. DocumentaciÃ³n Oficial Descargada y Organizada</h2>
+<li>**Total de Documentos Catalogados:** 23 documentos en 20 categorÃ­as.</li>
+<li>**Formatos:** PDF generado mediante Google Chrome Headless, HTML fuente y Markdown tÃ©cnico.</li>
+<li>**Inventario:** Catalogado en `INDICE_DOCUMENTACION.xlsx` e `INDICE_DOCUMENTACION.md`.</li>
+<li>**CÃ³digo Fuente de DocumentaciÃ³n:** Repositorio oficial `devdocs` clonado en su totalidad (2683 archivos).</li>
+<p>---</p>
+<h2>20. Incidencias TÃ©cnicas Detectadas</h2>
+<li>Puerto 5432 en uso por servicio previo `postgresql-x64-18` con contraseÃ±a desconocida.</li>
+<li>Extensiones PHP (`intl`, `soap`, `sodium`, `exif`) deshabilitadas por defecto en la instalaciÃ³n de WinGet.</li>
+<li>Fallo en carga inicial de `libpq.dll` debido a ausencia del directorio bin de PostgreSQL en el PATH del usuario.</li>
+<li>ProtecciÃ³n de Cloudflare (HTTP 403) ante descargas directas no autenticadas con `curl`.</li>
+<p>---</p>
+<h2>21. Soluciones Implementadas</h2>
+<li>CreaciÃ³n de un cluster PostgreSQL 18 aislado en puerto 5433, garantizando independencia operativa y reproducibilidad.</li>
+<li>ActualizaciÃ³n automatizada de `php.ini` habilitando todas las extensiones requeridas y ajustando `memory_limit` a 512M.</li>
+<li>AdiciÃ³n de `C:\Program Files\PostgreSQL\18\bin` a la variable de entorno `PATH` del usuario.</li>
+<li>Renderizado y compilaciÃ³n de documentaciÃ³n oficial mediante Google Chrome Headless a partir de las fuentes oficiales de MoodleDocs y DevDocs.</li>
+<p>---</p>
+<h2>22. Resultado Final</h2>
+<p>InstalaciÃ³n completada al 100%, sistema funcional, auditable, con base de datos PostgreSQL 18 dedicada, trazabilidad de logs, respaldos consistentes, y expediente ISO exhaustivo.</p>
+<p>---</p>
+<h2>23. Evidencias Disponibles</h2>
+<li>Registradas en `06_EVIDENCIAS_INSTALACION/capturas/` con nomenclatura estandarizada `EVID-XXX`.</li>
+<li>BitÃ¡cora cronolÃ³gica de comandos en `06_EVIDENCIAS_INSTALACION/comandos/REGISTRO_COMANDOS.md`.</li>
+<li>Logs de ejecuciÃ³n en `06_EVIDENCIAS_INSTALACION/logs/`.</li>
+<p>---</p>
+<h2>24. Rutas FÃ­sicas del Proyecto</h2>
+<li>**Directorio Principal:** `c:\Users\llano\OneDrive\Documentos\OCTAVO SEMESTRE\AUDITORIA\PROYECTO\Moodle_Auditoria_ISO`</li>
+<li>**CÃ³digo Moodle:** `01_CODIGO_FUENTE\moodle`</li>
+<li>**Base de Datos:** `02_ENTORNO_EJECUCION\pgsql_data`</li>
+<li>**Directorio de Datos:** `02_ENTORNO_EJECUCION\moodledata`</li>
+<li>**DocumentaciÃ³n Oficial:** `04_DOCUMENTACION_OFICIAL`</li>
+<li>**Expediente ISO:** `09_AUDITORIA_ISO`</li>
+<p>---</p>
+<h2>25. URLs Locales del Servicio</h2>
+<li>**Portal Principal:** `http://localhost:8000/`</li>
+<li>**Inicio de SesiÃ³n:** `http://localhost:8000/login/index.php`</li>
+<li>**AdministraciÃ³n del Sitio:** `http://localhost:8000/admin/`</li>
+<li>**Puerto PostgreSQL:** `127.0.0.1:5433`</li>
+</body></html>

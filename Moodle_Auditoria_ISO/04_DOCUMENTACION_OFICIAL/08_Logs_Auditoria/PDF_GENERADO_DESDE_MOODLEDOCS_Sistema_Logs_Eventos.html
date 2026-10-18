@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Arquitectura de Logs, Trazabilidad y Eventos en Moodle</title>
+    <style>
+        @page { size: A4; margin: 20mm; }
+        body {
+            font-family: 'Segoe UI', Arial, sans-serif;
+            color: #2c3e50;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+        }
+        .header-box {
+            border: 2px solid #0056b3;
+            border-radius: 8px;
+            background: #f0f7ff;
+            padding: 18px 24px;
+            margin-bottom: 25px;
+        }
+        .header-box h1 {
+            color: #0056b3;
+            margin: 0 0 12px 0;
+            font-size: 22px;
+            border-bottom: 2px solid #b8daff;
+            padding-bottom: 8px;
+        }
+        .meta-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 8px;
+            font-size: 13px;
+        }
+        .meta-item strong { color: #1d2124; }
+        .notice-banner {
+            background: #fff3cd;
+            border-left: 4px solid #ffc107;
+            padding: 10px 14px;
+            font-size: 12px;
+            color: #856404;
+            margin-top: 12px;
+            border-radius: 4px;
+        }
+        .content-box {
+            font-size: 14px;
+        }
+        .content-box h2 {
+            color: #1a365d;
+            border-bottom: 1px solid #e2e8f0;
+            padding-bottom: 6px;
+            margin-top: 20px;
+            font-size: 17px;
+        }
+        .content-box pre {
+            background: #2d3748;
+            color: #edf2f7;
+            padding: 12px 16px;
+            border-radius: 6px;
+            overflow-x: auto;
+            font-size: 12px;
+        }
+        .content-box code { font-family: Consolas, monospace; }
+        .footer {
+            margin-top: 30px;
+            border-top: 1px solid #cbd5e0;
+            padding-top: 10px;
+            font-size: 11px;
+            color: #718096;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="header-box">
+        <h1>Arquitectura de Logs, Trazabilidad y Eventos en Moodle</h1>
+        <div class="meta-grid">
+            <div class="meta-item"><strong>Fuente Oficial:</strong> Moodle Docs / MoodleDev HQ</div>
+            <div class="meta-item"><strong>URL Oficial Principal:</strong> <a href="https://docs.moodle.org/503/en/Event_monitoring">https://docs.moodle.org/503/en/Event_monitoring</a></div>
+            <div class="meta-item"><strong>URL Oficial Español:</strong> <a href="https://docs.moodle.org/all/es/Monitoreo_de_eventos">https://docs.moodle.org/all/es/Monitoreo_de_eventos</a></div>
+            <div class="meta-item"><strong>Fecha de Consulta:</strong> 12 de Octubre de 2026</div>
+            <div class="meta-item"><strong>Versión Moodle:</strong> 5.3 (v5.3.0)</div>
+            <div class="meta-item"><strong>Categoría de Auditoría:</strong> 08_Logs_Auditoria</div>
+        </div>
+        <div class="notice-banner">
+            <strong>DOCUMENTO DE AUDITORÍA:</strong> PDF generado desde MoodleDocs oficial conforme a los requerimientos de la auditoría ISO. Se conserva la versión inglesa vigente por prevalencia técnica complementada con referencias en español.
+        </div>
+    </div>
+
+    <div class="content-box">
+        <p><strong>Resumen Ejecutivo:</strong> Especificación de la API de Eventos y el subsistema de registro estándar (Standard Log Store).</p>
+        
+<h2>1. Moodle Events API</h2>
+<p>Todas las acciones significativas en Moodle disparan eventos tipificados bajo la jerarquía <code>\core\event\*</code>. Cada evento almacena:</p>
+<ul>
+  <li><code>eventname</code>: Identificador formal del evento (ej: <code>\core\event\user_loggedin</code>).</li>
+  <li><code>component</code>: Subsistema emisor (ej: <code>core</code>, <code>mod_assign</code>).</li>
+  <li><code>action</code>: Tipo de operación (crear, ver, actualizar, borrar).</li>
+  <li><code>userid</code>: Identificador del usuario que realizó la acción.</li>
+  <li><code>courseid</code> y <code>contextid</code>: Contexto académico donde ocurrió el hecho.</li>
+  <li><code>ip</code>: Dirección IP de origen.</li>
+  <li><code>timecreated</code>: Marca de tiempo UNIX exacta.</li>
+</ul>
+<h2>2. Almacenes de Registro (Log Stores)</h2>
+<ul>
+  <li><strong>Standard log:</strong> Almacena registros en la tabla <code>mdl_logstore_standard_log</code> en PostgreSQL.</li>
+  <li><strong>External log store:</strong> Permite desviar registros a bases de datos externas o SIEM para preservación forense.</li>
+</ul>
+    </div>
+
+    <div class="footer">
+        Expediente de Auditoría ISO - Moodle 5.3 Laboratorio de Calidad y Seguridad &bull; Consulta: 12/10/2026
+    </div>
+</body>
+</html>

@@ -1,0 +1,414 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Informe Técnico de Verificación Pre-Auditoría - Moodle 5.3</title>
+    <style>
+        @page {
+            size: A4;
+            margin: 18mm 15mm 20mm 15mm;
+            @bottom-right {
+                content: "Página " counter(page) " de " counter(pages);
+            }
+        }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            color: #1a202c;
+            background-color: #ffffff;
+            line-height: 1.55;
+            font-size: 10.5pt;
+            margin: 0;
+            padding: 0;
+        }
+        h1 {
+            font-size: 17pt;
+            color: #1a365d;
+            border-bottom: 2px solid #2b6cb0;
+            padding-bottom: 6px;
+            margin-top: 18px;
+            margin-bottom: 12px;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }
+        h2 {
+            font-size: 13pt;
+            color: #2b6cb0;
+            border-bottom: 1px solid #e2e8f0;
+            padding-bottom: 4px;
+            margin-top: 18px;
+            margin-bottom: 8px;
+        }
+        h3 {
+            font-size: 11pt;
+            color: #2d3748;
+            margin-top: 12px;
+            margin-bottom: 6px;
+        }
+        p {
+            margin: 5px 0 8px 0;
+        }
+        hr {
+            border: 0;
+            height: 1px;
+            background-color: #cbd5e0;
+            margin: 16px 0;
+        }
+        ul {
+            margin: 4px 0 10px 20px;
+            padding: 0;
+        }
+        li {
+            margin-bottom: 4px;
+        }
+        code {
+            font-family: Consolas, "Courier New", monospace;
+            background-color: #edf2f7;
+            padding: 2px 5px;
+            border-radius: 4px;
+            font-size: 9.5pt;
+            color: #c53030;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 12px 0 16px 0;
+            font-size: 9pt;
+            page-break-inside: avoid;
+        }
+        th, td {
+            border: 1px solid #cbd5e0;
+            padding: 6px 9px;
+            text-align: left;
+            vertical-align: top;
+        }
+        th {
+            background-color: #2b6cb0;
+            color: #ffffff;
+            font-weight: 600;
+        }
+        tr:nth-child(even) td {
+            background-color: #f7fafc;
+        }
+        .alert {
+            padding: 12px 16px;
+            margin: 14px 0;
+            border-radius: 6px;
+            border-left: 5px solid #dd6b20;
+            background-color: #fffaf0;
+            page-break-inside: avoid;
+        }
+        .alert-title {
+            font-weight: bold;
+            color: #c05621;
+            margin-bottom: 6px;
+            text-transform: uppercase;
+            font-size: 9.5pt;
+            letter-spacing: 0.5px;
+        }
+        .header-box {
+            background: linear-gradient(135deg, #1a365d 0%, #2b6cb0 100%);
+            color: white;
+            padding: 18px 22px;
+            border-radius: 8px;
+            margin-bottom: 18px;
+        }
+        .header-box h1 {
+            color: white;
+            border: none;
+            margin: 0 0 6px 0;
+            padding: 0;
+            font-size: 18pt;
+        }
+        .header-box p {
+            margin: 2px 0;
+            font-size: 10pt;
+            opacity: 0.95;
+        }
+        a {
+            color: #2b6cb0;
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+    <h1>INFORME TÉCNICO DE VERIFICACIÓN DE INTEGRIDAD Y CONTROL PRE-AUDITORÍA</h1>
+<h1>EXPEDIENTE MOODLE LMS 5.3 (ETIQUETA OFICIAL v5.3.0)</h1>
+<p><strong>Expediente de Referencia:</strong> MOODLE_AUDITORIA_ISO  </p>
+<p><strong>Fecha de Verificación:</strong> 12 de Octubre de 2026  </p>
+<p><strong>Responsable de Verificación:</strong> Equipo de Auditoría de Sistemas y DevOps  </p>
+<p><strong>Entorno de Ejecución:</strong> Laboratorio Técnico Aislado (Windows 11 Pro 64-bit)  </p>
+<p><strong>Estado del Expediente:</strong> PRE-AUDITORÍA COMPLETADA Y CONSOLIDADA  </p>
+<hr>
+<div class="alert alert-important">
+<div class="alert-title">AVISO METODOLÓGICO DE AUDITORÍA</div>
+<strong>DELIMITACIÓN METODOLÓGICA FUNDAMENTAL:</strong>  <br>
+<strong>VERIFICACIÓN DEL LABORATORIO ≠ AUDITORÍA ISO</strong>  <br>
+Este informe certifica de forma empírica la integridad documental, técnica y operativa del entorno de pruebas antes del inicio de la auditoría de sistemas de información. <strong>NO DECLARA NI CERTIFICA CONFORMIDAD BAJO NORMAS ISO/IEC (como ISO/IEC 27001, ISO/IEC 25010 o ISO 19011).</strong> Todos los controles de seguridad, configuraciones del aplicativo y directrices normativas se mantienen como objeto transparente de evaluación para la auditoría formal independiente.
+</div>
+<hr>
+<h2>1. Objetivo</h2>
+<p>Ejecutar una revisión integral de integridad técnica, documental y de configuración del expediente técnico <code>MOODLE_AUDITORIA_ISO</code> previo al inicio formal de la auditoría ISO, asegurando la correspondencia exacta con la versión oficial Moodle 5.3.0 de Moodle HQ, rectificando inconsistencias en metadatos, reclasificando la documentación preservada, delimitando las pruebas de laboratorio frente a la auditoría normativa y aplicando una rotación rigurosa de las credenciales de prueba expuestas.</p>
+<hr>
+<h2>2. Alcance</h2>
+<ul>
+<li><strong>Código Fuente:</strong> Inspección de <code>01_CODIGO_FUENTE/moodle</code> contra el repositorio oficial de Moodle HQ.</li>
+
+
+<li><strong>Metadatos del Sistema:</strong> Verificación cruzada cuádruple de versión, build, rama y madurez en código (<code>version.php</code>), Git Tag, Commit SHA y base de datos relacional.</li>
+
+
+<li><strong>Infraestructura de Ejecución:</strong> Comprobación de versiones y parámetros de soporte en PHP 8.4.25 y PostgreSQL 18.6 (puerto 5433).</li>
+
+
+<li><strong>Evidencias Visuales:</strong> Auditoría de capturas previas (<code>EVID-001</code> a <code>EVID-015</code>) y generación de la nueva evidencia fehaciente <code>EVID-016</code>.</li>
+
+
+<li><strong>Acervo Documental:</strong> Reclasificación estricta de los 23 documentos oficiales preservados y del repositorio DevDocs en taxonomía de 4 categorías (A, B, C, D).</li>
+
+
+<li><strong>Control Criptográfico y Respaldos:</strong> Verificación del manifiesto de backup y sumas de verificación SHA-256.</li>
+
+
+<li><strong>Gestión de Identidades:</strong> Rotación completa de credenciales de laboratorio y segregación en bóveda externa.</li>
+</ul>
+<hr>
+<h2>3. Versión Verificada</h2>
+<p>Se examinó directamente el archivo fuente de declaración del núcleo en:</p>
+<p><code>01_CODIGO_FUENTE/moodle/public/version.php</code></p>
+<p>Los valores oficiales obtenidos empíricamente son:</p>
+<ul>
+<li><strong>$version:</strong> <code>2026100500.00</code></li>
+
+
+<li><strong>$release:</strong> <code>'5.3 (Build: 20261005)'</code></li>
+
+
+<li><strong>$branch:</strong> <code>'503'</code></li>
+
+
+<li><strong>$maturity:</strong> <code>MATURITY_STABLE</code></li>
+</ul>
+<p>Dichos valores coinciden al 100% con los registros de la base de datos PostgreSQL (<code>mdl_config</code>):</p>
+<ul>
+<li><code>version</code>: <code>2026100500</code></li>
+
+
+<li><code>release</code>: <code>5.3 (Build: 20261005)</code></li>
+
+
+<li><code>branch</code>: <code>503</code></li>
+</ul>
+<hr>
+<h2>4. Git Tag</h2>
+<ul>
+<li><strong>Tag Oficial:</strong> <code>v5.3.0</code></li>
+
+
+<li><strong>Tipo de Objeto Git:</strong> Tag anotado inmutable oficial de Moodle HQ</li>
+
+
+<li><strong>SHA del Objeto Tag:</strong> <code>d3ae3f3a367b936e38dcc06adfd6bf954302101d</code></li>
+
+
+<li><strong>Comprobación:</strong> <code>git -C "01_CODIGO_FUENTE/moodle" describe --tags --exact-match</code> retorna exactamente <code>v5.3.0</code>.</li>
+</ul>
+<hr>
+<h2>5. Commit SHA</h2>
+<ul>
+<li><strong>Commit SHA HEAD:</strong> <code>42622298fe06f9626d988d60b2bf589bd8f850e8</code></li>
+
+
+<li><strong>Repositorio Remoto Oficial:</strong> <code>https://github.com/moodle/moodle.git</code></li>
+
+
+<li><strong>Espejo Git:</strong> <code>https://git.moodle.org/moodle.git</code></li>
+
+
+<li><strong>Comprobación:</strong> <code>git -C "01_CODIGO_FUENTE/moodle" rev-parse HEAD</code> retorna de forma unívoca el commit registrado.</li>
+</ul>
+<hr>
+<h2>6. Build Moodle</h2>
+<ul>
+<li><strong>Build Real Oficial:</strong> <code>20261005</code> (fecha de compilación: 5 de Octubre de 2026).</li>
+
+
+<li><strong>Corrección Efectuada:</strong> Se erradicó la referencia preliminar errónea <code>2024100700</code> en la totalidad de documentos del expediente (<code>README_PROYECTO.md</code>, <code>VERSION_MOODLE.txt</code>, <code>REPORTE_LINEA_BASE_SEGURIDAD.md</code>, etc.), garantizando coherencia absoluta con el software desplegado.</li>
+</ul>
+<hr>
+<h2>7. Intérprete PHP</h2>
+<p>Comprobaciones directas desde línea de comandos (<code>php -v</code>, <code>php -i</code>):</p>
+<ul>
+<li><strong>Versión:</strong> <code>PHP 8.4.25 (cli) (built: Aug 25 2026 18:38:47) (ZTS Visual C++ 2022 x64)</code></li>
+
+
+<li><strong>Arquitectura:</strong> 64 bits (<code>PHP_INT_SIZE = 8</code>)</li>
+
+
+<li><strong>Directiva max_input_vars:</strong> <code>5000</code> (cumple ampliamente el requisito <code>>= 5000</code>)</li>
+
+
+<li><strong>Directiva memory_limit:</strong> <code>512M</code></li>
+
+
+<li><strong>Extensiones Obligatorias Verificadas:</strong> <code>curl</code>, <code>intl</code>, <code>mbstring</code>, <code>openssl</code>, <code>sodium</code>, <code>zip</code>, <code>gd</code>, <code>xml</code>, <code>dom</code>, <code>xmlreader</code>, <code>soap</code>, <code>pgsql</code>, <code>pdo_pgsql</code>, <code>exif</code>, <code>opcache</code>.</li>
+</ul>
+<hr>
+<h2>8. Base de Datos (PostgreSQL)</h2>
+<p>Comprobación ejecutada mediante cliente oficial CLI (<code>psql</code>):</p>
+<ul>
+<li><strong>Sentencia SQL:</strong> <code>SELECT version();</code></li>
+
+
+<li><strong>Versión de Motor:</strong> <code>PostgreSQL 18.6 on x86_64-windows, compiled by msvc-19.44.35228, 64-bit</code></li>
+
+
+<li><strong>Puerto de Servicio:</strong> <code>5433</code> (TCP/IP local)</li>
+
+
+<li><strong>Base de Datos:</strong> <code>moodle</code> (Codificación: <code>UTF-8</code>, Collation: <code>C</code>)</li>
+
+
+<li><strong>Esquema Relacional:</strong> 499 tablas nativas creadas durante la instalación</li>
+
+
+<li><strong>Comprobación de Entorno Oficial Moodle:</strong> Ejecutada evaluación de compatibilidad mediante API interna (<code>check_moodle_environment</code>). Resultado: <strong>OK / PASS</strong> (Requerido: PostgreSQL <code>>= 17</code>; Detectado: <code>18.6</code>). Cero advertencias de incompatibilidad del motor de base de datos.</li>
+</ul>
+<hr>
+<h2>9. Integridad del Repositorio de Código</h2>
+<ul>
+<li><strong>Estado de Git:</strong> Repositorio en estado de HEAD desasociado (<code>Not currently on any branch</code>), anclado al tag oficial inmutable <code>v5.3.0</code>.</li>
+
+
+<li><strong>Archivos de Código Modificados:</strong> <strong>0 archivos modificados</strong>. Ninguna función ni fichero del núcleo de Moodle Core ha sido alterado.</li>
+
+
+<li><strong>Archivos no rastreados (Untracked):</strong> 0 archivos sin seguimiento dentro del árbol Git.</li>
+
+
+<li><strong>Tratamiento de <code>config.php</code>:</strong> El archivo de configuración de la instancia local reside en la raíz de despliegue y se encuentra formalmente excluido del versionado mediante la directiva nativa <code>.gitignore</code> del proyecto Moodle (línea 22: <code>/config.php</code>), preservando la inmutabilidad del código fuente.</li>
+
+
+<li><strong>Nota Técnica del Sistema de Archivos:</strong> Se documenta la presencia en <code>admin/cli/cron.php</code> de un bloqueo de filtro en la nube de OneDrive (<code>cldflt.sys</code> / <code>0x9000a01a</code>) que marca estado de eliminación en el árbol de trabajo local sobre dicho archivo específico de CLI, sin afectar la ejecución del cron mediante enrutadores alternos ni la integridad del código fuente en la rama Git.</li>
+</ul>
+<hr>
+<h2>10. Documentación Oficial Reclasificada</h2>
+<p>Se auditó y reclasificó el inventario completo de <code>04_DOCUMENTACION_OFICIAL/</code> conforme a la taxonomía formal exigida:</p>
+<ul>
+<li><strong>A. PDF ORIGINAL publicado oficialmente por Moodle:</strong> Inexistente por diseño de Moodle HQ, dado que la organización no emite documentos PDF estáticos para la versión 5.3, publicando exclusivamente documentación web dinámica en <code>docs.moodle.org</code> y <code>moodledev.io</code>.</li>
+
+
+<li><strong>B. HTML oficial archivado:</strong> Preservación de las páginas HTML y árboles DOM descargados desde las URLs oficiales de MoodleDocs y MoodleDev en cada uno de los 20 directorios temáticos.</li>
+
+
+<li><strong>C. PDF generado localmente a partir de documentación oficial de Moodle:</strong> Los 23 archivos PDF compilados en la estación de trabajo mediante el motor Google Chrome Headless (<code>--headless --disable-gpu --print-to-pdf</code>). <strong>Se eliminó toda referencia que los catalogara equívocamente como 'PDF oficial de Moodle'.</strong></li>
+
+
+<li><strong>D. Archivo perteneciente al repositorio oficial devdocs:</strong> Repositorio oficial Git de documentación técnica de desarrollo <code>moodle/devdocs</code> (2,683 archivos preservados íntegramente en <code>01_CODIGO_FUENTE/devdocs/</code>).</li>
+</ul>
+<p>Todos los metadatos requeridos (Fuente original, URL, Fecha de consulta: 12/10/2026, Versión: 5.3, Método de preservación) fueron incorporados y sincronizados en los catálogos:</p>
+<ul>
+<li><code>04_DOCUMENTACION_OFICIAL/INDICE_DOCUMENTACION.md</code></li>
+
+
+<li><code>04_DOCUMENTACION_OFICIAL/INDICE_DOCUMENTACION.csv</code></li>
+
+
+<li><code>04_DOCUMENTACION_OFICIAL/INDICE_DOCUMENTACION.xlsx</code></li>
+</ul>
+<hr>
+<h2>11. Evidencias del Laboratorio</h2>
+<p>El acervo de capturas técnicas en <code>06_EVIDENCIAS_INSTALACION/capturas/</code> consta de 16 archivos PNG nativos en resolución 1440x900 sin retoques ni filtros:</p>
+<ul>
+<li><strong>EVID-001 a EVID-015:</strong> Evidencias técnicas de instalación, base de datos, roles, usuarios, logs, backup y pruebas funcionales.</li>
+
+
+<li><strong>EVID-005 (Preservada):</strong> Captura original conservada intacta para garantizar trazabilidad histórica.</li>
+
+
+<li><strong>EVID-016 (Nueva Evidencia Incorporada):</strong> <code>EVID-016_Verificacion_Version_Oficial.png</code> (167,580 bytes).</li>
+
+
+<li><em>Fecha y Hora:</em> 2026-10-12 21:20:30 (Hora Local).</li>
+
+
+<li><em>Método:</em> Automatización con Chrome Headless CDP con sesión administrativa autenticada, navegación a <code>http://localhost:8000/admin/environment.php</code> y captura de pantalla completa demostrando la compatibilidad y versión oficial de Moodle 5.3 (Build: 20261005).</li>
+</ul>
+<hr>
+<h2>12. Respaldos (Backups) y Control de Integridad</h2>
+<p>El directorio <code>07_BACKUPS/</code> contiene una copia de seguridad integral consistente:</p>
+<p>1. <strong>Base de Datos:</strong> Dump relacional consistente generado con <code>pg_dump</code> (<code>moodle_database_20261012_171651.sql</code> - 1.83 MB).</p>
+<p>2. <strong>Archivos de Datos:</strong> Respaldo comprimido de <code>moodledata</code> (<code>moodle_moodledata_20261012_171651.zip</code> - 18.67 MB).</p>
+<p>3. <strong>Código Fuente:</strong> Respaldo comprimido de la versión oficial (<code>moodle_codigo_20261012_171651.zip</code> - 124.63 MB).</p>
+<p>4. <strong>Trazabilidad:</strong> Sumas de comprobación SHA-256 registradas en <code>07_BACKUPS/MANIFIESTO_BACKUP.txt</code> y en <code>00_CONTROL_PROYECTO/SHA256SUMS.txt</code>.</p>
+<hr>
+<h2>13. Gestión de Credenciales del Laboratorio</h2>
+<ul>
+<li><strong>Incidencia Identificada:</strong> Las credenciales de prueba del laboratorio fueron incluidas en texto legible en un informe previo, considerándose formalmente expuestas.</li>
+
+
+<li><strong>Medida Aplicada:</strong> Ejecución del procedimiento <strong>CAMBIO DE CREDENCIALES PREVIO A AUDITORÍA</strong> mediante script administrativo nativo (<code>cambiar_credenciales_laboratorio.php</code>).</li>
+
+
+<li><strong>Cuentas Actualizadas:</strong></li>
+
+
+<li><code>admin_auditoria</code> (Administrador de Auditoría)</li>
+
+
+<li><code>profesor1</code>, <code>profesor2</code> (Docentes)</li>
+
+
+<li><code>estudiante1</code>, <code>estudiante2</code>, <code>estudiante3</code>, <code>estudiante4</code>, <code>estudiante5</code> (Estudiantes)</li>
+
+
+<li><strong>Generación Segura:</strong> Asignación de secretos únicos de alta entropía (18 caracteres con combinaciones alfanuméricas y símbolos especiales).</li>
+
+
+<li><strong>Verificación Empírica:</strong> Se comprobó mediante la API nativa de contraseñas (<code>validate_internal_user_password</code>) que las contraseñas previas (<code>Audit_2026!Secure</code>, <code>AuditLab_2026!Pass</code>) retornan <code>FALSE</code> (revocadas) y las nuevas retornan <code>TRUE</code>.</li>
+
+
+<li><strong>Custodia de Secretos:</strong> Las contraseñas nuevas NO se registraron en ningún archivo Markdown, Excel, PDF, log, repositorio Git ni captura. Se resguardan exclusivamente en una bóveda JSON externa fuera del espacio de trabajo del proyecto:</li>
+</ul>
+<p>  <code>C:\Users\llano\AppData\Roaming\Moodle_Laboratorio_Credenciales_Boveda.json</code></p>
+<ul>
+<li><strong>Convención Documental:</strong> En todos los documentos del expediente se representa exclusivamente como:</li>
+</ul>
+<p>  <code>Usuario: [nombre_usuario]</code>  </p>
+<p>  <code>Contraseña: [GESTIONADA DE FORMA SEPARADA]</code></p>
+<hr>
+<h2>14. Incidencias Técnicas y Documentales Detectadas</h2>
+<p>1. <strong>Discrepancia en Build:</strong> El informe inicial declaraba <code>Build: 2024100700</code> cuando Moodle 5.3.0 oficial declara <code>Build: 20261005</code>.</p>
+<p>2. <strong>Clasificación Imprecisa de PDFs:</strong> Los archivos PDF generados vía Chrome Headless se denominaban informalmente "oficiales", lo cual era técnicamente inexacto respecto a su método de preservación.</p>
+<p>3. <strong>Exposición de Credenciales:</strong> Contraseñas de prueba visibles en informes preliminares.</p>
+<p>4. <strong>Solapamiento Conceptual de Pruebas:</strong> Las 17 verificaciones de operatividad del laboratorio fueron presentadas inicialmente de forma que podían confundirse con una auditoría de conformidad ISO.</p>
+<p>5. <strong>Aseveraciones Prematuras de Seguridad:</strong> Uso de terminología afirmativa ("Sistema asegurado", "Cumple ISO") antes de la ejecución de la auditoría.</p>
+<hr>
+<h2>15. Correcciones Documentales Efectuadas</h2>
+<p>1. <strong>Actualización de Build y Versión:</strong> Sustitución sistemática de <code>2024100700</code> por <code>20261005</code> ($version: <code>2026100500.00</code>).</p>
+<p>2. <strong>Reclasificación Documental Formal:</strong> Creación de la taxonomía A/B/C/D y actualización de <code>INDICE_DOCUMENTACION.md</code>, <code>.csv</code> y <code>.xlsx</code>.</p>
+<p>3. <strong>Erradicación de Secretos:</strong> Reemplazo de contraseñas visibles por la leyenda <code>[GESTIONADA DE FORMA SEPARADA]</code>.</p>
+<p>4. <strong>Delimitación de Pruebas de Laboratorio:</strong> Incorporación del banner de advertencia metodológica en <code>MATRIZ_PRUEBAS_VERIFICACION.md</code>, estableciendo la distinción obligatoria <strong>VERIFICACIÓN DEL LABORATORIO ≠ AUDITORÍA ISO</strong>.</p>
+<p>5. <strong>Adecuación Terminológica ISO/IEC 27001 A.8.26:</strong> Respecto a la raíz web <code>/public</code>, se adoptó textualmente la formulación:  </p>
+<p>   <em>"La separación de la raíz pública constituye una medida técnica alineada con principios de seguridad de aplicaciones relacionados con el control A.8.26 de ISO/IEC 27001:2022. Su conformidad será determinada durante la auditoría."</em></p>
+<p>6. <strong>Neutralización de Afirmaciones Prematuras:</strong> Reemplazo de expresiones de cumplimiento definitivo por formulaciones precisas como <em>"Línea base técnica establecida"</em>, <em>"Control técnico implementado"</em> y <em>"Objeto de auditoría"</em>.</p>
+<hr>
+<h2>16. Elementos Técnicos NO Modificados (Preservación de Línea Base)</h2>
+<p>Conforme a las directrices expresas de auditoría, se preservaron íntegramente sin corrección artificial los siguientes elementos para servir como evidencia objetiva durante la auditoría:</p>
+<ul>
+<li>Comprobaciones del subsistema <code>report_security</code> (alertas de <code>core_displayerrors</code>, advertencias de HTTPS local).</li>
+
+
+<li>Alertas de entorno detectadas por el sistema (router no configurado, cron adhoc).</li>
+
+
+<li>Permisos nativos de directorios y directivas PHP de depuración.</li>
+
+
+<li>Políticas de contraseñas nativas de la plataforma.</li>
+</ul>
+<hr>
+<h2>17. Conclusión</h2>
+<p>El laboratorio se encuentra técnicamente preparado y documentado para iniciar la fase formal de auditoría.</p>
+
+</body>
+</html>
